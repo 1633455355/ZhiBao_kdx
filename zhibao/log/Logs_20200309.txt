@@ -1,0 +1,186 @@
+
+----------------------header--------------------------
+2020-03-09 09:43:42,653 [7] INFO  Mobile=15698080219----{"result":"01","msgid":"2020378397","desc":"3090943421811","send_proxy_id":"47"} - Mobile=15698080219----{"result":"01","msgid":"2020378397","desc":"3090943421811","send_proxy_id":"47"}
+
+----------------------header--------------------------
+2020-03-09 11:46:38,743 [62] INFO  Mobile=15880220822----{"result":"01","msgid":"2020379483","desc":"3091146381841","send_proxy_id":"47"} - Mobile=15880220822----{"result":"01","msgid":"2020379483","desc":"3091146381841","send_proxy_id":"47"}
+2020-03-09 12:01:44,692 [75] INFO  Mobile=15121808866----{"result":"01","msgid":"2020379602","desc":"3091201441811","send_proxy_id":"47"} - Mobile=15121808866----{"result":"01","msgid":"2020379602","desc":"3091201441811","send_proxy_id":"47"}
+2020-03-09 12:21:21,437 [74] INFO  Mobile=13350590099----{"result":"01","msgid":"2020379748","desc":"3091221211841","send_proxy_id":"47"} - Mobile=13350590099----{"result":"01","msgid":"2020379748","desc":"3091221211841","send_proxy_id":"47"}
+2020-03-09 12:21:21,539 [74] INFO  Mobile=13350590099----{"result":"01","msgid":"2020379749","desc":"","send_proxy_id":48} - Mobile=13350590099----{"result":"01","msgid":"2020379749","desc":"","send_proxy_id":48}
+
+----------------------header--------------------------
+2020-03-09 15:10:44,510 [47] INFO  Mobile=13505305967----{"result":"01","msgid":"2020381115","desc":"3091510441811","send_proxy_id":"47"} - Mobile=13505305967----{"result":"01","msgid":"2020381115","desc":"3091510441811","send_proxy_id":"47"}
+2020-03-09 15:37:30,515 [30] INFO  对象：GetTypeFromUs          异常：输入字符串的格式不正确。 - 对象：GetTypeFromUs          异常：输入字符串的格式不正确。
+2020-03-09 15:37:30,591 [30] INFO  对象：GetTypeFromUs          异常：   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   在 System.Convert.ToInt32(String value)
+   在 Car.GetTypeFromUs(HttpContext context) 位置 d:\zb.china-zoce.com\interface\Car.ashx:行号 63 - 对象：GetTypeFromUs          异常：   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   在 System.Convert.ToInt32(String value)
+   在 Car.GetTypeFromUs(HttpContext context) 位置 d:\zb.china-zoce.com\interface\Car.ashx:行号 63
+2020-03-09 15:54:31,001 [17] INFO  对象：Insert          异常：操作必须使用一个可更新的查询。 - 对象：Insert          异常：操作必须使用一个可更新的查询。
+2020-03-09 15:54:31,004 [17] INFO  对象：Insert          异常：   在 System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   在 System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   在 System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   在 System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   在 System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   在 System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   在 Factory.Insert(String Id, String Name, HttpContext context) 位置 d:\zb.china-zoce.com\interface\Factory.ashx:行号 236 - 对象：Insert          异常：   在 System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   在 System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   在 System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   在 System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   在 System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   在 System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   在 Factory.Insert(String Id, String Name, HttpContext context) 位置 d:\zb.china-zoce.com\interface\Factory.ashx:行号 236
+2020-03-09 16:02:35,498 [10] INFO  对象：Insert          异常：操作必须使用一个可更新的查询。 - 对象：Insert          异常：操作必须使用一个可更新的查询。
+2020-03-09 16:02:35,498 [10] INFO  对象：Insert          异常：   在 System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   在 System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   在 System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   在 System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   在 System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   在 System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   在 Factory.Insert(String Id, String Name, HttpContext context) 位置 d:\zb.china-zoce.com\interface\Factory.ashx:行号 236 - 对象：Insert          异常：   在 System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   在 System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   在 System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   在 System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   在 System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   在 System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   在 Factory.Insert(String Id, String Name, HttpContext context) 位置 d:\zb.china-zoce.com\interface\Factory.ashx:行号 236
+2020-03-09 16:03:48,440 [10] INFO  对象：Insert          异常：操作必须使用一个可更新的查询。 - 对象：Insert          异常：操作必须使用一个可更新的查询。
+2020-03-09 16:03:48,440 [10] INFO  对象：Insert          异常：   在 System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   在 System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   在 System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   在 System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   在 System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   在 System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   在 Factory.Insert(String Id, String Name, HttpContext context) 位置 d:\zb.china-zoce.com\interface\Factory.ashx:行号 236 - 对象：Insert          异常：   在 System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   在 System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   在 System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   在 System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   在 System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   在 System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   在 Factory.Insert(String Id, String Name, HttpContext context) 位置 d:\zb.china-zoce.com\interface\Factory.ashx:行号 236
+2020-03-09 16:04:52,810 [14] INFO  对象：Insert          异常：操作必须使用一个可更新的查询。 - 对象：Insert          异常：操作必须使用一个可更新的查询。
+2020-03-09 16:04:52,811 [14] INFO  对象：Insert          异常：   在 System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   在 System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   在 System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   在 System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   在 System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   在 System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   在 Factory.Insert(String Id, String Name, HttpContext context) 位置 d:\zb.china-zoce.com\interface\Factory.ashx:行号 236 - 对象：Insert          异常：   在 System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   在 System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   在 System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   在 System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   在 System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   在 System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   在 Factory.Insert(String Id, String Name, HttpContext context) 位置 d:\zb.china-zoce.com\interface\Factory.ashx:行号 236
+2020-03-09 16:08:18,791 [15] INFO  对象：Insert          异常：操作必须使用一个可更新的查询。 - 对象：Insert          异常：操作必须使用一个可更新的查询。
+2020-03-09 16:08:18,792 [15] INFO  对象：Insert          异常：   在 System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   在 System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   在 System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   在 System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   在 System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   在 System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   在 Factory.Insert(String Id, String Name, HttpContext context) 位置 d:\zb.china-zoce.com\interface\Factory.ashx:行号 236 - 对象：Insert          异常：   在 System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   在 System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   在 System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   在 System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   在 System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   在 System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   在 Factory.Insert(String Id, String Name, HttpContext context) 位置 d:\zb.china-zoce.com\interface\Factory.ashx:行号 236
+2020-03-09 16:09:14,198 [19] INFO  对象：Insert          异常：操作必须使用一个可更新的查询。 - 对象：Insert          异常：操作必须使用一个可更新的查询。
+2020-03-09 16:09:14,198 [19] INFO  对象：Insert          异常：   在 System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   在 System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   在 System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   在 System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   在 System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   在 System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   在 Factory.Insert(String Id, String Name, HttpContext context) 位置 d:\zb.china-zoce.com\interface\Factory.ashx:行号 236 - 对象：Insert          异常：   在 System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   在 System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   在 System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   在 System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   在 System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   在 System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   在 Factory.Insert(String Id, String Name, HttpContext context) 位置 d:\zb.china-zoce.com\interface\Factory.ashx:行号 236
+2020-03-09 16:09:58,236 [18] INFO  对象：Insert          异常：操作必须使用一个可更新的查询。 - 对象：Insert          异常：操作必须使用一个可更新的查询。
+2020-03-09 16:09:58,236 [18] INFO  对象：Insert          异常：   在 System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   在 System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   在 System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   在 System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   在 System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   在 System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   在 Factory.Insert(String Id, String Name, HttpContext context) 位置 d:\zb.china-zoce.com\interface\Factory.ashx:行号 236 - 对象：Insert          异常：   在 System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   在 System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   在 System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   在 System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   在 System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   在 System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   在 Factory.Insert(String Id, String Name, HttpContext context) 位置 d:\zb.china-zoce.com\interface\Factory.ashx:行号 236
+2020-03-09 16:10:57,434 [18] INFO  对象：Insert          异常：操作必须使用一个可更新的查询。 - 对象：Insert          异常：操作必须使用一个可更新的查询。
+2020-03-09 16:10:57,434 [18] INFO  对象：Insert          异常：   在 System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   在 System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   在 System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   在 System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   在 System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   在 System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   在 Factory.Insert(String Id, String Name, HttpContext context) 位置 d:\zb.china-zoce.com\interface\Factory.ashx:行号 236 - 对象：Insert          异常：   在 System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   在 System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   在 System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   在 System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   在 System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   在 System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   在 Factory.Insert(String Id, String Name, HttpContext context) 位置 d:\zb.china-zoce.com\interface\Factory.ashx:行号 236
+2020-03-09 16:26:00,193 [28] INFO  Mobile=13935033212----{"result":"01","msgid":"2020381953","desc":"3091626001811","send_proxy_id":"47"} - Mobile=13935033212----{"result":"01","msgid":"2020381953","desc":"3091626001811","send_proxy_id":"47"}
+2020-03-09 16:26:00,299 [28] INFO  Mobile=13935033212----{"result":"01","msgid":"2020381954","desc":"","send_proxy_id":48} - Mobile=13935033212----{"result":"01","msgid":"2020381954","desc":"","send_proxy_id":48}
+2020-03-09 16:51:34,380 [60] INFO  Mobile=18056353168----{"result":"01","msgid":"2020382293","desc":"3091651341811","send_proxy_id":"47"} - Mobile=18056353168----{"result":"01","msgid":"2020382293","desc":"3091651341811","send_proxy_id":"47"}
+2020-03-09 16:51:34,498 [60] INFO  Mobile=18056353168----{"result":"01","msgid":"2020382294","desc":"","send_proxy_id":48} - Mobile=18056353168----{"result":"01","msgid":"2020382294","desc":"","send_proxy_id":48}
+2020-03-09 16:51:52,565 [60] INFO  对象：导入          异常：输入字符串的格式不正确。 - 对象：导入          异常：输入字符串的格式不正确。
+2020-03-09 16:51:52,573 [60] INFO  对象：导入          异常：   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   在 System.Convert.ToInt32(String value)
+   在 member_F_productimport.Page_Load(Object sender, EventArgs e) 位置 d:\zb.china-zoce.com\member\F_productimport.aspx.cs:行号 56 - 对象：导入          异常：   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   在 System.Convert.ToInt32(String value)
+   在 member_F_productimport.Page_Load(Object sender, EventArgs e) 位置 d:\zb.china-zoce.com\member\F_productimport.aspx.cs:行号 56
+2020-03-09 16:53:26,366 [62] INFO  对象：导入          异常：输入字符串的格式不正确。 - 对象：导入          异常：输入字符串的格式不正确。
+2020-03-09 16:53:26,367 [62] INFO  对象：导入          异常：   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   在 System.Convert.ToInt32(String value)
+   在 member_F_productimport.Page_Load(Object sender, EventArgs e) 位置 d:\zb.china-zoce.com\member\F_productimport.aspx.cs:行号 56 - 对象：导入          异常：   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   在 System.Convert.ToInt32(String value)
+   在 member_F_productimport.Page_Load(Object sender, EventArgs e) 位置 d:\zb.china-zoce.com\member\F_productimport.aspx.cs:行号 56
+2020-03-09 16:54:01,050 [66] INFO  对象：导入          异常：输入字符串的格式不正确。 - 对象：导入          异常：输入字符串的格式不正确。
+2020-03-09 16:54:01,051 [66] INFO  对象：导入          异常：   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   在 System.Convert.ToInt32(String value)
+   在 member_F_productimport.Page_Load(Object sender, EventArgs e) 位置 d:\zb.china-zoce.com\member\F_productimport.aspx.cs:行号 56 - 对象：导入          异常：   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   在 System.Convert.ToInt32(String value)
+   在 member_F_productimport.Page_Load(Object sender, EventArgs e) 位置 d:\zb.china-zoce.com\member\F_productimport.aspx.cs:行号 56
+2020-03-09 16:55:52,977 [57] INFO  Mobile=18623956089----{"result":"01","msgid":"2020382358","desc":"3091655521811","send_proxy_id":"47"} - Mobile=18623956089----{"result":"01","msgid":"2020382358","desc":"3091655521811","send_proxy_id":"47"}
+2020-03-09 17:39:17,665 [64] INFO  Mobile=17763662888----{"result":"01","msgid":"2020382818","desc":"3091739171831","send_proxy_id":"47"} - Mobile=17763662888----{"result":"01","msgid":"2020382818","desc":"3091739171831","send_proxy_id":"47"}
+2020-03-09 17:39:17,781 [64] INFO  Mobile=17763662888----{"result":"01","msgid":"2020382819","desc":"","send_proxy_id":48} - Mobile=17763662888----{"result":"01","msgid":"2020382819","desc":"","send_proxy_id":48}
+2020-03-09 17:51:51,342 [58] INFO  Mobile=13399743789----{"result":"01","msgid":"2020382939","desc":"3091751511812","send_proxy_id":"47"} - Mobile=13399743789----{"result":"01","msgid":"2020382939","desc":"3091751511812","send_proxy_id":"47"}
+2020-03-09 17:51:51,475 [58] INFO  Mobile=13399743789----{"result":"01","msgid":"2020382940","desc":"","send_proxy_id":48} - Mobile=13399743789----{"result":"01","msgid":"2020382940","desc":"","send_proxy_id":48}
+2020-03-09 18:43:26,751 [14] INFO  对象：导入          异常：输入字符串的格式不正确。 - 对象：导入          异常：输入字符串的格式不正确。
+2020-03-09 18:43:26,751 [14] INFO  对象：导入          异常：   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   在 System.Convert.ToInt32(String value)
+   在 member_F_productimport.Page_Load(Object sender, EventArgs e) 位置 d:\zb.china-zoce.com\member\F_productimport.aspx.cs:行号 56 - 对象：导入          异常：   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   在 System.Convert.ToInt32(String value)
+   在 member_F_productimport.Page_Load(Object sender, EventArgs e) 位置 d:\zb.china-zoce.com\member\F_productimport.aspx.cs:行号 56
+2020-03-09 19:14:00,259 [44] INFO  Mobile=15250327940----{"result":"01","msgid":"2020383607","desc":"3091914001821","send_proxy_id":"47"} - Mobile=15250327940----{"result":"01","msgid":"2020383607","desc":"3091914001821","send_proxy_id":"47"}
+2020-03-09 19:14:00,362 [44] INFO  Mobile=15250327940----{"result":"01","msgid":"2020383608","desc":"","send_proxy_id":48} - Mobile=15250327940----{"result":"01","msgid":"2020383608","desc":"","send_proxy_id":48}
+2020-03-09 19:57:57,741 [60] INFO  Mobile=18704885561----{"result":"01","msgid":"2020384010","desc":"3091957571831","send_proxy_id":"47"} - Mobile=18704885561----{"result":"01","msgid":"2020384010","desc":"3091957571831","send_proxy_id":"47"}
+2020-03-09 19:57:57,888 [60] INFO  Mobile=18704885561----{"result":"01","msgid":"2020384011","desc":"","send_proxy_id":48} - Mobile=18704885561----{"result":"01","msgid":"2020384011","desc":"","send_proxy_id":48}
+2020-03-09 19:59:16,264 [59] INFO  Mobile=18223772111----{"result":"01","msgid":"2020384029","desc":"3091959161831","send_proxy_id":"47"} - Mobile=18223772111----{"result":"01","msgid":"2020384029","desc":"3091959161831","send_proxy_id":"47"}
+2020-03-09 19:59:16,396 [59] INFO  Mobile=18223772111----{"result":"01","msgid":"2020384030","desc":"","send_proxy_id":48} - Mobile=18223772111----{"result":"01","msgid":"2020384030","desc":"","send_proxy_id":48}
+
+----------------------header--------------------------
+2020-03-09 20:56:15,128 [17] INFO  Mobile=13825163121----{"result":"01","msgid":"2020384596","desc":"3092056151831","send_proxy_id":"47"} - Mobile=13825163121----{"result":"01","msgid":"2020384596","desc":"3092056151831","send_proxy_id":"47"}
+2020-03-09 20:56:15,233 [17] INFO  Mobile=13825163121----{"result":"01","msgid":"2020384597","desc":"","send_proxy_id":48} - Mobile=13825163121----{"result":"01","msgid":"2020384597","desc":"","send_proxy_id":48}
+2020-03-09 21:00:21,939 [25] INFO  Mobile=15061010016----{"result":"01","msgid":"2020384628","desc":"3092100211821","send_proxy_id":"47"} - Mobile=15061010016----{"result":"01","msgid":"2020384628","desc":"3092100211821","send_proxy_id":"47"}
+2020-03-09 21:00:22,045 [25] INFO  Mobile=15061010016----{"result":"01","msgid":"2020384629","desc":"","send_proxy_id":48} - Mobile=15061010016----{"result":"01","msgid":"2020384629","desc":"","send_proxy_id":48}
+2020-03-09 21:15:37,283 [31] INFO  Mobile=13989947459----{"result":"01","msgid":"2020384729","desc":"3092115371821","send_proxy_id":"47"} - Mobile=13989947459----{"result":"01","msgid":"2020384729","desc":"3092115371821","send_proxy_id":"47"}

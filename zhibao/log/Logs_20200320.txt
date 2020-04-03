@@ -1,0 +1,104 @@
+
+----------------------header--------------------------
+2020-03-20 09:29:00,246 [6] INFO  Mobile=18373838551----{"result":"01","msgid":"2020425662","desc":"3200929101841","send_proxy_id":"47"} - Mobile=18373838551----{"result":"01","msgid":"2020425662","desc":"3200929101841","send_proxy_id":"47"}
+2020-03-20 09:29:00,349 [6] INFO  Mobile=18373838551----{"result":"01","msgid":"2020425663","desc":"","send_proxy_id":48} - Mobile=18373838551----{"result":"01","msgid":"2020425663","desc":"","send_proxy_id":48}
+2020-03-20 10:28:21,128 [74] INFO  Mobile=13964933418----{"result":"01","msgid":"2020425944","desc":"3201028311811","send_proxy_id":"47"} - Mobile=13964933418----{"result":"01","msgid":"2020425944","desc":"3201028311811","send_proxy_id":"47"}
+2020-03-20 12:07:29,755 [56] INFO  对象：exportproduct          异常：正在中止线程。 - 对象：exportproduct          异常：正在中止线程。
+2020-03-20 12:07:29,805 [56] INFO  对象：exportproduct          异常：   在 System.Threading.Thread.AbortInternal()
+   在 System.Threading.Thread.Abort(Object stateInfo)
+   在 System.Web.HttpResponse.AbortCurrentThread()
+   在 System.Web.HttpResponse.End()
+   在 member_productexport.exportproduct() 位置 d:\zb.china-zoce.com\member\productexport.aspx.cs:行号 151 - 对象：exportproduct          异常：   在 System.Threading.Thread.AbortInternal()
+   在 System.Threading.Thread.Abort(Object stateInfo)
+   在 System.Web.HttpResponse.AbortCurrentThread()
+   在 System.Web.HttpResponse.End()
+   在 member_productexport.exportproduct() 位置 d:\zb.china-zoce.com\member\productexport.aspx.cs:行号 151
+2020-03-20 12:10:28,440 [58] INFO  Mobile=18765170889----{"result":"01","msgid":"2020426252","desc":"3201210391831","send_proxy_id":"47"} - Mobile=18765170889----{"result":"01","msgid":"2020426252","desc":"3201210391831","send_proxy_id":"47"}
+2020-03-20 12:36:27,477 [32] INFO  Mobile=15173517373----{"result":"01","msgid":"2020426320","desc":"3201236381811","send_proxy_id":"47"} - Mobile=15173517373----{"result":"01","msgid":"2020426320","desc":"3201236381811","send_proxy_id":"47"}
+
+----------------------header--------------------------
+2020-03-20 13:32:44,950 [30] INFO  Mobile=18670818859----{"result":"01","msgid":"2020426451","desc":"3201332551821","send_proxy_id":"47"} - Mobile=18670818859----{"result":"01","msgid":"2020426451","desc":"3201332551821","send_proxy_id":"47"}
+2020-03-20 13:32:45,122 [30] INFO  Mobile=18670818859----{"result":"01","msgid":"2020426452","desc":"","send_proxy_id":48} - Mobile=18670818859----{"result":"01","msgid":"2020426452","desc":"","send_proxy_id":48}
+2020-03-20 13:34:33,866 [32] INFO  Mobile=18692648208----{"result":"01","msgid":"2020426458","desc":"3201334441821","send_proxy_id":"47"} - Mobile=18692648208----{"result":"01","msgid":"2020426458","desc":"3201334441821","send_proxy_id":"47"}
+2020-03-20 13:34:33,980 [32] INFO  Mobile=18692648208----{"result":"01","msgid":"2020426459","desc":"","send_proxy_id":48} - Mobile=18692648208----{"result":"01","msgid":"2020426459","desc":"","send_proxy_id":48}
+2020-03-20 13:59:37,409 [55] INFO  Mobile=15668278622----{"result":"01","msgid":"2020426511","desc":"3201359481821","send_proxy_id":"47"} - Mobile=15668278622----{"result":"01","msgid":"2020426511","desc":"3201359481821","send_proxy_id":"47"}
+2020-03-20 13:59:37,511 [55] INFO  Mobile=15668278622----{"result":"01","msgid":"2020426512","desc":"","send_proxy_id":48} - Mobile=15668278622----{"result":"01","msgid":"2020426512","desc":"","send_proxy_id":48}
+2020-03-20 15:21:11,113 [69] INFO  对象：Insert          异常：操作必须使用一个可更新的查询。 - 对象：Insert          异常：操作必须使用一个可更新的查询。
+2020-03-20 15:21:11,148 [69] INFO  对象：Insert          异常：   在 System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   在 System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   在 System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   在 System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   在 System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   在 System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   在 Factory.Insert(String Id, String Name, HttpContext context) 位置 d:\zb.china-zoce.com\interface\Factory.ashx:行号 236 - 对象：Insert          异常：   在 System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   在 System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   在 System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   在 System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   在 System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   在 System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   在 Factory.Insert(String Id, String Name, HttpContext context) 位置 d:\zb.china-zoce.com\interface\Factory.ashx:行号 236
+2020-03-20 15:31:37,153 [66] INFO  对象：Insert          异常：操作必须使用一个可更新的查询。 - 对象：Insert          异常：操作必须使用一个可更新的查询。
+2020-03-20 15:31:37,153 [66] INFO  对象：Insert          异常：   在 System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   在 System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   在 System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   在 System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   在 System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   在 System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   在 Factory.Insert(String Id, String Name, HttpContext context) 位置 d:\zb.china-zoce.com\interface\Factory.ashx:行号 236 - 对象：Insert          异常：   在 System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   在 System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   在 System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   在 System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   在 System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   在 System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   在 Factory.Insert(String Id, String Name, HttpContext context) 位置 d:\zb.china-zoce.com\interface\Factory.ashx:行号 236
+2020-03-20 15:33:25,863 [71] INFO  对象：FInsert          异常：操作必须使用一个可更新的查询。 - 对象：FInsert          异常：操作必须使用一个可更新的查询。
+2020-03-20 15:33:25,867 [71] INFO  对象：FInsert          异常：   在 System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   在 System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   在 System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   在 System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   在 System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   在 System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   在 Product.Insert(String Id, String Name, HttpContext context) 位置 d:\zb.china-zoce.com\interface\Product.ashx:行号 1890 - 对象：FInsert          异常：   在 System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   在 System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   在 System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   在 System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   在 System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   在 System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   在 Product.Insert(String Id, String Name, HttpContext context) 位置 d:\zb.china-zoce.com\interface\Product.ashx:行号 1890
+2020-03-20 15:34:43,858 [72] INFO  对象：FInsert          异常：操作必须使用一个可更新的查询。 - 对象：FInsert          异常：操作必须使用一个可更新的查询。
+2020-03-20 15:34:43,858 [72] INFO  对象：FInsert          异常：   在 System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   在 System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   在 System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   在 System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   在 System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   在 System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   在 Product.Insert(String Id, String Name, HttpContext context) 位置 d:\zb.china-zoce.com\interface\Product.ashx:行号 1890 - 对象：FInsert          异常：   在 System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   在 System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   在 System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   在 System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   在 System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   在 System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   在 Product.Insert(String Id, String Name, HttpContext context) 位置 d:\zb.china-zoce.com\interface\Product.ashx:行号 1890
+2020-03-20 15:47:18,080 [69] INFO  Mobile=15825313797----{"result":"01","msgid":"2020426822","desc":"3201547291831","send_proxy_id":"47"} - Mobile=15825313797----{"result":"01","msgid":"2020426822","desc":"3201547291831","send_proxy_id":"47"}
+2020-03-20 15:47:18,179 [69] INFO  Mobile=15825313797----{"result":"01","msgid":"2020426823","desc":"","send_proxy_id":48} - Mobile=15825313797----{"result":"01","msgid":"2020426823","desc":"","send_proxy_id":48}
+2020-03-20 16:44:35,115 [68] INFO  Mobile=18081280715----{"result":"01","msgid":"2020426984","desc":"3201644461841","send_proxy_id":"47"} - Mobile=18081280715----{"result":"01","msgid":"2020426984","desc":"3201644461841","send_proxy_id":"47"}
+2020-03-20 16:55:19,079 [69] INFO  Mobile=18673351915----{"result":"01","msgid":"2020427020","desc":"3201655301821","send_proxy_id":"47"} - Mobile=18673351915----{"result":"01","msgid":"2020427020","desc":"3201655301821","send_proxy_id":"47"}
+2020-03-20 16:55:19,173 [69] INFO  Mobile=18673351915----{"result":"01","msgid":"2020427021","desc":"","send_proxy_id":48} - Mobile=18673351915----{"result":"01","msgid":"2020427021","desc":"","send_proxy_id":48}
+2020-03-20 18:12:35,265 [62] INFO  Mobile=15390333361----{"result":"01","msgid":"2020427190","desc":"3201812461831","send_proxy_id":"47"} - Mobile=15390333361----{"result":"01","msgid":"2020427190","desc":"3201812461831","send_proxy_id":"47"}
+2020-03-20 18:12:35,387 [62] INFO  Mobile=15390333361----{"result":"01","msgid":"2020427191","desc":"","send_proxy_id":48} - Mobile=15390333361----{"result":"01","msgid":"2020427191","desc":"","send_proxy_id":48}
+2020-03-20 18:28:01,215 [45] INFO  Mobile=18622282052----{"result":"01","msgid":"2020427225","desc":"3201828121811","send_proxy_id":"47"} - Mobile=18622282052----{"result":"01","msgid":"2020427225","desc":"3201828121811","send_proxy_id":"47"}
+2020-03-20 18:28:01,339 [45] INFO  Mobile=18622282052----{"result":"01","msgid":"2020427226","desc":"","send_proxy_id":48} - Mobile=18622282052----{"result":"01","msgid":"2020427226","desc":"","send_proxy_id":48}
+
+----------------------header--------------------------
+2020-03-20 19:10:39,367 [6] INFO  Mobile=13887604049----{"result":"01","msgid":"2020427335","desc":"3201910501831","send_proxy_id":"47"} - Mobile=13887604049----{"result":"01","msgid":"2020427335","desc":"3201910501831","send_proxy_id":"47"}
+2020-03-20 19:10:39,469 [6] INFO  Mobile=13887604049----{"result":"01","msgid":"2020427336","desc":"","send_proxy_id":48} - Mobile=13887604049----{"result":"01","msgid":"2020427336","desc":"","send_proxy_id":48}
+2020-03-20 19:15:40,101 [16] INFO  Mobile=13887890338----{"result":"01","msgid":"2020427346","desc":"3201915511831","send_proxy_id":"47"} - Mobile=13887890338----{"result":"01","msgid":"2020427346","desc":"3201915511831","send_proxy_id":"47"}
+2020-03-20 19:15:40,203 [16] INFO  Mobile=13887890338----{"result":"01","msgid":"2020427347","desc":"","send_proxy_id":48} - Mobile=13887890338----{"result":"01","msgid":"2020427347","desc":"","send_proxy_id":48}
+
+----------------------header--------------------------
+2020-03-20 21:04:30,737 [8] INFO  Mobile=13753914711----{"result":"01","msgid":"2020427548","desc":"3202104411831","send_proxy_id":"47"} - Mobile=13753914711----{"result":"01","msgid":"2020427548","desc":"3202104411831","send_proxy_id":"47"}
+2020-03-20 21:04:30,843 [8] INFO  Mobile=13753914711----{"result":"01","msgid":"2020427549","desc":"","send_proxy_id":48} - Mobile=13753914711----{"result":"01","msgid":"2020427549","desc":"","send_proxy_id":48}
+2020-03-20 21:13:32,619 [20] INFO  Mobile=18005115891----{"result":"01","msgid":"2020427562","desc":"3202113431812","send_proxy_id":"47"} - Mobile=18005115891----{"result":"01","msgid":"2020427562","desc":"3202113431812","send_proxy_id":"47"}
+2020-03-20 21:13:33,025 [20] INFO  Mobile=18005115891----{"result":"01","msgid":"2020427563","desc":"","send_proxy_id":48} - Mobile=18005115891----{"result":"01","msgid":"2020427563","desc":"","send_proxy_id":48}
+2020-03-20 21:18:57,806 [26] INFO  Mobile=13626205939----{"result":"01","msgid":"2020427572","desc":"3202119081841","send_proxy_id":"47"} - Mobile=13626205939----{"result":"01","msgid":"2020427572","desc":"3202119081841","send_proxy_id":"47"}
+2020-03-20 21:18:57,902 [26] INFO  Mobile=13626205939----{"result":"01","msgid":"2020427573","desc":"","send_proxy_id":48} - Mobile=13626205939----{"result":"01","msgid":"2020427573","desc":"","send_proxy_id":48}

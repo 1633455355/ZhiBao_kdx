@@ -1,0 +1,233 @@
+
+----------------------header--------------------------
+2019-12-30 08:11:37,286 [8] INFO  Mobile=15730705086----{"result":"01","msgid":"20191912113","desc":"12300811591841","send_proxy_id":"47"} - Mobile=15730705086----{"result":"01","msgid":"20191912113","desc":"12300811591841","send_proxy_id":"47"}
+2019-12-30 08:11:37,405 [8] INFO  Mobile=15730705086----{"result":"01","msgid":"20191912114","desc":"","send_proxy_id":48} - Mobile=15730705086----{"result":"01","msgid":"20191912114","desc":"","send_proxy_id":48}
+2019-12-30 09:16:31,639 [71] INFO  Mobile=15027560762----{"result":"01","msgid":"20191912313","desc":"12300916531841","send_proxy_id":"47"} - Mobile=15027560762----{"result":"01","msgid":"20191912313","desc":"12300916531841","send_proxy_id":"47"}
+2019-12-30 10:44:26,144 [21] INFO  Mobile=15353613667----{"result":"01","msgid":"20191912740","desc":"12301044481831","send_proxy_id":"47"} - Mobile=15353613667----{"result":"01","msgid":"20191912740","desc":"12301044481831","send_proxy_id":"47"}
+2019-12-30 10:44:26,270 [21] INFO  Mobile=15353613667----{"result":"01","msgid":"20191912741","desc":"","send_proxy_id":48} - Mobile=15353613667----{"result":"01","msgid":"20191912741","desc":"","send_proxy_id":48}
+2019-12-30 10:49:15,985 [19] INFO  Mobile=15129651570----{"result":"01","msgid":"20191912773","desc":"12301049381831","send_proxy_id":"47"} - Mobile=15129651570----{"result":"01","msgid":"20191912773","desc":"12301049381831","send_proxy_id":"47"}
+2019-12-30 10:49:16,096 [19] INFO  Mobile=15129651570----{"result":"01","msgid":"20191912774","desc":"","send_proxy_id":48} - Mobile=15129651570----{"result":"01","msgid":"20191912774","desc":"","send_proxy_id":48}
+2019-12-30 10:51:53,433 [9] INFO  Mobile=13759982226----{"result":"01","msgid":"20191912786","desc":"12301052151831","send_proxy_id":"47"} - Mobile=13759982226----{"result":"01","msgid":"20191912786","desc":"12301052151831","send_proxy_id":"47"}
+2019-12-30 10:51:53,545 [9] INFO  Mobile=13759982226----{"result":"01","msgid":"20191912787","desc":"","send_proxy_id":48} - Mobile=13759982226----{"result":"01","msgid":"20191912787","desc":"","send_proxy_id":48}
+2019-12-30 11:03:20,621 [19] INFO  Mobile=15125050715----{"result":"01","msgid":"20191912848","desc":"12301103421821","send_proxy_id":"47"} - Mobile=15125050715----{"result":"01","msgid":"20191912848","desc":"12301103421821","send_proxy_id":"47"}
+2019-12-30 11:03:20,729 [19] INFO  Mobile=15125050715----{"result":"01","msgid":"20191912849","desc":"","send_proxy_id":48} - Mobile=15125050715----{"result":"01","msgid":"20191912849","desc":"","send_proxy_id":48}
+2019-12-30 11:10:02,449 [26] INFO  Mobile=15309244802----{"result":"01","msgid":"20191912874","desc":"12301110241841","send_proxy_id":"47"} - Mobile=15309244802----{"result":"01","msgid":"20191912874","desc":"12301110241841","send_proxy_id":"47"}
+2019-12-30 11:10:02,563 [26] INFO  Mobile=15309244802----{"result":"01","msgid":"20191912875","desc":"","send_proxy_id":48} - Mobile=15309244802----{"result":"01","msgid":"20191912875","desc":"","send_proxy_id":48}
+2019-12-30 11:15:34,413 [33] INFO  Mobile=13474472175----{"result":"01","msgid":"20191912906","desc":"12301115561811","send_proxy_id":"47"} - Mobile=13474472175----{"result":"01","msgid":"20191912906","desc":"12301115561811","send_proxy_id":"47"}
+2019-12-30 11:15:34,523 [33] INFO  Mobile=13474472175----{"result":"01","msgid":"20191912907","desc":"","send_proxy_id":48} - Mobile=13474472175----{"result":"01","msgid":"20191912907","desc":"","send_proxy_id":48}
+2019-12-30 11:17:20,046 [23] INFO  Mobile=13698819803----{"result":"01","msgid":"20191912915","desc":"12301117421841","send_proxy_id":"47"} - Mobile=13698819803----{"result":"01","msgid":"20191912915","desc":"12301117421841","send_proxy_id":"47"}
+2019-12-30 11:18:28,586 [30] INFO  Mobile=15929988183----{"result":"01","msgid":"20191912922","desc":"12301118501821","send_proxy_id":"47"} - Mobile=15929988183----{"result":"01","msgid":"20191912922","desc":"12301118501821","send_proxy_id":"47"}
+2019-12-30 11:28:57,736 [39] INFO  Mobile=13772436368----{"result":"01","msgid":"20191912965","desc":"12301129191821","send_proxy_id":"47"} - Mobile=13772436368----{"result":"01","msgid":"20191912965","desc":"12301129191821","send_proxy_id":"47"}
+2019-12-30 11:28:57,872 [39] INFO  Mobile=13772436368----{"result":"01","msgid":"20191912966","desc":"","send_proxy_id":48} - Mobile=13772436368----{"result":"01","msgid":"20191912966","desc":"","send_proxy_id":48}
+2019-12-30 11:31:37,278 [46] INFO  Mobile=18739089944----{"result":"01","msgid":"20191912984","desc":"12301131591821","send_proxy_id":"47"} - Mobile=18739089944----{"result":"01","msgid":"20191912984","desc":"12301131591821","send_proxy_id":"47"}
+2019-12-30 11:42:20,791 [56] INFO  Mobile=13201564578----{"result":"01","msgid":"20191913038","desc":"12301142421821","send_proxy_id":"47"} - Mobile=13201564578----{"result":"01","msgid":"20191913038","desc":"12301142421821","send_proxy_id":"47"}
+2019-12-30 11:48:51,733 [48] INFO  Mobile=18792668266----{"result":"01","msgid":"20191913077","desc":"12301149131821","send_proxy_id":"47"} - Mobile=18792668266----{"result":"01","msgid":"20191913077","desc":"12301149131821","send_proxy_id":"47"}
+2019-12-30 11:48:51,859 [48] INFO  Mobile=18792668266----{"result":"01","msgid":"20191913078","desc":"","send_proxy_id":48} - Mobile=18792668266----{"result":"01","msgid":"20191913078","desc":"","send_proxy_id":48}
+2019-12-30 11:51:30,904 [67] INFO  Mobile=13992046905----{"result":"01","msgid":"20191913093","desc":"12301151531841","send_proxy_id":"47"} - Mobile=13992046905----{"result":"01","msgid":"20191913093","desc":"12301151531841","send_proxy_id":"47"}
+2019-12-30 11:51:31,019 [67] INFO  Mobile=13992046905----{"result":"01","msgid":"20191913094","desc":"","send_proxy_id":48} - Mobile=13992046905----{"result":"01","msgid":"20191913094","desc":"","send_proxy_id":48}
+2019-12-30 12:26:11,252 [66] INFO  Mobile=18792648733----{"result":"01","msgid":"20191913273","desc":"12301226331831","send_proxy_id":"47"} - Mobile=18792648733----{"result":"01","msgid":"20191913273","desc":"12301226331831","send_proxy_id":"47"}
+2019-12-30 12:53:37,907 [38] INFO  Mobile=18389018160----{"result":"01","msgid":"20191913391","desc":"12301254001841","send_proxy_id":"47"} - Mobile=18389018160----{"result":"01","msgid":"20191913391","desc":"12301254001841","send_proxy_id":"47"}
+2019-12-30 12:53:38,016 [38] INFO  Mobile=18389018160----{"result":"01","msgid":"20191913392","desc":"","send_proxy_id":48} - Mobile=18389018160----{"result":"01","msgid":"20191913392","desc":"","send_proxy_id":48}
+
+----------------------header--------------------------
+2019-12-30 15:15:32,129 [26] INFO  Mobile=13966473260----{"result":"01","msgid":"20191913991","desc":"12301515541811","send_proxy_id":"47"} - Mobile=13966473260----{"result":"01","msgid":"20191913991","desc":"12301515541811","send_proxy_id":"47"}
+2019-12-30 15:46:06,817 [39] INFO  Mobile=13063130891----{"result":"01","msgid":"20191914160","desc":"12301546281821","send_proxy_id":"47"} - Mobile=13063130891----{"result":"01","msgid":"20191914160","desc":"12301546281821","send_proxy_id":"47"}
+2019-12-30 15:46:06,928 [39] INFO  Mobile=13063130891----{"result":"01","msgid":"20191914161","desc":"","send_proxy_id":48} - Mobile=13063130891----{"result":"01","msgid":"20191914161","desc":"","send_proxy_id":48}
+2019-12-30 15:48:22,416 [40] INFO  Mobile=13950756600----{"result":"01","msgid":"20191914170","desc":"12301548441841","send_proxy_id":"47"} - Mobile=13950756600----{"result":"01","msgid":"20191914170","desc":"12301548441841","send_proxy_id":"47"}
+2019-12-30 16:32:13,845 [73] INFO  Mobile=15964812787----{"result":"01","msgid":"20191914449","desc":"12301632351821","send_proxy_id":"47"} - Mobile=15964812787----{"result":"01","msgid":"20191914449","desc":"12301632351821","send_proxy_id":"47"}
+2019-12-30 16:32:13,942 [73] INFO  Mobile=15964812787----{"result":"01","msgid":"20191914450","desc":"","send_proxy_id":48} - Mobile=15964812787----{"result":"01","msgid":"20191914450","desc":"","send_proxy_id":48}
+2019-12-30 16:48:57,270 [82] INFO  Mobile=13466004443----{"result":"01","msgid":"20191914558","desc":"12301649191841","send_proxy_id":"47"} - Mobile=13466004443----{"result":"01","msgid":"20191914558","desc":"12301649191841","send_proxy_id":"47"}
+2019-12-30 16:48:57,408 [82] INFO  Mobile=13466004443----{"result":"01","msgid":"20191914559","desc":"","send_proxy_id":48} - Mobile=13466004443----{"result":"01","msgid":"20191914559","desc":"","send_proxy_id":48}
+2019-12-30 17:05:05,665 [70] INFO  Mobile=13007960396----{"result":"01","msgid":"20191914637","desc":"12301705271811","send_proxy_id":"47"} - Mobile=13007960396----{"result":"01","msgid":"20191914637","desc":"12301705271811","send_proxy_id":"47"}
+2019-12-30 17:05:05,789 [70] INFO  Mobile=13007960396----{"result":"01","msgid":"20191914638","desc":"","send_proxy_id":48} - Mobile=13007960396----{"result":"01","msgid":"20191914638","desc":"","send_proxy_id":48}
+2019-12-30 17:07:40,163 [68] INFO  对象：GetTypeFromUs          异常：输入字符串的格式不正确。 - 对象：GetTypeFromUs          异常：输入字符串的格式不正确。
+2019-12-30 17:07:40,190 [68] INFO  对象：GetTypeFromUs          异常：   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   在 System.Convert.ToInt32(String value)
+   在 Car.GetTypeFromUs(HttpContext context) 位置 d:\zb.china-zoce.com\interface\Car.ashx:行号 63 - 对象：GetTypeFromUs          异常：   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   在 System.Convert.ToInt32(String value)
+   在 Car.GetTypeFromUs(HttpContext context) 位置 d:\zb.china-zoce.com\interface\Car.ashx:行号 63
+2019-12-30 17:07:43,514 [65] INFO  对象：GetTypeFromUs          异常：输入字符串的格式不正确。 - 对象：GetTypeFromUs          异常：输入字符串的格式不正确。
+2019-12-30 17:07:43,514 [65] INFO  对象：GetTypeFromUs          异常：   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   在 System.Convert.ToInt32(String value)
+   在 Car.GetTypeFromUs(HttpContext context) 位置 d:\zb.china-zoce.com\interface\Car.ashx:行号 63 - 对象：GetTypeFromUs          异常：   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   在 System.Convert.ToInt32(String value)
+   在 Car.GetTypeFromUs(HttpContext context) 位置 d:\zb.china-zoce.com\interface\Car.ashx:行号 63
+2019-12-30 17:08:51,523 [62] INFO  Mobile=18051404466----{"result":"01","msgid":"20191914666","desc":"12301709131821","send_proxy_id":"47"} - Mobile=18051404466----{"result":"01","msgid":"20191914666","desc":"12301709131821","send_proxy_id":"47"}
+2019-12-30 17:08:51,640 [62] INFO  Mobile=18051404466----{"result":"01","msgid":"20191914667","desc":"","send_proxy_id":48} - Mobile=18051404466----{"result":"01","msgid":"20191914667","desc":"","send_proxy_id":48}
+2019-12-30 17:12:21,197 [62] INFO  对象：Insert          异常：操作必须使用一个可更新的查询。 - 对象：Insert          异常：操作必须使用一个可更新的查询。
+2019-12-30 17:12:21,199 [62] INFO  对象：Insert          异常：   在 System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   在 System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   在 System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   在 System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   在 System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   在 System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   在 Factory.Insert(String Id, String Name, HttpContext context) 位置 d:\zb.china-zoce.com\interface\Factory.ashx:行号 236 - 对象：Insert          异常：   在 System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   在 System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   在 System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   在 System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   在 System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   在 System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   在 Factory.Insert(String Id, String Name, HttpContext context) 位置 d:\zb.china-zoce.com\interface\Factory.ashx:行号 236
+2019-12-30 17:14:20,774 [59] INFO  对象：Update          异常：操作必须使用一个可更新的查询。 - 对象：Update          异常：操作必须使用一个可更新的查询。
+2019-12-30 17:14:20,774 [59] INFO  对象：Update          异常：   在 System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   在 System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   在 System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   在 System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   在 System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   在 System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   在 Factory.Update(String Id, String Name, HttpContext context) 位置 d:\zb.china-zoce.com\interface\Factory.ashx:行号 258 - 对象：Update          异常：   在 System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   在 System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   在 System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   在 System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   在 System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   在 System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   在 Factory.Update(String Id, String Name, HttpContext context) 位置 d:\zb.china-zoce.com\interface\Factory.ashx:行号 258
+2019-12-30 17:19:27,295 [58] INFO  Mobile=18291913215----{"result":"01","msgid":"20191914715","desc":"12301719491841","send_proxy_id":"47"} - Mobile=18291913215----{"result":"01","msgid":"20191914715","desc":"12301719491841","send_proxy_id":"47"}
+2019-12-30 17:19:27,425 [58] INFO  Mobile=18291913215----{"result":"01","msgid":"20191914716","desc":"","send_proxy_id":48} - Mobile=18291913215----{"result":"01","msgid":"20191914716","desc":"","send_proxy_id":48}
+2019-12-30 17:20:18,138 [58] INFO  对象：GetTypeFromUs          异常：输入字符串的格式不正确。 - 对象：GetTypeFromUs          异常：输入字符串的格式不正确。
+2019-12-30 17:20:18,139 [58] INFO  对象：GetTypeFromUs          异常：   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   在 System.Convert.ToInt32(String value)
+   在 Car.GetTypeFromUs(HttpContext context) 位置 d:\zb.china-zoce.com\interface\Car.ashx:行号 63 - 对象：GetTypeFromUs          异常：   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   在 System.Convert.ToInt32(String value)
+   在 Car.GetTypeFromUs(HttpContext context) 位置 d:\zb.china-zoce.com\interface\Car.ashx:行号 63
+2019-12-30 17:23:04,211 [47] INFO  对象：Insert          异常：操作必须使用一个可更新的查询。 - 对象：Insert          异常：操作必须使用一个可更新的查询。
+2019-12-30 17:23:04,211 [47] INFO  对象：Insert          异常：   在 System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   在 System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   在 System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   在 System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   在 System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   在 System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   在 Factory.Insert(String Id, String Name, HttpContext context) 位置 d:\zb.china-zoce.com\interface\Factory.ashx:行号 236 - 对象：Insert          异常：   在 System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   在 System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   在 System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   在 System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   在 System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   在 System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   在 Factory.Insert(String Id, String Name, HttpContext context) 位置 d:\zb.china-zoce.com\interface\Factory.ashx:行号 236
+2019-12-30 17:23:39,878 [58] INFO  对象：FInsert          异常：操作必须使用一个可更新的查询。 - 对象：FInsert          异常：操作必须使用一个可更新的查询。
+2019-12-30 17:23:39,881 [58] INFO  对象：FInsert          异常：   在 System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   在 System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   在 System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   在 System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   在 System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   在 System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   在 Product.Insert(String Id, String Name, HttpContext context) 位置 d:\zb.china-zoce.com\interface\Product.ashx:行号 1890 - 对象：FInsert          异常：   在 System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   在 System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   在 System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   在 System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   在 System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   在 System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   在 Product.Insert(String Id, String Name, HttpContext context) 位置 d:\zb.china-zoce.com\interface\Product.ashx:行号 1890
+2019-12-30 17:29:50,295 [38] INFO  对象：Insert          异常：操作必须使用一个可更新的查询。 - 对象：Insert          异常：操作必须使用一个可更新的查询。
+2019-12-30 17:29:50,295 [38] INFO  对象：Insert          异常：   在 System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   在 System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   在 System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   在 System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   在 System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   在 System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   在 Factory.Insert(String Id, String Name, HttpContext context) 位置 d:\zb.china-zoce.com\interface\Factory.ashx:行号 236 - 对象：Insert          异常：   在 System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   在 System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   在 System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   在 System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   在 System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   在 System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   在 Factory.Insert(String Id, String Name, HttpContext context) 位置 d:\zb.china-zoce.com\interface\Factory.ashx:行号 236
+2019-12-30 17:31:43,736 [44] INFO  对象：FInsert          异常：操作必须使用一个可更新的查询。 - 对象：FInsert          异常：操作必须使用一个可更新的查询。
+2019-12-30 17:31:43,736 [44] INFO  对象：FInsert          异常：   在 System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   在 System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   在 System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   在 System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   在 System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   在 System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   在 Product.Insert(String Id, String Name, HttpContext context) 位置 d:\zb.china-zoce.com\interface\Product.ashx:行号 1890 - 对象：FInsert          异常：   在 System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   在 System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   在 System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   在 System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   在 System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   在 System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   在 Product.Insert(String Id, String Name, HttpContext context) 位置 d:\zb.china-zoce.com\interface\Product.ashx:行号 1890
+2019-12-30 17:48:57,839 [36] INFO  对象：GetTypeFromUs          异常：输入字符串的格式不正确。 - 对象：GetTypeFromUs          异常：输入字符串的格式不正确。
+2019-12-30 17:48:57,839 [36] INFO  对象：GetTypeFromUs          异常：   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   在 System.Convert.ToInt32(String value)
+   在 Car.GetTypeFromUs(HttpContext context) 位置 d:\zb.china-zoce.com\interface\Car.ashx:行号 63 - 对象：GetTypeFromUs          异常：   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   在 System.Convert.ToInt32(String value)
+   在 Car.GetTypeFromUs(HttpContext context) 位置 d:\zb.china-zoce.com\interface\Car.ashx:行号 63
+2019-12-30 17:48:59,367 [37] INFO  对象：GetTypeFromUs          异常：输入字符串的格式不正确。 - 对象：GetTypeFromUs          异常：输入字符串的格式不正确。
+2019-12-30 17:48:59,368 [37] INFO  对象：GetTypeFromUs          异常：   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   在 System.Convert.ToInt32(String value)
+   在 Car.GetTypeFromUs(HttpContext context) 位置 d:\zb.china-zoce.com\interface\Car.ashx:行号 63 - 对象：GetTypeFromUs          异常：   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   在 System.Convert.ToInt32(String value)
+   在 Car.GetTypeFromUs(HttpContext context) 位置 d:\zb.china-zoce.com\interface\Car.ashx:行号 63
+2019-12-30 17:51:16,137 [37] INFO  对象：GetTypeFromUs          异常：输入字符串的格式不正确。 - 对象：GetTypeFromUs          异常：输入字符串的格式不正确。
+2019-12-30 17:51:16,137 [37] INFO  对象：GetTypeFromUs          异常：   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   在 System.Convert.ToInt32(String value)
+   在 Car.GetTypeFromUs(HttpContext context) 位置 d:\zb.china-zoce.com\interface\Car.ashx:行号 63 - 对象：GetTypeFromUs          异常：   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   在 System.Convert.ToInt32(String value)
+   在 Car.GetTypeFromUs(HttpContext context) 位置 d:\zb.china-zoce.com\interface\Car.ashx:行号 63
+2019-12-30 17:51:17,203 [46] INFO  对象：GetTypeFromUs          异常：输入字符串的格式不正确。 - 对象：GetTypeFromUs          异常：输入字符串的格式不正确。
+2019-12-30 17:51:17,203 [46] INFO  对象：GetTypeFromUs          异常：   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   在 System.Convert.ToInt32(String value)
+   在 Car.GetTypeFromUs(HttpContext context) 位置 d:\zb.china-zoce.com\interface\Car.ashx:行号 63 - 对象：GetTypeFromUs          异常：   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   在 System.Convert.ToInt32(String value)
+   在 Car.GetTypeFromUs(HttpContext context) 位置 d:\zb.china-zoce.com\interface\Car.ashx:行号 63
+2019-12-30 17:52:53,116 [47] INFO  对象：GetTypeFromUs          异常：输入字符串的格式不正确。 - 对象：GetTypeFromUs          异常：输入字符串的格式不正确。
+2019-12-30 17:52:53,116 [47] INFO  对象：GetTypeFromUs          异常：   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   在 System.Convert.ToInt32(String value)
+   在 Car.GetTypeFromUs(HttpContext context) 位置 d:\zb.china-zoce.com\interface\Car.ashx:行号 63 - 对象：GetTypeFromUs          异常：   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   在 System.Convert.ToInt32(String value)
+   在 Car.GetTypeFromUs(HttpContext context) 位置 d:\zb.china-zoce.com\interface\Car.ashx:行号 63
+2019-12-30 17:54:11,775 [47] INFO  对象：GetTypeFromUs          异常：输入字符串的格式不正确。 - 对象：GetTypeFromUs          异常：输入字符串的格式不正确。
+2019-12-30 17:54:11,775 [47] INFO  对象：GetTypeFromUs          异常：   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   在 System.Convert.ToInt32(String value)
+   在 Car.GetTypeFromUs(HttpContext context) 位置 d:\zb.china-zoce.com\interface\Car.ashx:行号 63 - 对象：GetTypeFromUs          异常：   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   在 System.Convert.ToInt32(String value)
+   在 Car.GetTypeFromUs(HttpContext context) 位置 d:\zb.china-zoce.com\interface\Car.ashx:行号 63
+2019-12-30 18:01:53,798 [52] INFO  对象：Insert          异常：操作必须使用一个可更新的查询。 - 对象：Insert          异常：操作必须使用一个可更新的查询。
+2019-12-30 18:01:53,799 [52] INFO  对象：Insert          异常：   在 System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   在 System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   在 System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   在 System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   在 System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   在 System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   在 Factory.Insert(String Id, String Name, HttpContext context) 位置 d:\zb.china-zoce.com\interface\Factory.ashx:行号 236 - 对象：Insert          异常：   在 System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   在 System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   在 System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   在 System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   在 System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   在 System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   在 Factory.Insert(String Id, String Name, HttpContext context) 位置 d:\zb.china-zoce.com\interface\Factory.ashx:行号 236
+2019-12-30 18:02:16,381 [52] INFO  对象：FInsert          异常：操作必须使用一个可更新的查询。 - 对象：FInsert          异常：操作必须使用一个可更新的查询。
+2019-12-30 18:02:16,381 [52] INFO  对象：FInsert          异常：   在 System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   在 System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   在 System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   在 System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   在 System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   在 System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   在 Product.Insert(String Id, String Name, HttpContext context) 位置 d:\zb.china-zoce.com\interface\Product.ashx:行号 1890 - 对象：FInsert          异常：   在 System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   在 System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   在 System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   在 System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   在 System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   在 System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   在 Product.Insert(String Id, String Name, HttpContext context) 位置 d:\zb.china-zoce.com\interface\Product.ashx:行号 1890
+2019-12-30 18:37:48,741 [82] INFO  Mobile=13892451057----{"result":"01","msgid":"20191914978","desc":"12301838101826","send_proxy_id":"47"} - Mobile=13892451057----{"result":"01","msgid":"20191914978","desc":"12301838101826","send_proxy_id":"47"}
+2019-12-30 18:37:48,853 [82] INFO  Mobile=13892451057----{"result":"01","msgid":"20191914979","desc":"","send_proxy_id":48} - Mobile=13892451057----{"result":"01","msgid":"20191914979","desc":"","send_proxy_id":48}
+2019-12-30 18:51:49,031 [23] INFO  Mobile=18211977817----{"result":"01","msgid":"20191915033","desc":"12301852111832","send_proxy_id":"47"} - Mobile=18211977817----{"result":"01","msgid":"20191915033","desc":"12301852111832","send_proxy_id":"47"}

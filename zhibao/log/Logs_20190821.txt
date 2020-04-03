@@ -1,0 +1,142 @@
+
+----------------------header--------------------------
+
+----------------------footer--------------------------
+
+----------------------header--------------------------
+
+----------------------footer--------------------------
+
+----------------------header--------------------------
+
+----------------------footer--------------------------
+
+----------------------header--------------------------
+
+----------------------footer--------------------------
+
+----------------------header--------------------------
+
+----------------------footer--------------------------
+
+----------------------header--------------------------
+
+----------------------footer--------------------------
+
+----------------------header--------------------------
+
+----------------------footer--------------------------
+
+----------------------header--------------------------
+2019-08-21 08:54:57,435 [21] INFO  Mobile=13712898808----{"result":"01","msgid":"20191305180","desc":"8210855361831","send_proxy_id":"47"} - Mobile=13712898808----{"result":"01","msgid":"20191305180","desc":"8210855361831","send_proxy_id":"47"}
+2019-08-21 08:54:57,593 [21] INFO  Mobile=13712898808----{"result":"01","msgid":"20191305181","desc":"","send_proxy_id":48} - Mobile=13712898808----{"result":"01","msgid":"20191305181","desc":"","send_proxy_id":48}
+2019-08-21 09:00:31,708 [34] INFO  Mobile=13317524888----{"result":"01","msgid":"20191305207","desc":"8210901101821","send_proxy_id":"47"} - Mobile=13317524888----{"result":"01","msgid":"20191305207","desc":"8210901101821","send_proxy_id":"47"}
+2019-08-21 09:00:31,811 [34] INFO  Mobile=13317524888----{"result":"01","msgid":"20191305208","desc":"","send_proxy_id":48} - Mobile=13317524888----{"result":"01","msgid":"20191305208","desc":"","send_proxy_id":48}
+2019-08-21 09:05:55,857 [41] INFO  Mobile=13469781066----{"result":"01","msgid":"20191305238","desc":"8210906341821","send_proxy_id":"47"} - Mobile=13469781066----{"result":"01","msgid":"20191305238","desc":"8210906341821","send_proxy_id":"47"}
+2019-08-21 09:05:55,958 [41] INFO  Mobile=13469781066----{"result":"01","msgid":"20191305239","desc":"","send_proxy_id":48} - Mobile=13469781066----{"result":"01","msgid":"20191305239","desc":"","send_proxy_id":48}
+2019-08-21 09:10:29,191 [50] INFO  Mobile=13845719300----{"result":"01","msgid":"20191305258","desc":"8210911071812","send_proxy_id":"47"} - Mobile=13845719300----{"result":"01","msgid":"20191305258","desc":"8210911071812","send_proxy_id":"47"}
+2019-08-21 09:10:29,300 [50] INFO  Mobile=13845719300----{"result":"01","msgid":"20191305259","desc":"","send_proxy_id":48} - Mobile=13845719300----{"result":"01","msgid":"20191305259","desc":"","send_proxy_id":48}
+2019-08-21 09:40:57,141 [37] INFO  Mobile=15911421611----{"result":"01","msgid":"20191305408","desc":"8210941351821","send_proxy_id":"47"} - Mobile=15911421611----{"result":"01","msgid":"20191305408","desc":"8210941351821","send_proxy_id":"47"}
+2019-08-21 09:40:57,256 [37] INFO  Mobile=15911421611----{"result":"01","msgid":"20191305409","desc":"","send_proxy_id":48} - Mobile=15911421611----{"result":"01","msgid":"20191305409","desc":"","send_proxy_id":48}
+
+----------------------footer--------------------------
+
+----------------------header--------------------------
+2019-08-21 10:46:47,338 [18] INFO  Mobile=18953058218----{"result":"01","msgid":"20191305776","desc":"8211047251831","send_proxy_id":"47"} - Mobile=18953058218----{"result":"01","msgid":"20191305776","desc":"8211047251831","send_proxy_id":"47"}
+2019-08-21 10:46:47,458 [18] INFO  Mobile=18953058218----{"result":"01","msgid":"20191305777","desc":"","send_proxy_id":48} - Mobile=18953058218----{"result":"01","msgid":"20191305777","desc":"","send_proxy_id":48}
+2019-08-21 11:30:51,868 [69] INFO  对象：Insert          异常：操作必须使用一个可更新的查询。 - 对象：Insert          异常：操作必须使用一个可更新的查询。
+2019-08-21 11:30:51,877 [69] INFO  对象：Insert          异常：   在 System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   在 System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   在 System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   在 System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   在 System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   在 System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   在 Factory.Insert(String Id, String Name, HttpContext context) 位置 d:\zb.china-zoce.com\interface\Factory.ashx:行号 236 - 对象：Insert          异常：   在 System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   在 System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   在 System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   在 System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   在 System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   在 System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   在 Factory.Insert(String Id, String Name, HttpContext context) 位置 d:\zb.china-zoce.com\interface\Factory.ashx:行号 236
+2019-08-21 11:31:14,187 [70] INFO  对象：FInsert          异常：操作必须使用一个可更新的查询。 - 对象：FInsert          异常：操作必须使用一个可更新的查询。
+2019-08-21 11:31:14,191 [70] INFO  对象：FInsert          异常：   在 System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   在 System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   在 System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   在 System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   在 System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   在 System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   在 Product.Insert(String Id, String Name, HttpContext context) 位置 d:\zb.china-zoce.com\interface\Product.ashx:行号 1890 - 对象：FInsert          异常：   在 System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   在 System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   在 System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   在 System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   在 System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   在 System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   在 Product.Insert(String Id, String Name, HttpContext context) 位置 d:\zb.china-zoce.com\interface\Product.ashx:行号 1890
+2019-08-21 12:04:46,137 [73] INFO  Mobile=13875970666----{"result":"01","msgid":"20191306190","desc":"8211205241811","send_proxy_id":"47"} - Mobile=13875970666----{"result":"01","msgid":"20191306190","desc":"8211205241811","send_proxy_id":"47"}
+2019-08-21 12:14:49,724 [71] INFO  Mobile=13526164045----{"result":"01","msgid":"20191306221","desc":"8211215281841","send_proxy_id":"47"} - Mobile=13526164045----{"result":"01","msgid":"20191306221","desc":"8211215281841","send_proxy_id":"47"}
+2019-08-21 12:14:49,823 [71] INFO  Mobile=13526164045----{"result":"01","msgid":"20191306222","desc":"","send_proxy_id":48} - Mobile=13526164045----{"result":"01","msgid":"20191306222","desc":"","send_proxy_id":48}
+2019-08-21 13:18:19,696 [74] INFO  Mobile=15348305520----{"result":"01","msgid":"20191306517","desc":"8211318581831","send_proxy_id":"47"} - Mobile=15348305520----{"result":"01","msgid":"20191306517","desc":"8211318581831","send_proxy_id":"47"}
+2019-08-21 13:46:01,194 [82] INFO  Mobile=15386270633----{"result":"01","msgid":"20191306642","desc":"8211346391831","send_proxy_id":"47"} - Mobile=15386270633----{"result":"01","msgid":"20191306642","desc":"8211346391831","send_proxy_id":"47"}
+2019-08-21 13:46:01,297 [82] INFO  Mobile=15386270633----{"result":"01","msgid":"20191306643","desc":"","send_proxy_id":48} - Mobile=15386270633----{"result":"01","msgid":"20191306643","desc":"","send_proxy_id":48}
+2019-08-21 14:11:23,545 [82] INFO  Mobile=15044728318----{"result":"01","msgid":"20191306744","desc":"8211412021831","send_proxy_id":"47"} - Mobile=15044728318----{"result":"01","msgid":"20191306744","desc":"8211412021831","send_proxy_id":"47"}
+2019-08-21 14:11:23,673 [82] INFO  Mobile=15044728318----{"result":"01","msgid":"20191306745","desc":"","send_proxy_id":48} - Mobile=15044728318----{"result":"01","msgid":"20191306745","desc":"","send_proxy_id":48}
+2019-08-21 14:13:20,641 [73] INFO  Mobile=15047239000----{"result":"01","msgid":"20191306753","desc":"8211413591831","send_proxy_id":"47"} - Mobile=15047239000----{"result":"01","msgid":"20191306753","desc":"8211413591831","send_proxy_id":"47"}
+2019-08-21 14:13:20,751 [73] INFO  Mobile=15047239000----{"result":"01","msgid":"20191306754","desc":"","send_proxy_id":48} - Mobile=15047239000----{"result":"01","msgid":"20191306754","desc":"","send_proxy_id":48}
+2019-08-21 14:14:34,858 [71] INFO  Mobile=18304720471----{"result":"01","msgid":"20191306763","desc":"8211415131831","send_proxy_id":"47"} - Mobile=18304720471----{"result":"01","msgid":"20191306763","desc":"8211415131831","send_proxy_id":"47"}
+2019-08-21 14:14:34,973 [71] INFO  Mobile=18304720471----{"result":"01","msgid":"20191306764","desc":"","send_proxy_id":48} - Mobile=18304720471----{"result":"01","msgid":"20191306764","desc":"","send_proxy_id":48}
+2019-08-21 14:16:42,461 [74] INFO  Mobile=13171200009----{"result":"01","msgid":"20191306773","desc":"8211417211811","send_proxy_id":"47"} - Mobile=13171200009----{"result":"01","msgid":"20191306773","desc":"8211417211811","send_proxy_id":"47"}
+2019-08-21 14:16:42,573 [74] INFO  Mobile=13171200009----{"result":"01","msgid":"20191306774","desc":"","send_proxy_id":48} - Mobile=13171200009----{"result":"01","msgid":"20191306774","desc":"","send_proxy_id":48}
+2019-08-21 14:18:02,872 [82] INFO  Mobile=13947271286----{"result":"01","msgid":"20191306782","desc":"8211418411821","send_proxy_id":"47"} - Mobile=13947271286----{"result":"01","msgid":"20191306782","desc":"8211418411821","send_proxy_id":"47"}
+2019-08-21 14:18:02,987 [82] INFO  Mobile=13947271286----{"result":"01","msgid":"20191306783","desc":"","send_proxy_id":48} - Mobile=13947271286----{"result":"01","msgid":"20191306783","desc":"","send_proxy_id":48}
+2019-08-21 14:19:31,024 [75] INFO  Mobile=13847281841----{"result":"01","msgid":"20191306786","desc":"8211420091842","send_proxy_id":"47"} - Mobile=13847281841----{"result":"01","msgid":"20191306786","desc":"8211420091842","send_proxy_id":"47"}
+2019-08-21 14:21:12,158 [74] INFO  Mobile=15247206244----{"result":"01","msgid":"20191306796","desc":"8211421501811","send_proxy_id":"47"} - Mobile=15247206244----{"result":"01","msgid":"20191306796","desc":"8211421501811","send_proxy_id":"47"}
+2019-08-21 14:22:30,928 [73] INFO  Mobile=15247216222----{"result":"01","msgid":"20191306804","desc":"8211423091831","send_proxy_id":"47"} - Mobile=15247216222----{"result":"01","msgid":"20191306804","desc":"8211423091831","send_proxy_id":"47"}
+2019-08-21 14:24:00,242 [73] INFO  Mobile=13847226621----{"result":"01","msgid":"20191306808","desc":"8211424381841","send_proxy_id":"47"} - Mobile=13847226621----{"result":"01","msgid":"20191306808","desc":"8211424381841","send_proxy_id":"47"}
+2019-08-21 14:24:00,363 [73] INFO  Mobile=13847226621----{"result":"01","msgid":"20191306809","desc":"","send_proxy_id":48} - Mobile=13847226621----{"result":"01","msgid":"20191306809","desc":"","send_proxy_id":48}
+2019-08-21 14:54:40,431 [73] INFO  Mobile=13312610713----{"result":"01","msgid":"20191306944","desc":"8211455191841","send_proxy_id":"47"} - Mobile=13312610713----{"result":"01","msgid":"20191306944","desc":"8211455191841","send_proxy_id":"47"}
+2019-08-21 14:54:40,540 [73] INFO  Mobile=13312610713----{"result":"01","msgid":"20191306945","desc":"","send_proxy_id":48} - Mobile=13312610713----{"result":"01","msgid":"20191306945","desc":"","send_proxy_id":48}
+2019-08-21 15:26:19,283 [75] INFO  Mobile=15071597061----{"result":"01","msgid":"20191307188","desc":"8211526571811","send_proxy_id":"47"} - Mobile=15071597061----{"result":"01","msgid":"20191307188","desc":"8211526571811","send_proxy_id":"47"}
+2019-08-21 15:26:19,383 [75] INFO  Mobile=15071597061----{"result":"01","msgid":"20191307189","desc":"","send_proxy_id":48} - Mobile=15071597061----{"result":"01","msgid":"20191307189","desc":"","send_proxy_id":48}
+2019-08-21 15:29:09,375 [73] INFO  Mobile=13197295339----{"result":"01","msgid":"20191307207","desc":"8211529481841","send_proxy_id":"47"} - Mobile=13197295339----{"result":"01","msgid":"20191307207","desc":"8211529481841","send_proxy_id":"47"}
+2019-08-21 15:29:09,472 [73] INFO  Mobile=13197295339----{"result":"01","msgid":"20191307208","desc":"","send_proxy_id":48} - Mobile=13197295339----{"result":"01","msgid":"20191307208","desc":"","send_proxy_id":48}
+2019-08-21 15:42:41,475 [82] INFO  Mobile=13707280063----{"result":"01","msgid":"20191307274","desc":"8211543201841","send_proxy_id":"47"} - Mobile=13707280063----{"result":"01","msgid":"20191307274","desc":"8211543201841","send_proxy_id":"47"}
+2019-08-21 15:42:41,576 [82] INFO  Mobile=13707280063----{"result":"01","msgid":"20191307275","desc":"","send_proxy_id":48} - Mobile=13707280063----{"result":"01","msgid":"20191307275","desc":"","send_proxy_id":48}
+2019-08-21 15:42:48,376 [71] INFO  Mobile=13873990111----{"result":"01","msgid":"20191307276","desc":"8211543271821","send_proxy_id":"47"} - Mobile=13873990111----{"result":"01","msgid":"20191307276","desc":"8211543271821","send_proxy_id":"47"}
+2019-08-21 15:42:48,475 [71] INFO  Mobile=13873990111----{"result":"01","msgid":"20191307277","desc":"","send_proxy_id":48} - Mobile=13873990111----{"result":"01","msgid":"20191307277","desc":"","send_proxy_id":48}
+2019-08-21 15:48:13,477 [73] INFO  Mobile=13581372717----{"result":"01","msgid":"20191307309","desc":"8211548521841","send_proxy_id":"47"} - Mobile=13581372717----{"result":"01","msgid":"20191307309","desc":"8211548521841","send_proxy_id":"47"}
+2019-08-21 15:48:13,576 [73] INFO  Mobile=13581372717----{"result":"01","msgid":"20191307310","desc":"","send_proxy_id":48} - Mobile=13581372717----{"result":"01","msgid":"20191307310","desc":"","send_proxy_id":48}
+2019-08-21 15:53:24,452 [71] INFO  Mobile=13762127908----{"result":"01","msgid":"20191307336","desc":"8211554031831","send_proxy_id":"47"} - Mobile=13762127908----{"result":"01","msgid":"20191307336","desc":"8211554031831","send_proxy_id":"47"}
+2019-08-21 15:53:24,554 [71] INFO  Mobile=13762127908----{"result":"01","msgid":"20191307337","desc":"","send_proxy_id":48} - Mobile=13762127908----{"result":"01","msgid":"20191307337","desc":"","send_proxy_id":48}
+2019-08-21 15:59:51,689 [71] INFO  Mobile=13707355169----{"result":"01","msgid":"20191307369","desc":"8211600301811","send_proxy_id":"47"} - Mobile=13707355169----{"result":"01","msgid":"20191307369","desc":"8211600301811","send_proxy_id":"47"}
+2019-08-21 16:05:41,229 [71] INFO  Mobile=18909422629----{"result":"01","msgid":"20191307400","desc":"8211606191846","send_proxy_id":"47"} - Mobile=18909422629----{"result":"01","msgid":"20191307400","desc":"8211606191846","send_proxy_id":"47"}
+2019-08-21 16:07:09,356 [74] INFO  Mobile=18503510525----{"result":"01","msgid":"20191307409","desc":"82116074718317","send_proxy_id":"47"} - Mobile=18503510525----{"result":"01","msgid":"20191307409","desc":"82116074718317","send_proxy_id":"47"}
+2019-08-21 16:28:33,889 [73] INFO  Mobile=15111151439----{"result":"01","msgid":"20191307495","desc":"8211629121844","send_proxy_id":"47"} - Mobile=15111151439----{"result":"01","msgid":"20191307495","desc":"8211629121844","send_proxy_id":"47"}
+2019-08-21 16:28:33,996 [73] INFO  Mobile=15111151439----{"result":"01","msgid":"20191307496","desc":"","send_proxy_id":48} - Mobile=15111151439----{"result":"01","msgid":"20191307496","desc":"","send_proxy_id":48}
+2019-08-21 16:30:27,046 [73] INFO  Mobile=18874335966----{"result":"01","msgid":"20191307504","desc":"82116310518411","send_proxy_id":"47"} - Mobile=18874335966----{"result":"01","msgid":"20191307504","desc":"82116310518411","send_proxy_id":"47"}
+2019-08-21 16:30:27,264 [73] INFO  Mobile=18874335966----{"result":"01","msgid":"20191307505","desc":"","send_proxy_id":48} - Mobile=18874335966----{"result":"01","msgid":"20191307505","desc":"","send_proxy_id":48}
+2019-08-21 16:31:10,920 [71] INFO  Mobile=15109980137----{"result":"01","msgid":"20191307507","desc":"82116314918311","send_proxy_id":"47"} - Mobile=15109980137----{"result":"01","msgid":"20191307507","desc":"82116314918311","send_proxy_id":"47"}
+2019-08-21 16:31:11,030 [71] INFO  Mobile=15109980137----{"result":"01","msgid":"20191307508","desc":"","send_proxy_id":48} - Mobile=15109980137----{"result":"01","msgid":"20191307508","desc":"","send_proxy_id":48}
+2019-08-21 16:48:08,267 [73] INFO  Mobile=13017318911----{"result":"01","msgid":"20191307581","desc":"82116484618410","send_proxy_id":"47"} - Mobile=13017318911----{"result":"01","msgid":"20191307581","desc":"82116484618410","send_proxy_id":"47"}
+2019-08-21 16:48:08,374 [73] INFO  Mobile=13017318911----{"result":"01","msgid":"20191307582","desc":"","send_proxy_id":48} - Mobile=13017318911----{"result":"01","msgid":"20191307582","desc":"","send_proxy_id":48}
+2019-08-21 17:03:10,238 [74] INFO  Mobile=13044551035----{"result":"01","msgid":"20191307645","desc":"82117034818214","send_proxy_id":"47"} - Mobile=13044551035----{"result":"01","msgid":"20191307645","desc":"82117034818214","send_proxy_id":"47"}
+2019-08-21 17:03:10,357 [74] INFO  Mobile=13044551035----{"result":"01","msgid":"20191307646","desc":"","send_proxy_id":48} - Mobile=13044551035----{"result":"01","msgid":"20191307646","desc":"","send_proxy_id":48}
+2019-08-21 18:29:27,488 [71] INFO  Mobile=17375522671----{"result":"01","msgid":"20191307988","desc":"8211830061832","send_proxy_id":"47"} - Mobile=17375522671----{"result":"01","msgid":"20191307988","desc":"8211830061832","send_proxy_id":"47"}
+2019-08-21 18:29:27,607 [71] INFO  Mobile=17375522671----{"result":"01","msgid":"20191307989","desc":"","send_proxy_id":48} - Mobile=17375522671----{"result":"01","msgid":"20191307989","desc":"","send_proxy_id":48}
+2019-08-21 18:31:30,421 [74] INFO  Mobile=13972525966----{"result":"01","msgid":"20191308001","desc":"8211832091821","send_proxy_id":"47"} - Mobile=13972525966----{"result":"01","msgid":"20191308001","desc":"8211832091821","send_proxy_id":"47"}
+2019-08-21 18:31:30,536 [74] INFO  Mobile=13972525966----{"result":"01","msgid":"20191308002","desc":"","send_proxy_id":48} - Mobile=13972525966----{"result":"01","msgid":"20191308002","desc":"","send_proxy_id":48}
+2019-08-21 18:38:44,043 [82] INFO  Mobile=13578426283----{"result":"01","msgid":"20191308032","desc":"82118392218210","send_proxy_id":"47"} - Mobile=13578426283----{"result":"01","msgid":"20191308032","desc":"82118392218210","send_proxy_id":"47"}
+2019-08-21 18:38:44,172 [82] INFO  Mobile=13578426283----{"result":"01","msgid":"20191308033","desc":"","send_proxy_id":48} - Mobile=13578426283----{"result":"01","msgid":"20191308033","desc":"","send_proxy_id":48}
+
+----------------------footer--------------------------
+
+----------------------header--------------------------
+
+----------------------footer--------------------------
+
+----------------------header--------------------------
+
+----------------------footer--------------------------
+
+----------------------header--------------------------
+
+----------------------footer--------------------------

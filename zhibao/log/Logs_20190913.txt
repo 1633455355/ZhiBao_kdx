@@ -1,0 +1,130 @@
+
+----------------------header--------------------------
+
+----------------------footer--------------------------
+
+----------------------header--------------------------
+
+----------------------footer--------------------------
+
+----------------------header--------------------------
+
+----------------------footer--------------------------
+
+----------------------header--------------------------
+
+----------------------footer--------------------------
+
+----------------------header--------------------------
+
+----------------------footer--------------------------
+
+----------------------header--------------------------
+
+----------------------footer--------------------------
+
+----------------------header--------------------------
+
+----------------------footer--------------------------
+
+----------------------header--------------------------
+2019-09-13 10:27:14,286 [34] INFO  Mobile=16605668020----{"result":"01","msgid":"20191404331","desc":"9131027241812","send_proxy_id":"47"} - Mobile=16605668020----{"result":"01","msgid":"20191404331","desc":"9131027241812","send_proxy_id":"47"}
+2019-09-13 10:27:14,401 [34] INFO  Mobile=16605668020----{"result":"01","msgid":"20191404332","desc":"","send_proxy_id":48} - Mobile=16605668020----{"result":"01","msgid":"20191404332","desc":"","send_proxy_id":48}
+2019-09-13 10:39:16,638 [47] INFO  Mobile=15549933416----{"result":"01","msgid":"20191404398","desc":"9131039271811","send_proxy_id":"47"} - Mobile=15549933416----{"result":"01","msgid":"20191404398","desc":"9131039271811","send_proxy_id":"47"}
+2019-09-13 10:39:16,749 [47] INFO  Mobile=15549933416----{"result":"01","msgid":"20191404399","desc":"","send_proxy_id":48} - Mobile=15549933416----{"result":"01","msgid":"20191404399","desc":"","send_proxy_id":48}
+2019-09-13 10:56:48,895 [66] INFO  对象：发送短信          异常：无法连接到远程服务器 - 对象：发送短信          异常：无法连接到远程服务器
+2019-09-13 10:56:48,908 [66] INFO  对象：发送短信          异常：   在 System.Net.HttpWebRequest.GetResponse()
+   在 Product.Send(String mobile) 位置 d:\zb.china-zoce.com\interface\Product.ashx:行号 507 - 对象：发送短信          异常：   在 System.Net.HttpWebRequest.GetResponse()
+   在 Product.Send(String mobile) 位置 d:\zb.china-zoce.com\interface\Product.ashx:行号 507
+2019-09-13 10:57:09,916 [66] INFO  对象：发送短信          异常：无法连接到远程服务器 - 对象：发送短信          异常：无法连接到远程服务器
+2019-09-13 10:57:09,916 [66] INFO  对象：发送短信          异常：   在 System.Net.HttpWebRequest.GetResponse()
+   在 Product.Send(String mobile) 位置 d:\zb.china-zoce.com\interface\Product.ashx:行号 507 - 对象：发送短信          异常：   在 System.Net.HttpWebRequest.GetResponse()
+   在 Product.Send(String mobile) 位置 d:\zb.china-zoce.com\interface\Product.ashx:行号 507
+2019-09-13 11:01:03,415 [73] INFO  Mobile=13859565578----{"result":"01","msgid":"20191404539","desc":"9131101141841","send_proxy_id":"47"} - Mobile=13859565578----{"result":"01","msgid":"20191404539","desc":"9131101141841","send_proxy_id":"47"}
+2019-09-13 11:01:03,526 [73] INFO  Mobile=13859565578----{"result":"01","msgid":"20191404540","desc":"","send_proxy_id":48} - Mobile=13859565578----{"result":"01","msgid":"20191404540","desc":"","send_proxy_id":48}
+2019-09-13 11:05:32,470 [74] INFO  Mobile=17859712080----{"result":"01","msgid":"20191404558","desc":"9131105431822","send_proxy_id":"47"} - Mobile=17859712080----{"result":"01","msgid":"20191404558","desc":"9131105431822","send_proxy_id":"47"}
+2019-09-13 11:05:32,575 [74] INFO  Mobile=17859712080----{"result":"01","msgid":"20191404559","desc":"","send_proxy_id":48} - Mobile=17859712080----{"result":"01","msgid":"20191404559","desc":"","send_proxy_id":48}
+2019-09-13 11:09:58,641 [84] INFO  对象：发送短信          异常：无法连接到远程服务器 - 对象：发送短信          异常：无法连接到远程服务器
+2019-09-13 11:09:58,641 [84] INFO  对象：发送短信          异常：   在 System.Net.HttpWebRequest.GetResponse()
+   在 Product.Send(String mobile) 位置 d:\zb.china-zoce.com\interface\Product.ashx:行号 507 - 对象：发送短信          异常：   在 System.Net.HttpWebRequest.GetResponse()
+   在 Product.Send(String mobile) 位置 d:\zb.china-zoce.com\interface\Product.ashx:行号 507
+2019-09-13 11:09:58,793 [84] INFO  Mobile=13459705910----{"result":"01","msgid":"20191404582","desc":"9131110091831","send_proxy_id":"47"} - Mobile=13459705910----{"result":"01","msgid":"20191404582","desc":"9131110091831","send_proxy_id":"47"}
+2019-09-13 11:12:35,238 [79] INFO  Mobile=18250015381----{"result":"01","msgid":"20191404614","desc":"9131112461842","send_proxy_id":"47"} - Mobile=18250015381----{"result":"01","msgid":"20191404614","desc":"9131112461842","send_proxy_id":"47"}
+2019-09-13 11:12:35,369 [79] INFO  Mobile=18250015381----{"result":"01","msgid":"20191404615","desc":"","send_proxy_id":48} - Mobile=18250015381----{"result":"01","msgid":"20191404615","desc":"","send_proxy_id":48}
+2019-09-13 11:20:08,681 [69] INFO  Mobile=13797480858----{"result":"01","msgid":"20191404667","desc":"9131120191822","send_proxy_id":"47"} - Mobile=13797480858----{"result":"01","msgid":"20191404667","desc":"9131120191822","send_proxy_id":"47"}
+2019-09-13 11:20:08,794 [69] INFO  Mobile=13797480858----{"result":"01","msgid":"20191404668","desc":"","send_proxy_id":48} - Mobile=13797480858----{"result":"01","msgid":"20191404668","desc":"","send_proxy_id":48}
+2019-09-13 11:23:59,662 [69] INFO  Mobile=18272208786----{"result":"01","msgid":"20191404689","desc":"9131124101841","send_proxy_id":"47"} - Mobile=18272208786----{"result":"01","msgid":"20191404689","desc":"9131124101841","send_proxy_id":"47"}
+2019-09-13 11:23:59,771 [69] INFO  Mobile=18272208786----{"result":"01","msgid":"20191404690","desc":"","send_proxy_id":48} - Mobile=18272208786----{"result":"01","msgid":"20191404690","desc":"","send_proxy_id":48}
+
+----------------------footer--------------------------
+
+----------------------header--------------------------
+
+----------------------footer--------------------------
+
+----------------------header--------------------------
+
+----------------------footer--------------------------
+
+----------------------header--------------------------
+2019-09-13 13:26:57,009 [19] INFO  对象：发送短信          异常：无法连接到远程服务器 - 对象：发送短信          异常：无法连接到远程服务器
+2019-09-13 13:26:57,022 [19] INFO  对象：发送短信          异常：   在 System.Net.HttpWebRequest.GetResponse()
+   在 Product.Send(String mobile) 位置 d:\zb.china-zoce.com\interface\Product.ashx:行号 507 - 对象：发送短信          异常：   在 System.Net.HttpWebRequest.GetResponse()
+   在 Product.Send(String mobile) 位置 d:\zb.china-zoce.com\interface\Product.ashx:行号 507
+2019-09-13 13:26:57,205 [19] INFO  Mobile=15959288298----{"result":"01","msgid":"20191405392","desc":"9131327081821","send_proxy_id":"47"} - Mobile=15959288298----{"result":"01","msgid":"20191405392","desc":"9131327081821","send_proxy_id":"47"}
+2019-09-13 13:26:57,549 [19] INFO  Mobile=15959288298----{"result":"01","msgid":"20191405393","desc":"","send_proxy_id":48} - Mobile=15959288298----{"result":"01","msgid":"20191405393","desc":"","send_proxy_id":48}
+2019-09-13 13:26:57,654 [19] INFO  Mobile=15959288298----{"result":"01","msgid":"20191405394","desc":"9131327081842","send_proxy_id":"47"} - Mobile=15959288298----{"result":"01","msgid":"20191405394","desc":"9131327081842","send_proxy_id":"47"}
+2019-09-13 13:29:35,422 [19] INFO  Mobile=13872568246----{"result":"01","msgid":"20191405415","desc":"9131329461821","send_proxy_id":"47"} - Mobile=13872568246----{"result":"01","msgid":"20191405415","desc":"9131329461821","send_proxy_id":"47"}
+2019-09-13 13:31:43,280 [19] INFO  对象：发送短信          异常：无法连接到远程服务器 - 对象：发送短信          异常：无法连接到远程服务器
+2019-09-13 13:31:43,280 [19] INFO  对象：发送短信          异常：   在 System.Net.HttpWebRequest.GetResponse()
+   在 Product.Send(String mobile) 位置 d:\zb.china-zoce.com\interface\Product.ashx:行号 507 - 对象：发送短信          异常：   在 System.Net.HttpWebRequest.GetResponse()
+   在 Product.Send(String mobile) 位置 d:\zb.china-zoce.com\interface\Product.ashx:行号 507
+2019-09-13 13:31:43,510 [19] INFO  Mobile=13477834994----{"result":"01","msgid":"20191405427","desc":"9131331541821","send_proxy_id":"47"} - Mobile=13477834994----{"result":"01","msgid":"20191405427","desc":"9131331541821","send_proxy_id":"47"}
+2019-09-13 13:33:23,673 [31] INFO  Mobile=15971643173----{"result":"01","msgid":"20191405439","desc":"9131333341811","send_proxy_id":"47"} - Mobile=15971643173----{"result":"01","msgid":"20191405439","desc":"9131333341811","send_proxy_id":"47"}
+2019-09-13 13:43:19,718 [40] INFO  Mobile=15972692164----{"result":"01","msgid":"20191405503","desc":"9131343301811","send_proxy_id":"47"} - Mobile=15972692164----{"result":"01","msgid":"20191405503","desc":"9131343301811","send_proxy_id":"47"}
+2019-09-13 13:43:19,847 [40] INFO  Mobile=15972692164----{"result":"01","msgid":"20191405504","desc":"","send_proxy_id":48} - Mobile=15972692164----{"result":"01","msgid":"20191405504","desc":"","send_proxy_id":48}
+2019-09-13 14:56:29,274 [51] INFO  Mobile=18120232190----{"result":"01","msgid":"20191405982","desc":"9131456401841","send_proxy_id":"47"} - Mobile=18120232190----{"result":"01","msgid":"20191405982","desc":"9131456401841","send_proxy_id":"47"}
+2019-09-13 14:56:29,406 [51] INFO  Mobile=18120232190----{"result":"01","msgid":"20191405983","desc":"","send_proxy_id":48} - Mobile=18120232190----{"result":"01","msgid":"20191405983","desc":"","send_proxy_id":48}
+
+----------------------footer--------------------------
+
+----------------------header--------------------------
+2019-09-13 15:35:22,892 [10] INFO  Mobile=13016703761----{"result":"01","msgid":"20191406242","desc":"9131535331842","send_proxy_id":"47"} - Mobile=13016703761----{"result":"01","msgid":"20191406242","desc":"9131535331842","send_proxy_id":"47"}
+2019-09-13 15:35:23,014 [10] INFO  Mobile=13016703761----{"result":"01","msgid":"20191406243","desc":"","send_proxy_id":48} - Mobile=13016703761----{"result":"01","msgid":"20191406243","desc":"","send_proxy_id":48}
+2019-09-13 15:37:14,120 [10] INFO  Mobile=13016703761----{"result":"01","msgid":"20191406255","desc":"9131537251811","send_proxy_id":"47"} - Mobile=13016703761----{"result":"01","msgid":"20191406255","desc":"9131537251811","send_proxy_id":"47"}
+2019-09-13 16:10:53,848 [48] INFO  Mobile=17770700606----{"result":"01","msgid":"20191406498","desc":"9131611041811","send_proxy_id":"47"} - Mobile=17770700606----{"result":"01","msgid":"20191406498","desc":"9131611041811","send_proxy_id":"47"}
+2019-09-13 16:10:53,960 [48] INFO  Mobile=17770700606----{"result":"01","msgid":"20191406499","desc":"","send_proxy_id":48} - Mobile=17770700606----{"result":"01","msgid":"20191406499","desc":"","send_proxy_id":48}
+2019-09-13 16:26:32,071 [63] INFO  Mobile=13861458388----{"result":"01","msgid":"20191406631","desc":"9131626431831","send_proxy_id":"47"} - Mobile=13861458388----{"result":"01","msgid":"20191406631","desc":"9131626431831","send_proxy_id":"47"}
+2019-09-13 16:26:32,168 [63] INFO  Mobile=13861458388----{"result":"01","msgid":"20191406632","desc":"","send_proxy_id":48} - Mobile=13861458388----{"result":"01","msgid":"20191406632","desc":"","send_proxy_id":48}
+
+----------------------footer--------------------------
+
+----------------------header--------------------------
+2019-09-13 17:42:09,485 [8] INFO  Mobile=18671079177----{"result":"01","msgid":"20191407181","desc":"9131742201841","send_proxy_id":"47"} - Mobile=18671079177----{"result":"01","msgid":"20191407181","desc":"9131742201841","send_proxy_id":"47"}
+2019-09-13 17:42:09,592 [8] INFO  Mobile=18671079177----{"result":"01","msgid":"20191407182","desc":"","send_proxy_id":48} - Mobile=18671079177----{"result":"01","msgid":"20191407182","desc":"","send_proxy_id":48}
+2019-09-13 17:48:07,774 [11] INFO  Mobile=18851160929----{"result":"01","msgid":"20191407222","desc":"9131748181831","send_proxy_id":"47"} - Mobile=18851160929----{"result":"01","msgid":"20191407222","desc":"9131748181831","send_proxy_id":"47"}
+2019-09-13 17:48:07,881 [11] INFO  Mobile=18851160929----{"result":"01","msgid":"20191407223","desc":"","send_proxy_id":48} - Mobile=18851160929----{"result":"01","msgid":"20191407223","desc":"","send_proxy_id":48}
+2019-09-13 18:02:49,785 [30] INFO  Mobile=15569202229----{"result":"01","msgid":"20191407321","desc":"9131803001837","send_proxy_id":"47"} - Mobile=15569202229----{"result":"01","msgid":"20191407321","desc":"9131803001837","send_proxy_id":"47"}
+2019-09-13 18:05:06,746 [33] INFO  Mobile=13381081625----{"result":"01","msgid":"20191407338","desc":"9131805171832","send_proxy_id":"47"} - Mobile=13381081625----{"result":"01","msgid":"20191407338","desc":"9131805171832","send_proxy_id":"47"}
+2019-09-13 18:16:53,856 [53] INFO  Mobile=15885777961----{"result":"01","msgid":"20191407393","desc":"91318170418430","send_proxy_id":"47"} - Mobile=15885777961----{"result":"01","msgid":"20191407393","desc":"91318170418430","send_proxy_id":"47"}
+2019-09-13 18:16:53,973 [53] INFO  Mobile=15885777961----{"result":"01","msgid":"20191407394","desc":"","send_proxy_id":48} - Mobile=15885777961----{"result":"01","msgid":"20191407394","desc":"","send_proxy_id":48}
+2019-09-13 18:16:58,124 [48] INFO  Mobile=15885777961----{"result":"01","msgid":"20191407396","desc":"9131817091841","send_proxy_id":"47"} - Mobile=15885777961----{"result":"01","msgid":"20191407396","desc":"9131817091841","send_proxy_id":"47"}
+2019-09-13 18:16:58,222 [48] INFO  Mobile=15885777961----{"result":"01","msgid":"20191407397","desc":"9131817091811","send_proxy_id":"47"} - Mobile=15885777961----{"result":"01","msgid":"20191407397","desc":"9131817091811","send_proxy_id":"47"}
+
+----------------------footer--------------------------
+
+----------------------header--------------------------
+
+----------------------footer--------------------------
+
+----------------------header--------------------------
+
+----------------------footer--------------------------
+
+----------------------header--------------------------
+
+----------------------footer--------------------------
+
+----------------------header--------------------------
+
+----------------------footer--------------------------

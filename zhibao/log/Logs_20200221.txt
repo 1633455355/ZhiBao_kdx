@@ -1,0 +1,19 @@
+
+----------------------header--------------------------
+2020-02-21 11:52:49,664 [5] INFO  对象：GetTypeFromUs          异常：输入字符串的格式不正确。 - 对象：GetTypeFromUs          异常：输入字符串的格式不正确。
+2020-02-21 11:52:49,728 [5] INFO  对象：GetTypeFromUs          异常：   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   在 System.Convert.ToInt32(String value)
+   在 Car.GetTypeFromUs(HttpContext context) 位置 d:\zb.china-zoce.com\interface\Car.ashx:行号 63 - 对象：GetTypeFromUs          异常：   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   在 System.Convert.ToInt32(String value)
+   在 Car.GetTypeFromUs(HttpContext context) 位置 d:\zb.china-zoce.com\interface\Car.ashx:行号 63
+
+----------------------header--------------------------
+2020-02-21 14:30:10,244 [6] INFO  Mobile=13507462079----{"result":"01","msgid":"2020217115","desc":"2211431111821","send_proxy_id":"47"} - Mobile=13507462079----{"result":"01","msgid":"2020217115","desc":"2211431111821","send_proxy_id":"47"}
+2020-02-21 14:30:10,358 [6] INFO  Mobile=13507462079----{"result":"01","msgid":"2020217116","desc":"","send_proxy_id":48} - Mobile=13507462079----{"result":"01","msgid":"2020217116","desc":"","send_proxy_id":48}
+2020-02-21 14:43:13,829 [17] INFO  Mobile=15049508880----{"result":"01","msgid":"2020217182","desc":"2211444141841","send_proxy_id":"47"} - Mobile=15049508880----{"result":"01","msgid":"2020217182","desc":"2211444141841","send_proxy_id":"47"}
+
+----------------------header--------------------------
+2020-02-21 16:26:43,866 [17] INFO  Mobile=13407469133----{"result":"01","msgid":"2020217705","desc":"2211627441841","send_proxy_id":"47"} - Mobile=13407469133----{"result":"01","msgid":"2020217705","desc":"2211627441841","send_proxy_id":"47"}
+2020-02-21 16:26:44,016 [17] INFO  Mobile=13407469133----{"result":"01","msgid":"2020217706","desc":"","send_proxy_id":48} - Mobile=13407469133----{"result":"01","msgid":"2020217706","desc":"","send_proxy_id":48}

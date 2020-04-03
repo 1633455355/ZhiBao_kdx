@@ -1,0 +1,199 @@
+html, body, address, blockquote, div, dl, form, h1, h2, h3, h4, h5, h6, ol, p, pre, table, ul,
+dd, dt, li, tbody, td, tfoot, th, thead, tr, button, del, ins, map, object,
+a, abbr, acronym, b, bdo, big, br, cite, code, dfn, em, i, img, kbd, q, samp, small, span,
+strong, sub, sup, tt, var, legend, fieldset {
+	margin: 0;
+	padding: 0;
+}
+
+img, fieldset {
+	border: 0;
+}
+
+/* set image max width to 100% */
+img {
+	max-width: 100%;
+	height: auto;
+	width: auto\9; /* ie8 */
+}
+
+/* set html5 elements to block */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { 
+    display: block;
+}
+html{ -webkit-text-size-adjust:none;}
+
+/************************************************************************************
+GENERAL STYLING
+*************************************************************************************/
+
+a {
+	color: #027B7E;
+	text-decoration: none;
+	outline: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+p {
+	padding: 0;
+}
+
+/* list */
+ul, ol {
+
+}
+li {
+	margin: 0 0 .5em 0;
+	padding: 0;
+}
+
+/* headings */
+
+
+/* reset webkit search input styles */
+input[type=search] {
+	-webkit-appearance: none;
+	outline: none;
+}
+input[type="search"]::-webkit-search-decoration, 
+input[type="search"]::-webkit-search-cancel-button {
+	display: none;
+}
+
+html { color: #000; background:#fff; font-family: Helvetica, STHeiti, Droidsansfallback;}
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, th, td { margin: 0; padding: 0; box-sizing:border-box;}
+table { border-collapse: collapse; border-spacing: 0 }
+fieldset, img { border: 0 }
+address, caption, cite, code, dfn, em, strong, th, var { font-style: normal; font-weight: normal }
+ol, ul { list-style: none }
+caption, th { text-align: left }
+h1, h2, h3, h4, h5, h6 { font-size: 100%; font-weight: normal }
+q:before, q:after { content: '' }
+abbr, acronym { border: 0; font-variant: normal }
+sup { vertical-align: text-top }
+sub { vertical-align: text-bottom }
+input, textarea, select { font-family: inherit; font-size: inherit; font-weight: inherit; *font-size:100%;
+}
+legend { color: #000; }
+.cf:after { visibility: hidden; display: block; font-size: 0; content: " "; clear: both; height: 0; }
+.cf { zoom: 1;}
+
+/*通用*/
+html{width:100%;height:100%;}
+body{font:12px/1.5 "Microsoft YaHei","宋体",sans-serif;color:#000;width:100%;height:100%; min-width:320px}
+.re_page{ max-width:640px; position:relative; margin:0 auto; overflow:hidden}
+
+/*第一页*/
+.page1{ padding-top:25px;}
+.page1 h1{ font-size:16px; color:#000; height:90px; line-height:90px; text-align:center;}
+.page1 .sm{  border-top:solid 1px #C1C1C1; width:640px; height:385px; padding-top:85px; margin:40px auto 0 auto; background:#F4F4F4;}
+.page1 .sm i{ display:block; width:46px; height:46px; background:url(ico1.jpg); margin:0 auto 20px auto;}
+.page1 .sm h3{ font-size:30px; text-align:center; color:#262626; margin-bottom:20px;}
+.page1 .sm p{ text-align:center; font-size:25px; line-height:50px; color:#8B8B8B;}
+.page1 ul{ margin:0 auto; width:90%; margin:0 5%;}
+.page1 ul .txt1{ margin-bottom:20px;}
+.page1 ul .txt2{ margin-bottom:10px;}
+.page1 ul .txt3{ margin-bottom:20px; font-size:`12px; line-height:16px;}
+.page1 ul .txt1 input,
+.page1 ul .txt2 input{display:block; width:100%;padding: 0 0 0 16%; font-size:12px; line-height:38px; overflow:hidden; height:38px; border:none;vertical-align: middle;}
+.page1 ul .txt1 input{background:url(txt1.png) no-repeat; background-size:cover}
+.page1 ul .txt2 input{background:url(txt2.png) no-repeat; background-size:cover}
+.page1 ul .btn input{ background:url(txt3.png) no-repeat;background-size:cover;display:block; width:100%; color:#fff; font-size:16px; line-height:35px; overflow:hidden; height:34px; border:none;}
+
+/*第三页*/
+.page3{ padding-top:22px;}
+.page3 h1{  width:92%; background:url(txt4.jpg); background-size:100%; height:30px; text-indent:-9999px; overflow:hidden; margin:0 auto 20px;}
+.page3 .sm{  border-top:solid 1px #C1C1C1; max-width:640px; height:193px; padding-top:42px; margin:45px auto 0 auto; background:#F4F4F4;}
+.page3 .sm i{ display:block; width:23px; height:23px; background:url(ico1.jpg); background-size:100%; margin:0 auto 10px auto;}
+.page3 .sm h3{ font-size:14px; text-align:center; color:#262626; margin-bottom:10px;}
+.page3 .sm p{ text-align:center; font-size:12px; line-height:25px; color:#8B8B8B;}
+.page3 p.txt{ text-align:center; color:#000; font-size:12px; line-height:20px; margin-bottom:35px; }
+.page3 ul{  margin:0 auto;}
+.page3 ul .txt1{ margin-bottom:20px;}
+.page3 ul .txt2{ margin-bottom:20px;}
+.page3 ul li{ line-height:21px; height:21px;color:#000; font-size:12px; }
+.page3 ul label{ width:20%; text-align:center; font-size:12px; margin-left:2%;}
+.page3 .txt1 input,
+.page3 .txt2 input{ height:21px; line-height:21px; padding:0 10px; border:none; width:76%; margin-right:2%; background:#D4D4D4;position: relative;
+top: 0px;}
+.page3 ul .btn input{ background:url(txt3.png);display:block; margin:0 auto; width:98%; color:#fff; font-size:16px; line-height:35px; overflow:hidden; height:35px; border:none;}
+
+/*第四页*/
+.page4{ padding-top:22px;}
+.page4 .show1 h1{ width:92%; background:url(txt4.jpg); background-size:100%; height:30px; text-indent:-9999px; overflow:hidden; margin:0 auto 20px;}
+.page4 .show1 p.txt{ text-align:center; color:#000; font-size:12px; line-height:20px; margin-bottom:15px; }
+.page4 .show1 ul{ margin:0 auto;}
+.page4 .show1 ul .txt1{ margin-bottom:20px;}
+.page4 .show1 ul .txt2{ margin-bottom:40px;}
+.page4 .show1 ul li{ line-height:21px; height:21px;color:#000; font-size:12px; }
+.page4 .show1 ul label{ width:20%; text-align:center; font-size:12px; margin-left:2%;}
+.page4 .show1 .txt1 input,
+.page4 .show1 .txt2 input{ height:21px; line-height:21px; padding:0 10px; border:none; width:76%; margin-right:2%; background:#D4D4D4;position: relative;
+top: 0px;}
+.page4 .show1 ul .btn input{ background:url(txt3.png);display:block; width:100%; color:#fff; font-size:32px; line-height:69px; overflow:hidden; height:69px; border:none;}
+.page4 .show2{ background:url(txt5.jpg) top center no-repeat; background-size:100%; padding-top:20px; width:94%; margin:0 auto 20px auto;}
+.page4 .show2 .name{ height: 50px; font-size:14px; background:url(txt6.jpg) no-repeat; padding-left:45px; line-height:45px;}
+.page4 .show2 .now dd{ display:block;}
+.page4 .show2 dl{ margin-bottom:15px;}
+.page4 .show2 dt{ height:40px; border-radius:10px;  background:#A40E0F; font-size:12px; padding-left:8px; color:#fff; line-height:40px; position:relative;}
+.page4 .show2 dt a{ display:block; width:27px; height:27px; position:absolute; top:7px; right:14px;background:url(txt7.jpg);}
+.page4 .show2 dl.now dt a{ background:url(txt8.jpg);}
+.page4 .show2 dd{ padding:9px 0 3px 0; display:none;}
+.page4 .show2 dd ul{ border:solid 1px #EFEFEF; border-radius:10px; padding:12px 0 0 0;}
+.page4 .show2 dd li{ height:21px; line-height:21px; margin-bottom:12px; font-size:12px;}
+.page4 .show2 dd li span{ display:inline-block; vertical-align:middle; width:30%; text-align:right; height:21px;}
+.page4 .show2 dd li em{ display:inline-block; vertical-align:middle; width:60%; background:#D4D4D4; height:21px; padding:0 3%;}
+.page4 .show3 .btn{  background:url(txt3.png);display:block; background-size:100%; width:92%; margin:0 auto 40px auto; color:#fff; font-size:16px; line-height:35px; overflow:hidden; height:35px; border:none;}
+
+/*第二页*/
+.page2{ padding-top:35px;}
+.page2 h1{ width:92%; background:url(txt9.jpg); background-size:100%; height:33px; text-indent:-9999px; overflow:hidden; margin:0 auto 20px;}
+.page2 li{ width:92%; margin:0  auto 17px; font-size:12px;}
+.page2 li label{ width:32%; text-align:right; display:inline-block; vertical-align:middle; line-height:20px; font-size:12px}
+.page2 li label span{ color:#9E0E0D; display:inline-block; vertical-align:middle;font-size:12px}
+.page2 li .txt1,
+.page2 li .txt2,
+.page2 li .txt3{ border:solid 1px #E1DECF;height:20px; line-height:20px; padding:0 10px; width:68%;}
+.page2 li .txt3{width:53%;}
+.page2 li .img{ display:inline-block; margin-left:5px; vertical-align:middle; background:url(txt11.jpg); background-size:100%; width:14px; height:14px;}
+.page2 li .img2{ display:inline-block; margin-left:5px; vertical-align:middle; background:url(txt12.jpg);background-size:100%;  width:14px; height:14px;}
+
+.page2 li .btn{  background:url(txt3.png); background-size:100%;width:96%; margin:0 auto; color:#fff; font-size:16px; line-height:35px; overflow:hidden; height:35px; border:none;}
+.page2 li .fh{ text-align:center; text-decoration:none;  background:url(txt3.png);background-size:100%;display:block; width:96%; margin-bottom:40px; color:#fff; font-size:16px; line-height:35px; overflow:hidden; height:35px; border:none;}
+
+.nav{ position:fixed; width:100%;height:25px;left:0;bottom:0; z-index:100}
+.nav span{ width:33%; float:left; text-align:center; line-height:25px; background:#fff; font-size:14px;}
+.nav span.crr{ background:#ccc}
+.nav span div{height:25px;}
+.nav span a{color:#000;text-decoration:none}
+.nav span.w34{ width:34%}
+
+
+/*搜索页*/
+.pageSearch{}
+.pageSearch{ padding-top:35px;}
+.pageSearch h1{  width:92%; background:url(txt13.jpg); background-size:100%; height:34px; text-indent:-9999px; overflow:hidden; margin:0 auto 20px;}
+.pageSearch .searchBox{ width:98%; margin:0 auto 10px auto; text-align:center; line-height:30px; font-size:12px;}
+.pageSearch .searchBox label{ display:inline-block; vertical-align:middle; text-align:center;}
+.pageSearch .searchBox .txt1{ display:inline-block; vertical-align:middle; width:35%;}
+.pageSearch .searchBox .btn{display:inline-block; vertical-align:middle; margin-left:10px;}
+.pageSearch .searchBox p{ text-align:center; line-height:16px; padding-top:5px; font-size:12px;}
+.pageSearch .resultBox{ width:100%; margin:0 auto; overflow:hidden;}
+.pageSearch .resultBox ul{ margin-bottom:5px; background:#eee; padding:5px;}
+.pageSearch .resultBox li{ float:left; overflow:hidden; height:16px; line-height:16px; font-size:12px;}
+.pageSearch .resultBox .txt1{ width:50%;}
+.pageSearch .resultBox .txt2{ width:100%;}
+.pageSearch .numBox{ text-align:center;}
+.pageSearch .numBox{ height:32px;}
+.pageSearch .numBox a{ line-height:32px; font-size:24px; display:inline-block; padding:0 10px; color:#999; text-decoration:none; border:solid 1px #999; margin:0 10px;}
+.pageSearch .numBox a.now{ color:#000; border:solid 1px #000;}
+
+
+
+
+
+
+
+
+

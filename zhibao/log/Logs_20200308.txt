@@ -1,0 +1,97 @@
+
+----------------------header--------------------------
+2020-03-08 09:09:50,703 [47] INFO  Mobile=13547623385----{"result":"01","msgid":"2020373670","desc":"3080909501821","send_proxy_id":"47"} - Mobile=13547623385----{"result":"01","msgid":"2020373670","desc":"3080909501821","send_proxy_id":"47"}
+2020-03-08 09:09:50,812 [47] INFO  Mobile=13547623385----{"result":"01","msgid":"2020373671","desc":"","send_proxy_id":48} - Mobile=13547623385----{"result":"01","msgid":"2020373671","desc":"","send_proxy_id":48}
+2020-03-08 09:26:13,362 [57] INFO  对象：SearchUser          异常：输入字符串的格式不正确。 - 对象：SearchUser          异常：输入字符串的格式不正确。
+2020-03-08 09:26:13,390 [57] INFO  对象：SearchUser          异常：   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   在 System.Convert.ToInt32(String value)
+   在 Product.SearchUser(HttpContext context) 位置 d:\zb.china-zoce.com\interface\Product.ashx:行号 383 - 对象：SearchUser          异常：   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   在 System.Convert.ToInt32(String value)
+   在 Product.SearchUser(HttpContext context) 位置 d:\zb.china-zoce.com\interface\Product.ashx:行号 383
+2020-03-08 09:26:14,638 [57] INFO  对象：SearchUser          异常：输入字符串的格式不正确。 - 对象：SearchUser          异常：输入字符串的格式不正确。
+2020-03-08 09:26:14,639 [57] INFO  对象：SearchUser          异常：   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   在 System.Convert.ToInt32(String value)
+   在 Product.SearchUser(HttpContext context) 位置 d:\zb.china-zoce.com\interface\Product.ashx:行号 383 - 对象：SearchUser          异常：   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   在 System.Convert.ToInt32(String value)
+   在 Product.SearchUser(HttpContext context) 位置 d:\zb.china-zoce.com\interface\Product.ashx:行号 383
+2020-03-08 09:26:15,014 [56] INFO  对象：SearchUser          异常：输入字符串的格式不正确。 - 对象：SearchUser          异常：输入字符串的格式不正确。
+2020-03-08 09:26:15,014 [56] INFO  对象：SearchUser          异常：   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   在 System.Convert.ToInt32(String value)
+   在 Product.SearchUser(HttpContext context) 位置 d:\zb.china-zoce.com\interface\Product.ashx:行号 383 - 对象：SearchUser          异常：   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   在 System.Convert.ToInt32(String value)
+   在 Product.SearchUser(HttpContext context) 位置 d:\zb.china-zoce.com\interface\Product.ashx:行号 383
+2020-03-08 09:26:15,206 [57] INFO  对象：SearchUser          异常：输入字符串的格式不正确。 - 对象：SearchUser          异常：输入字符串的格式不正确。
+2020-03-08 09:26:15,206 [57] INFO  对象：SearchUser          异常：   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   在 System.Convert.ToInt32(String value)
+   在 Product.SearchUser(HttpContext context) 位置 d:\zb.china-zoce.com\interface\Product.ashx:行号 383 - 对象：SearchUser          异常：   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   在 System.Convert.ToInt32(String value)
+   在 Product.SearchUser(HttpContext context) 位置 d:\zb.china-zoce.com\interface\Product.ashx:行号 383
+2020-03-08 09:26:15,398 [56] INFO  对象：SearchUser          异常：输入字符串的格式不正确。 - 对象：SearchUser          异常：输入字符串的格式不正确。
+2020-03-08 09:26:15,398 [56] INFO  对象：SearchUser          异常：   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   在 System.Convert.ToInt32(String value)
+   在 Product.SearchUser(HttpContext context) 位置 d:\zb.china-zoce.com\interface\Product.ashx:行号 383 - 对象：SearchUser          异常：   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   在 System.Convert.ToInt32(String value)
+   在 Product.SearchUser(HttpContext context) 位置 d:\zb.china-zoce.com\interface\Product.ashx:行号 383
+2020-03-08 09:26:15,590 [57] INFO  对象：SearchUser          异常：输入字符串的格式不正确。 - 对象：SearchUser          异常：输入字符串的格式不正确。
+2020-03-08 09:26:15,590 [57] INFO  对象：SearchUser          异常：   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   在 System.Convert.ToInt32(String value)
+   在 Product.SearchUser(HttpContext context) 位置 d:\zb.china-zoce.com\interface\Product.ashx:行号 383 - 对象：SearchUser          异常：   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   在 System.Convert.ToInt32(String value)
+   在 Product.SearchUser(HttpContext context) 位置 d:\zb.china-zoce.com\interface\Product.ashx:行号 383
+2020-03-08 09:26:15,790 [56] INFO  对象：SearchUser          异常：输入字符串的格式不正确。 - 对象：SearchUser          异常：输入字符串的格式不正确。
+2020-03-08 09:26:15,790 [56] INFO  对象：SearchUser          异常：   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   在 System.Convert.ToInt32(String value)
+   在 Product.SearchUser(HttpContext context) 位置 d:\zb.china-zoce.com\interface\Product.ashx:行号 383 - 对象：SearchUser          异常：   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   在 System.Convert.ToInt32(String value)
+   在 Product.SearchUser(HttpContext context) 位置 d:\zb.china-zoce.com\interface\Product.ashx:行号 383
+2020-03-08 09:26:16,038 [56] INFO  对象：SearchUser          异常：输入字符串的格式不正确。 - 对象：SearchUser          异常：输入字符串的格式不正确。
+2020-03-08 09:26:16,038 [56] INFO  对象：SearchUser          异常：   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   在 System.Convert.ToInt32(String value)
+   在 Product.SearchUser(HttpContext context) 位置 d:\zb.china-zoce.com\interface\Product.ashx:行号 383 - 对象：SearchUser          异常：   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   在 System.Convert.ToInt32(String value)
+   在 Product.SearchUser(HttpContext context) 位置 d:\zb.china-zoce.com\interface\Product.ashx:行号 383
+2020-03-08 09:36:30,863 [65] INFO  Mobile=13508700668----{"result":"01","msgid":"2020373835","desc":"3080936301823","send_proxy_id":"47"} - Mobile=13508700668----{"result":"01","msgid":"2020373835","desc":"3080936301823","send_proxy_id":"47"}
+2020-03-08 09:36:30,958 [65] INFO  Mobile=13508700668----{"result":"01","msgid":"2020373836","desc":"","send_proxy_id":48} - Mobile=13508700668----{"result":"01","msgid":"2020373836","desc":"","send_proxy_id":48}
+2020-03-08 09:37:31,234 [65] INFO  Mobile=15925527316----{"result":"01","msgid":"2020373846","desc":"3080937311821","send_proxy_id":"47"} - Mobile=15925527316----{"result":"01","msgid":"2020373846","desc":"3080937311821","send_proxy_id":"47"}
+2020-03-08 09:37:31,333 [65] INFO  Mobile=15925527316----{"result":"01","msgid":"2020373847","desc":"","send_proxy_id":48} - Mobile=15925527316----{"result":"01","msgid":"2020373847","desc":"","send_proxy_id":48}
+2020-03-08 09:38:27,611 [68] INFO  Mobile=15113314444----{"result":"01","msgid":"2020373855","desc":"3080938271821","send_proxy_id":"47"} - Mobile=15113314444----{"result":"01","msgid":"2020373855","desc":"3080938271821","send_proxy_id":"47"}
+2020-03-08 09:38:27,706 [68] INFO  Mobile=15113314444----{"result":"01","msgid":"2020373856","desc":"","send_proxy_id":48} - Mobile=15113314444----{"result":"01","msgid":"2020373856","desc":"","send_proxy_id":48}
+2020-03-08 10:33:23,154 [63] INFO  Mobile=15213338944----{"result":"01","msgid":"2020374302","desc":"3081033231841","send_proxy_id":"47"} - Mobile=15213338944----{"result":"01","msgid":"2020374302","desc":"3081033231841","send_proxy_id":"47"}
+2020-03-08 10:33:23,268 [63] INFO  Mobile=15213338944----{"result":"01","msgid":"2020374303","desc":"","send_proxy_id":48} - Mobile=15213338944----{"result":"01","msgid":"2020374303","desc":"","send_proxy_id":48}
+2020-03-08 11:07:06,371 [25] INFO  Mobile=13887889471----{"result":"01","msgid":"2020374556","desc":"3081107061821","send_proxy_id":"47"} - Mobile=13887889471----{"result":"01","msgid":"2020374556","desc":"3081107061821","send_proxy_id":"47"}
+2020-03-08 11:07:06,465 [25] INFO  Mobile=13887889471----{"result":"01","msgid":"2020374557","desc":"","send_proxy_id":48} - Mobile=13887889471----{"result":"01","msgid":"2020374557","desc":"","send_proxy_id":48}
+
+----------------------header--------------------------
+2020-03-08 13:41:37,400 [10] INFO  Mobile=15886595760----{"result":"01","msgid":"2020375324","desc":"3081341371831","send_proxy_id":"47"} - Mobile=15886595760----{"result":"01","msgid":"2020375324","desc":"3081341371831","send_proxy_id":"47"}
+2020-03-08 14:05:44,927 [44] INFO  Mobile=13892409357----{"result":"01","msgid":"2020375465","desc":"3081405441812","send_proxy_id":"47"} - Mobile=13892409357----{"result":"01","msgid":"2020375465","desc":"3081405441812","send_proxy_id":"47"}
+2020-03-08 14:05:45,037 [44] INFO  Mobile=13892409357----{"result":"01","msgid":"2020375466","desc":"","send_proxy_id":48} - Mobile=13892409357----{"result":"01","msgid":"2020375466","desc":"","send_proxy_id":48}
+2020-03-08 14:39:14,135 [74] INFO  Mobile=13974130837----{"result":"01","msgid":"2020375635","desc":"3081439141811","send_proxy_id":"47"} - Mobile=13974130837----{"result":"01","msgid":"2020375635","desc":"3081439141811","send_proxy_id":"47"}
+2020-03-08 14:39:14,227 [74] INFO  Mobile=13974130837----{"result":"01","msgid":"2020375636","desc":"","send_proxy_id":48} - Mobile=13974130837----{"result":"01","msgid":"2020375636","desc":"","send_proxy_id":48}
+2020-03-08 15:12:34,800 [69] INFO  Mobile=13547474434----{"result":"01","msgid":"2020375800","desc":"3081512341821","send_proxy_id":"47"} - Mobile=13547474434----{"result":"01","msgid":"2020375800","desc":"3081512341821","send_proxy_id":"47"}
+2020-03-08 15:15:48,731 [62] INFO  Mobile=15829819890----{"result":"01","msgid":"2020375815","desc":"3081515481841","send_proxy_id":"47"} - Mobile=15829819890----{"result":"01","msgid":"2020375815","desc":"3081515481841","send_proxy_id":"47"}
+2020-03-08 15:50:44,920 [39] INFO  Mobile=13962310448----{"result":"01","msgid":"2020375981","desc":"3081550441821","send_proxy_id":"47"} - Mobile=13962310448----{"result":"01","msgid":"2020375981","desc":"3081550441821","send_proxy_id":"47"}
+2020-03-08 15:50:45,033 [39] INFO  Mobile=13962310448----{"result":"01","msgid":"2020375982","desc":"","send_proxy_id":48} - Mobile=13962310448----{"result":"01","msgid":"2020375982","desc":"","send_proxy_id":48}
+2020-03-08 16:21:00,124 [8] INFO  Mobile=13593104111----{"result":"01","msgid":"2020376171","desc":"3081621001841","send_proxy_id":"47"} - Mobile=13593104111----{"result":"01","msgid":"2020376171","desc":"3081621001841","send_proxy_id":"47"}
+2020-03-08 16:21:55,761 [6] INFO  Mobile=13549714928----{"result":"01","msgid":"2020376175","desc":"3081621551831","send_proxy_id":"47"} - Mobile=13549714928----{"result":"01","msgid":"2020376175","desc":"3081621551831","send_proxy_id":"47"}
+2020-03-08 16:21:55,857 [6] INFO  Mobile=13549714928----{"result":"01","msgid":"2020376176","desc":"","send_proxy_id":48} - Mobile=13549714928----{"result":"01","msgid":"2020376176","desc":"","send_proxy_id":48}
+2020-03-08 16:24:01,530 [6] INFO  Mobile=17508419881----{"result":"01","msgid":"2020376195","desc":"3081624011811","send_proxy_id":"47"} - Mobile=17508419881----{"result":"01","msgid":"2020376195","desc":"3081624011811","send_proxy_id":"47"}
+2020-03-08 16:24:01,629 [6] INFO  Mobile=17508419881----{"result":"01","msgid":"2020376196","desc":"","send_proxy_id":48} - Mobile=17508419881----{"result":"01","msgid":"2020376196","desc":"","send_proxy_id":48}
+2020-03-08 16:25:50,871 [5] INFO  Mobile=18873769193----{"result":"01","msgid":"2020376201","desc":"3081625501841","send_proxy_id":"47"} - Mobile=18873769193----{"result":"01","msgid":"2020376201","desc":"3081625501841","send_proxy_id":"47"}
+2020-03-08 16:25:50,962 [5] INFO  Mobile=18873769193----{"result":"01","msgid":"2020376202","desc":"","send_proxy_id":48} - Mobile=18873769193----{"result":"01","msgid":"2020376202","desc":"","send_proxy_id":48}
+2020-03-08 17:00:55,960 [48] INFO  Mobile=13684457879----{"result":"01","msgid":"2020376412","desc":"3081700551821","send_proxy_id":"47"} - Mobile=13684457879----{"result":"01","msgid":"2020376412","desc":"3081700551821","send_proxy_id":"47"}

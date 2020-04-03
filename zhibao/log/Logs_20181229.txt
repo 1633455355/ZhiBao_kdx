@@ -1,0 +1,93 @@
+
+----------------------header--------------------------
+2018-12-29 17:28:28,075 [7] INFO  Mobile=13930403395----{"result":"01","msgid":"20182007495","desc":"12291728321131","send_proxy_id":"47"} - Mobile=13930403395----{"result":"01","msgid":"20182007495","desc":"12291728321131","send_proxy_id":"47"}
+2018-12-29 17:53:21,393 [48] INFO  Mobile=13798085823----{"result":"01","msgid":"20182007591","desc":"12291753251111","send_proxy_id":"47"} - Mobile=13798085823----{"result":"01","msgid":"20182007591","desc":"12291753251111","send_proxy_id":"47"}
+2018-12-29 17:54:26,744 [55] INFO  Mobile=15099997901----{"result":"01","msgid":"20182007594","desc":"12291754301122","send_proxy_id":"47"} - Mobile=15099997901----{"result":"01","msgid":"20182007594","desc":"12291754301122","send_proxy_id":"47"}
+2018-12-29 17:59:25,656 [47] INFO  对象：Insert          异常：操作必须使用一个可更新的查询。 - 对象：Insert          异常：操作必须使用一个可更新的查询。
+2018-12-29 17:59:25,658 [47] INFO  对象：Insert          异常：   在 System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   在 System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   在 System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   在 System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   在 System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   在 System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   在 Factory.Insert(String Id, String Name, HttpContext context) 位置 d:\zb.china-zoce.com\interface\Factory.ashx:行号 236 - 对象：Insert          异常：   在 System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   在 System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   在 System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   在 System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   在 System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   在 System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   在 Factory.Insert(String Id, String Name, HttpContext context) 位置 d:\zb.china-zoce.com\interface\Factory.ashx:行号 236
+2018-12-29 18:02:40,256 [40] INFO  对象：Update          异常：操作必须使用一个可更新的查询。 - 对象：Update          异常：操作必须使用一个可更新的查询。
+2018-12-29 18:02:40,256 [40] INFO  对象：Update          异常：   在 System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   在 System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   在 System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   在 System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   在 System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   在 System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   在 Factory.Update(String Id, String Name, HttpContext context) 位置 d:\zb.china-zoce.com\interface\Factory.ashx:行号 258 - 对象：Update          异常：   在 System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   在 System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   在 System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   在 System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   在 System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   在 System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   在 Factory.Update(String Id, String Name, HttpContext context) 位置 d:\zb.china-zoce.com\interface\Factory.ashx:行号 258
+2018-12-29 18:04:14,254 [40] INFO  对象：ProductBLL.RemoveProductSecondLevelInfo()          异常：过程或函数 'sp_ProductInfo' 需要参数 '@Length'，但未提供该参数。 - 对象：ProductBLL.RemoveProductSecondLevelInfo()          异常：过程或函数 'sp_ProductInfo' 需要参数 '@Length'，但未提供该参数。
+2018-12-29 18:04:14,257 [40] INFO  对象：ProductBLL.RemoveProductSecondLevelInfo()          异常：   在 SqlActuator.ExecuteNonQuery(String sql, List`1 listSqlParameter, String ConnectionString) 位置 d:\zb.china-zoce.com\App_Code\Common\SqlActuator.cs:行号 60
+   在 ProductDAL.RemoveProductSecondLevelInfo(Int32 ProductSecondLevelId) 位置 d:\zb.china-zoce.com\App_Code\DAL\ProductDAL.cs:行号 695
+   在 ProductBLL.RemoveProductSecondLevelInfo(Int32 ProductSecondLevelId) 位置 d:\zb.china-zoce.com\App_Code\BLL\ProductBLL.cs:行号 279 - 对象：ProductBLL.RemoveProductSecondLevelInfo()          异常：   在 SqlActuator.ExecuteNonQuery(String sql, List`1 listSqlParameter, String ConnectionString) 位置 d:\zb.china-zoce.com\App_Code\Common\SqlActuator.cs:行号 60
+   在 ProductDAL.RemoveProductSecondLevelInfo(Int32 ProductSecondLevelId) 位置 d:\zb.china-zoce.com\App_Code\DAL\ProductDAL.cs:行号 695
+   在 ProductBLL.RemoveProductSecondLevelInfo(Int32 ProductSecondLevelId) 位置 d:\zb.china-zoce.com\App_Code\BLL\ProductBLL.cs:行号 279
+2018-12-29 18:04:17,531 [56] INFO  对象：ProductBLL.RemoveProductSecondLevelInfo()          异常：过程或函数 'sp_ProductInfo' 需要参数 '@Length'，但未提供该参数。 - 对象：ProductBLL.RemoveProductSecondLevelInfo()          异常：过程或函数 'sp_ProductInfo' 需要参数 '@Length'，但未提供该参数。
+2018-12-29 18:04:17,532 [56] INFO  对象：ProductBLL.RemoveProductSecondLevelInfo()          异常：   在 SqlActuator.ExecuteNonQuery(String sql, List`1 listSqlParameter, String ConnectionString) 位置 d:\zb.china-zoce.com\App_Code\Common\SqlActuator.cs:行号 60
+   在 ProductDAL.RemoveProductSecondLevelInfo(Int32 ProductSecondLevelId) 位置 d:\zb.china-zoce.com\App_Code\DAL\ProductDAL.cs:行号 695
+   在 ProductBLL.RemoveProductSecondLevelInfo(Int32 ProductSecondLevelId) 位置 d:\zb.china-zoce.com\App_Code\BLL\ProductBLL.cs:行号 279 - 对象：ProductBLL.RemoveProductSecondLevelInfo()          异常：   在 SqlActuator.ExecuteNonQuery(String sql, List`1 listSqlParameter, String ConnectionString) 位置 d:\zb.china-zoce.com\App_Code\Common\SqlActuator.cs:行号 60
+   在 ProductDAL.RemoveProductSecondLevelInfo(Int32 ProductSecondLevelId) 位置 d:\zb.china-zoce.com\App_Code\DAL\ProductDAL.cs:行号 695
+   在 ProductBLL.RemoveProductSecondLevelInfo(Int32 ProductSecondLevelId) 位置 d:\zb.china-zoce.com\App_Code\BLL\ProductBLL.cs:行号 279
+2018-12-29 18:06:16,434 [56] INFO  对象：Insert          异常：操作必须使用一个可更新的查询。 - 对象：Insert          异常：操作必须使用一个可更新的查询。
+2018-12-29 18:06:16,434 [56] INFO  对象：Insert          异常：   在 System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   在 System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   在 System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   在 System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   在 System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   在 System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   在 Factory.Insert(String Id, String Name, HttpContext context) 位置 d:\zb.china-zoce.com\interface\Factory.ashx:行号 236 - 对象：Insert          异常：   在 System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   在 System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   在 System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   在 System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   在 System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   在 System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   在 Factory.Insert(String Id, String Name, HttpContext context) 位置 d:\zb.china-zoce.com\interface\Factory.ashx:行号 236
+2018-12-29 18:06:29,396 [56] INFO  对象：FInsert          异常：操作必须使用一个可更新的查询。 - 对象：FInsert          异常：操作必须使用一个可更新的查询。
+2018-12-29 18:06:29,397 [56] INFO  对象：FInsert          异常：   在 System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   在 System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   在 System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   在 System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   在 System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   在 System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   在 Product.Insert(String Id, String Name, HttpContext context) 位置 d:\zb.china-zoce.com\interface\Product.ashx:行号 1890 - 对象：FInsert          异常：   在 System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   在 System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   在 System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   在 System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   在 System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   在 System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   在 Product.Insert(String Id, String Name, HttpContext context) 位置 d:\zb.china-zoce.com\interface\Product.ashx:行号 1890
+2018-12-29 18:09:14,530 [56] INFO  Mobile=13798085823----{"result":"01","msgid":"20182007661","desc":"12291809181112","send_proxy_id":"47"} - Mobile=13798085823----{"result":"01","msgid":"20182007661","desc":"12291809181112","send_proxy_id":"47"}
+2018-12-29 18:09:34,233 [56] INFO  Mobile=13798085823----{"result":"01","msgid":"20182007662","desc":"","send_proxy_id":43} - Mobile=13798085823----{"result":"01","msgid":"20182007662","desc":"","send_proxy_id":43}
+2018-12-29 18:16:05,750 [55] INFO  Mobile=18020714777----{"result":"01","msgid":"20182007698","desc":"","send_proxy_id":"43"} - Mobile=18020714777----{"result":"01","msgid":"20182007698","desc":"","send_proxy_id":"43"}
+2018-12-29 18:16:05,868 [55] INFO  Mobile=18020714777----{"result":"01","msgid":"20182007699","desc":"","send_proxy_id":43} - Mobile=18020714777----{"result":"01","msgid":"20182007699","desc":"","send_proxy_id":43}
+
+----------------------footer--------------------------
+
+----------------------header--------------------------
+2018-12-29 20:09:06,708 [5] INFO  Mobile=15769632222----{"result":"01","msgid":"20182008123","desc":"12292009101146","send_proxy_id":"47"} - Mobile=15769632222----{"result":"01","msgid":"20182008123","desc":"12292009101146","send_proxy_id":"47"}
+2018-12-29 20:09:06,847 [5] INFO  Mobile=15769632222----{"result":"01","msgid":"20182008124","desc":"","send_proxy_id":43} - Mobile=15769632222----{"result":"01","msgid":"20182008124","desc":"","send_proxy_id":43}
+
+----------------------footer--------------------------
+
+----------------------header--------------------------
+
+----------------------footer--------------------------
+
+----------------------header--------------------------
+
+----------------------footer--------------------------

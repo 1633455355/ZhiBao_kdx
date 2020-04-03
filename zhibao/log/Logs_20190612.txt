@@ -1,0 +1,135 @@
+
+----------------------header--------------------------
+
+----------------------footer--------------------------
+
+----------------------header--------------------------
+
+----------------------footer--------------------------
+
+----------------------header--------------------------
+
+----------------------footer--------------------------
+
+----------------------header--------------------------
+
+----------------------footer--------------------------
+
+----------------------header--------------------------
+
+----------------------footer--------------------------
+
+----------------------header--------------------------
+
+----------------------footer--------------------------
+
+----------------------header--------------------------
+2019-06-12 08:47:56,050 [11] INFO  Mobile=13859955110----{"result":"01","msgid":"2019860458","desc":"6120847521121","send_proxy_id":"47"} - Mobile=13859955110----{"result":"01","msgid":"2019860458","desc":"6120847521121","send_proxy_id":"47"}
+2019-06-12 08:47:56,200 [11] INFO  Mobile=13859955110----{"result":"01","msgid":"2019860459","desc":"","send_proxy_id":48} - Mobile=13859955110----{"result":"01","msgid":"2019860459","desc":"","send_proxy_id":48}
+2019-06-12 08:49:28,736 [7] INFO  Mobile=13859955110----{"result":"01","msgid":"2019860481","desc":"6120849251121","send_proxy_id":"47"} - Mobile=13859955110----{"result":"01","msgid":"2019860481","desc":"6120849251121","send_proxy_id":"47"}
+2019-06-12 08:49:28,848 [7] INFO  Mobile=13859955110----{"result":"01","msgid":"2019860482","desc":"6120849251131","send_proxy_id":"47"} - Mobile=13859955110----{"result":"01","msgid":"2019860482","desc":"6120849251131","send_proxy_id":"47"}
+2019-06-12 09:19:33,842 [27] INFO  Mobile=18946212902----{"result":"01","msgid":"2019860718","desc":"61209193011344","send_proxy_id":"47"} - Mobile=18946212902----{"result":"01","msgid":"2019860718","desc":"61209193011344","send_proxy_id":"47"}
+2019-06-12 09:19:33,951 [27] INFO  Mobile=18946212902----{"result":"01","msgid":"2019860719","desc":"","send_proxy_id":48} - Mobile=18946212902----{"result":"01","msgid":"2019860719","desc":"","send_proxy_id":48}
+2019-06-12 09:20:36,098 [27] INFO  Mobile=15020166789----{"result":"01","msgid":"2019860740","desc":"61209203211452","send_proxy_id":"47"} - Mobile=15020166789----{"result":"01","msgid":"2019860740","desc":"61209203211452","send_proxy_id":"47"}
+2019-06-12 09:21:23,917 [29] INFO  Mobile=15020166789----{"result":"01","msgid":"2019860754","desc":"","send_proxy_id":48} - Mobile=15020166789----{"result":"01","msgid":"2019860754","desc":"","send_proxy_id":48}
+2019-06-12 09:30:53,677 [44] INFO  Mobile=13904725443----{"result":"01","msgid":"2019860899","desc":"61209305011312","send_proxy_id":"47"} - Mobile=13904725443----{"result":"01","msgid":"2019860899","desc":"61209305011312","send_proxy_id":"47"}
+2019-06-12 09:40:22,431 [54] INFO  Mobile=13961016710----{"result":"01","msgid":"2019861025","desc":"6120940191149","send_proxy_id":"47"} - Mobile=13961016710----{"result":"01","msgid":"2019861025","desc":"6120940191149","send_proxy_id":"47"}
+2019-06-12 09:40:22,549 [54] INFO  Mobile=13961016710----{"result":"01","msgid":"2019861026","desc":"","send_proxy_id":48} - Mobile=13961016710----{"result":"01","msgid":"2019861026","desc":"","send_proxy_id":48}
+2019-06-12 09:47:01,946 [54] INFO  Mobile=13961016710----{"result":"01","msgid":"2019861068","desc":"61209465811157","send_proxy_id":"47"} - Mobile=13961016710----{"result":"01","msgid":"2019861068","desc":"61209465811157","send_proxy_id":"47"}
+2019-06-12 09:47:02,055 [54] INFO  Mobile=13961016710----{"result":"01","msgid":"2019861069","desc":"","send_proxy_id":48} - Mobile=13961016710----{"result":"01","msgid":"2019861069","desc":"","send_proxy_id":48}
+2019-06-12 09:57:58,585 [62] INFO  Mobile=15030276555----{"result":"01","msgid":"2019861216","desc":"61209575511121","send_proxy_id":"47"} - Mobile=15030276555----{"result":"01","msgid":"2019861216","desc":"61209575511121","send_proxy_id":"47"}
+2019-06-12 09:57:58,690 [62] INFO  Mobile=15030276555----{"result":"01","msgid":"2019861217","desc":"","send_proxy_id":48} - Mobile=15030276555----{"result":"01","msgid":"2019861217","desc":"","send_proxy_id":48}
+2019-06-12 10:54:22,016 [73] INFO  Mobile=13550638046----{"result":"01","msgid":"2019861674","desc":"6121054181147","send_proxy_id":"47"} - Mobile=13550638046----{"result":"01","msgid":"2019861674","desc":"6121054181147","send_proxy_id":"47"}
+2019-06-12 10:54:22,127 [73] INFO  Mobile=13550638046----{"result":"01","msgid":"2019861675","desc":"","send_proxy_id":48} - Mobile=13550638046----{"result":"01","msgid":"2019861675","desc":"","send_proxy_id":48}
+2019-06-12 10:59:05,872 [70] INFO  Mobile=15886399172----{"result":"01","msgid":"2019861686","desc":"6121059021143","send_proxy_id":"47"} - Mobile=15886399172----{"result":"01","msgid":"2019861686","desc":"6121059021143","send_proxy_id":"47"}
+2019-06-12 10:59:05,970 [70] INFO  Mobile=15886399172----{"result":"01","msgid":"2019861687","desc":"","send_proxy_id":48} - Mobile=15886399172----{"result":"01","msgid":"2019861687","desc":"","send_proxy_id":48}
+2019-06-12 11:02:38,668 [70] INFO  Mobile=15848608417----{"result":"01","msgid":"2019861860","desc":"6121102351121","send_proxy_id":"47"} - Mobile=15848608417----{"result":"01","msgid":"2019861860","desc":"6121102351121","send_proxy_id":"47"}
+2019-06-12 11:25:26,656 [69] INFO  Mobile=18504780423----{"result":"01","msgid":"2019861979","desc":"6121125231111","send_proxy_id":"47"} - Mobile=18504780423----{"result":"01","msgid":"2019861979","desc":"6121125231111","send_proxy_id":"47"}
+2019-06-12 11:25:26,772 [69] INFO  Mobile=18504780423----{"result":"01","msgid":"2019861980","desc":"","send_proxy_id":48} - Mobile=18504780423----{"result":"01","msgid":"2019861980","desc":"","send_proxy_id":48}
+2019-06-12 11:39:27,220 [70] INFO  Mobile=13903242276----{"result":"01","msgid":"2019862032","desc":"6121139231121","send_proxy_id":"47"} - Mobile=13903242276----{"result":"01","msgid":"2019862032","desc":"6121139231121","send_proxy_id":"47"}
+2019-06-12 11:54:04,443 [77] INFO  Mobile=13350735348----{"result":"01","msgid":"2019862092","desc":"6121154011141","send_proxy_id":"47"} - Mobile=13350735348----{"result":"01","msgid":"2019862092","desc":"6121154011141","send_proxy_id":"47"}
+2019-06-12 11:54:04,570 [77] INFO  Mobile=13350735348----{"result":"01","msgid":"2019862093","desc":"","send_proxy_id":48} - Mobile=13350735348----{"result":"01","msgid":"2019862093","desc":"","send_proxy_id":48}
+2019-06-12 12:23:25,455 [69] INFO  Mobile=17349254951----{"result":"01","msgid":"2019862225","desc":"6121223221132","send_proxy_id":"47"} - Mobile=17349254951----{"result":"01","msgid":"2019862225","desc":"6121223221132","send_proxy_id":"47"}
+2019-06-12 12:23:25,552 [69] INFO  Mobile=17349254951----{"result":"01","msgid":"2019862226","desc":"","send_proxy_id":48} - Mobile=17349254951----{"result":"01","msgid":"2019862226","desc":"","send_proxy_id":48}
+2019-06-12 12:25:12,422 [73] INFO  Mobile=18747989617----{"result":"01","msgid":"2019862231","desc":"6121225091121","send_proxy_id":"47"} - Mobile=18747989617----{"result":"01","msgid":"2019862231","desc":"6121225091121","send_proxy_id":"47"}
+2019-06-12 12:30:04,335 [69] INFO  Mobile=13201518824----{"result":"01","msgid":"2019862257","desc":"61212300011115","send_proxy_id":"47"} - Mobile=13201518824----{"result":"01","msgid":"2019862257","desc":"61212300011115","send_proxy_id":"47"}
+2019-06-12 12:30:04,444 [69] INFO  Mobile=13201518824----{"result":"01","msgid":"2019862258","desc":"","send_proxy_id":48} - Mobile=13201518824----{"result":"01","msgid":"2019862258","desc":"","send_proxy_id":48}
+2019-06-12 12:46:57,693 [69] INFO  Mobile=15070076191----{"result":"01","msgid":"2019862311","desc":"6121246541121","send_proxy_id":"47"} - Mobile=15070076191----{"result":"01","msgid":"2019862311","desc":"6121246541121","send_proxy_id":"47"}
+2019-06-12 12:46:57,805 [69] INFO  Mobile=15070076191----{"result":"01","msgid":"2019862312","desc":"","send_proxy_id":48} - Mobile=15070076191----{"result":"01","msgid":"2019862312","desc":"","send_proxy_id":48}
+2019-06-12 12:48:10,448 [73] INFO  Mobile=18605478000----{"result":"01","msgid":"2019862313","desc":"6121248071121","send_proxy_id":"47"} - Mobile=18605478000----{"result":"01","msgid":"2019862313","desc":"6121248071121","send_proxy_id":"47"}
+2019-06-12 12:48:29,499 [77] INFO  Mobile=13975178401----{"result":"01","msgid":"2019862314","desc":"6121248261141","send_proxy_id":"47"} - Mobile=13975178401----{"result":"01","msgid":"2019862314","desc":"6121248261141","send_proxy_id":"47"}
+2019-06-12 12:48:29,612 [77] INFO  Mobile=13975178401----{"result":"01","msgid":"2019862315","desc":"","send_proxy_id":48} - Mobile=13975178401----{"result":"01","msgid":"2019862315","desc":"","send_proxy_id":48}
+2019-06-12 12:51:43,482 [74] INFO  Mobile=18235755012----{"result":"01","msgid":"2019862325","desc":"6121251401141","send_proxy_id":"47"} - Mobile=18235755012----{"result":"01","msgid":"2019862325","desc":"6121251401141","send_proxy_id":"47"}
+2019-06-12 12:51:43,589 [74] INFO  Mobile=18235755012----{"result":"01","msgid":"2019862326","desc":"","send_proxy_id":48} - Mobile=18235755012----{"result":"01","msgid":"2019862326","desc":"","send_proxy_id":48}
+2019-06-12 13:47:40,347 [69] INFO  Mobile=15183538258----{"result":"01","msgid":"2019862517","desc":"6121347361141","send_proxy_id":"47"} - Mobile=15183538258----{"result":"01","msgid":"2019862517","desc":"6121347361141","send_proxy_id":"47"}
+2019-06-12 14:16:07,495 [69] INFO  Mobile=15149602488----{"result":"01","msgid":"2019862624","desc":"6121416041141","send_proxy_id":"47"} - Mobile=15149602488----{"result":"01","msgid":"2019862624","desc":"6121416041141","send_proxy_id":"47"}
+2019-06-12 14:16:07,588 [69] INFO  Mobile=15149602488----{"result":"01","msgid":"2019862625","desc":"","send_proxy_id":48} - Mobile=15149602488----{"result":"01","msgid":"2019862625","desc":"","send_proxy_id":48}
+2019-06-12 14:30:06,521 [77] INFO  Mobile=18008542496----{"result":"01","msgid":"2019862680","desc":"6121430031131","send_proxy_id":"47"} - Mobile=18008542496----{"result":"01","msgid":"2019862680","desc":"6121430031131","send_proxy_id":"47"}
+2019-06-12 15:30:19,626 [73] INFO  Mobile=18858195188----{"result":"01","msgid":"2019862921","desc":"6121530161121","send_proxy_id":"47"} - Mobile=18858195188----{"result":"01","msgid":"2019862921","desc":"6121530161121","send_proxy_id":"47"}
+2019-06-12 16:07:28,965 [60] INFO  Mobile=15547880206----{"result":"01","msgid":"2019863038","desc":"6121607251121","send_proxy_id":"47"} - Mobile=15547880206----{"result":"01","msgid":"2019863038","desc":"6121607251121","send_proxy_id":"47"}
+2019-06-12 16:07:29,075 [60] INFO  Mobile=15547880206----{"result":"01","msgid":"2019863039","desc":"","send_proxy_id":48} - Mobile=15547880206----{"result":"01","msgid":"2019863039","desc":"","send_proxy_id":48}
+2019-06-12 16:09:15,596 [55] INFO  Mobile=13500685008----{"result":"01","msgid":"2019863047","desc":"6121609121121","send_proxy_id":"47"} - Mobile=13500685008----{"result":"01","msgid":"2019863047","desc":"6121609121121","send_proxy_id":"47"}
+2019-06-12 16:10:45,919 [60] INFO  Mobile=13384788727----{"result":"01","msgid":"2019863051","desc":"6121610421131","send_proxy_id":"47"} - Mobile=13384788727----{"result":"01","msgid":"2019863051","desc":"6121610421131","send_proxy_id":"47"}
+2019-06-12 16:10:46,032 [60] INFO  Mobile=13384788727----{"result":"01","msgid":"2019863052","desc":"","send_proxy_id":48} - Mobile=13384788727----{"result":"01","msgid":"2019863052","desc":"","send_proxy_id":48}
+2019-06-12 16:12:16,114 [65] INFO  Mobile=18547892000----{"result":"01","msgid":"2019863059","desc":"6121612121121","send_proxy_id":"47"} - Mobile=18547892000----{"result":"01","msgid":"2019863059","desc":"6121612121121","send_proxy_id":"47"}
+2019-06-12 16:28:36,573 [42] INFO  Mobile=15006669981----{"result":"01","msgid":"2019863105","desc":"6121628331141","send_proxy_id":"47"} - Mobile=15006669981----{"result":"01","msgid":"2019863105","desc":"6121628331141","send_proxy_id":"47"}
+2019-06-12 16:45:47,240 [33] INFO  Mobile=13039521308----{"result":"01","msgid":"2019863163","desc":"6121645431132","send_proxy_id":"47"} - Mobile=13039521308----{"result":"01","msgid":"2019863163","desc":"6121645431132","send_proxy_id":"47"}
+2019-06-12 16:45:47,354 [33] INFO  Mobile=13039521308----{"result":"01","msgid":"2019863164","desc":"","send_proxy_id":48} - Mobile=13039521308----{"result":"01","msgid":"2019863164","desc":"","send_proxy_id":48}
+2019-06-12 16:48:57,385 [19] INFO  对象：GetTypeFromUs          异常：输入字符串的格式不正确。 - 对象：GetTypeFromUs          异常：输入字符串的格式不正确。
+2019-06-12 16:48:57,387 [19] INFO  对象：GetTypeFromUs          异常：   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   在 System.Convert.ToInt32(String value)
+   在 Car.GetTypeFromUs(HttpContext context) 位置 d:\zb.china-zoce.com\interface\Car.ashx:行号 63 - 对象：GetTypeFromUs          异常：   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   在 System.Convert.ToInt32(String value)
+   在 Car.GetTypeFromUs(HttpContext context) 位置 d:\zb.china-zoce.com\interface\Car.ashx:行号 63
+2019-06-12 17:40:31,045 [59] INFO  Mobile=13577284358----{"result":"01","msgid":"2019863404","desc":"6121740271141","send_proxy_id":"47"} - Mobile=13577284358----{"result":"01","msgid":"2019863404","desc":"6121740271141","send_proxy_id":"47"}
+2019-06-12 17:40:31,156 [59] INFO  Mobile=13577284358----{"result":"01","msgid":"2019863405","desc":"","send_proxy_id":48} - Mobile=13577284358----{"result":"01","msgid":"2019863405","desc":"","send_proxy_id":48}
+
+----------------------footer--------------------------
+
+----------------------header--------------------------
+2019-06-12 18:20:20,269 [23] INFO  Mobile=14747210496----{"result":"01","msgid":"2019863539","desc":"6121820161124","send_proxy_id":"47"} - Mobile=14747210496----{"result":"01","msgid":"2019863539","desc":"6121820161124","send_proxy_id":"47"}
+2019-06-12 18:20:20,376 [23] INFO  Mobile=14747210496----{"result":"01","msgid":"2019863540","desc":"","send_proxy_id":48} - Mobile=14747210496----{"result":"01","msgid":"2019863540","desc":"","send_proxy_id":48}
+2019-06-12 18:31:59,249 [28] INFO  Mobile=15963084815----{"result":"01","msgid":"2019863570","desc":"6121831551113","send_proxy_id":"47"} - Mobile=15963084815----{"result":"01","msgid":"2019863570","desc":"6121831551113","send_proxy_id":"47"}
+2019-06-12 18:31:59,358 [28] INFO  Mobile=15963084815----{"result":"01","msgid":"2019863571","desc":"","send_proxy_id":48} - Mobile=15963084815----{"result":"01","msgid":"2019863571","desc":"","send_proxy_id":48}
+2019-06-12 18:36:33,253 [36] INFO  Mobile=13569476786----{"result":"01","msgid":"2019863594","desc":"6121836291132","send_proxy_id":"47"} - Mobile=13569476786----{"result":"01","msgid":"2019863594","desc":"6121836291132","send_proxy_id":"47"}
+2019-06-12 18:38:57,197 [40] INFO  Mobile=18632370326----{"result":"01","msgid":"2019863601","desc":"6121838531111","send_proxy_id":"47"} - Mobile=18632370326----{"result":"01","msgid":"2019863601","desc":"6121838531111","send_proxy_id":"47"}
+2019-06-12 18:42:51,729 [46] INFO  Mobile=13991728285----{"result":"01","msgid":"2019863614","desc":"6121842481121","send_proxy_id":"47"} - Mobile=13991728285----{"result":"01","msgid":"2019863614","desc":"6121842481121","send_proxy_id":"47"}
+2019-06-12 18:42:51,833 [46] INFO  Mobile=13991728285----{"result":"01","msgid":"2019863615","desc":"","send_proxy_id":48} - Mobile=13991728285----{"result":"01","msgid":"2019863615","desc":"","send_proxy_id":48}
+2019-06-12 18:46:54,634 [42] INFO  Mobile=13032003355----{"result":"01","msgid":"2019863633","desc":"6121846511131","send_proxy_id":"47"} - Mobile=13032003355----{"result":"01","msgid":"2019863633","desc":"6121846511131","send_proxy_id":"47"}
+2019-06-12 18:48:00,585 [45] INFO  Mobile=15131203333----{"result":"01","msgid":"2019863637","desc":"6121847571141","send_proxy_id":"47"} - Mobile=15131203333----{"result":"01","msgid":"2019863637","desc":"6121847571141","send_proxy_id":"47"}
+2019-06-12 18:48:34,933 [42] INFO  Mobile=18839685314----{"result":"01","msgid":"2019863640","desc":"6121848311111","send_proxy_id":"47"} - Mobile=18839685314----{"result":"01","msgid":"2019863640","desc":"6121848311111","send_proxy_id":"47"}
+2019-06-12 18:48:35,033 [42] INFO  Mobile=18839685314----{"result":"01","msgid":"2019863641","desc":"","send_proxy_id":48} - Mobile=18839685314----{"result":"01","msgid":"2019863641","desc":"","send_proxy_id":48}
+2019-06-12 18:49:43,608 [42] INFO  Mobile=13733362397----{"result":"01","msgid":"2019863649","desc":"6121849401131","send_proxy_id":"47"} - Mobile=13733362397----{"result":"01","msgid":"2019863649","desc":"6121849401131","send_proxy_id":"47"}
+2019-06-12 18:57:03,753 [56] INFO  Mobile=13931207333----{"result":"01","msgid":"2019863668","desc":"6121857001141","send_proxy_id":"47"} - Mobile=13931207333----{"result":"01","msgid":"2019863668","desc":"6121857001141","send_proxy_id":"47"}
+2019-06-12 19:01:48,594 [55] INFO  Mobile=18021883010----{"result":"01","msgid":"2019863696","desc":"6121901451121","send_proxy_id":"47"} - Mobile=18021883010----{"result":"01","msgid":"2019863696","desc":"6121901451121","send_proxy_id":"47"}
+2019-06-12 19:12:41,246 [48] INFO  Mobile=18009182785----{"result":"01","msgid":"2019863732","desc":"6121912371111","send_proxy_id":"47"} - Mobile=18009182785----{"result":"01","msgid":"2019863732","desc":"6121912371111","send_proxy_id":"47"}
+2019-06-12 19:12:41,348 [48] INFO  Mobile=18009182785----{"result":"01","msgid":"2019863733","desc":"","send_proxy_id":48} - Mobile=18009182785----{"result":"01","msgid":"2019863733","desc":"","send_proxy_id":48}
+
+----------------------footer--------------------------
+
+----------------------header--------------------------
+2019-06-12 20:03:19,013 [13] INFO  Mobile=13985638674----{"result":"01","msgid":"2019863887","desc":"6122003151114","send_proxy_id":"47"} - Mobile=13985638674----{"result":"01","msgid":"2019863887","desc":"6122003151114","send_proxy_id":"47"}
+2019-06-12 20:24:24,087 [36] INFO  Mobile=13815989054----{"result":"01","msgid":"2019863949","desc":"6122024201121","send_proxy_id":"47"} - Mobile=13815989054----{"result":"01","msgid":"2019863949","desc":"6122024201121","send_proxy_id":"47"}
+2019-06-12 20:24:24,203 [36] INFO  Mobile=13815989054----{"result":"01","msgid":"2019863950","desc":"","send_proxy_id":48} - Mobile=13815989054----{"result":"01","msgid":"2019863950","desc":"","send_proxy_id":48}
+2019-06-12 20:25:57,523 [39] INFO  Mobile=15052315818----{"result":"01","msgid":"2019863955","desc":"6122025541121","send_proxy_id":"47"} - Mobile=15052315818----{"result":"01","msgid":"2019863955","desc":"6122025541121","send_proxy_id":"47"}
+2019-06-12 20:25:57,636 [39] INFO  Mobile=15052315818----{"result":"01","msgid":"2019863956","desc":"","send_proxy_id":48} - Mobile=15052315818----{"result":"01","msgid":"2019863956","desc":"","send_proxy_id":48}
+2019-06-12 20:34:02,759 [47] INFO  Mobile=17397998820----{"result":"01","msgid":"2019863972","desc":"6122033591111","send_proxy_id":"47"} - Mobile=17397998820----{"result":"01","msgid":"2019863972","desc":"6122033591111","send_proxy_id":"47"}
+2019-06-12 20:34:02,874 [47] INFO  Mobile=17397998820----{"result":"01","msgid":"2019863973","desc":"","send_proxy_id":48} - Mobile=17397998820----{"result":"01","msgid":"2019863973","desc":"","send_proxy_id":48}
+
+----------------------footer--------------------------
+
+----------------------header--------------------------
+2019-06-12 21:23:24,422 [24] INFO  Mobile=18329565507----{"result":"01","msgid":"2019864166","desc":"6122123211141","send_proxy_id":"47"} - Mobile=18329565507----{"result":"01","msgid":"2019864166","desc":"6122123211141","send_proxy_id":"47"}
+2019-06-12 21:23:24,539 [24] INFO  Mobile=18329565507----{"result":"01","msgid":"2019864167","desc":"","send_proxy_id":48} - Mobile=18329565507----{"result":"01","msgid":"2019864167","desc":"","send_proxy_id":48}
+
+----------------------footer--------------------------
+
+----------------------header--------------------------
+
+----------------------footer--------------------------
+
+----------------------header--------------------------
+
+----------------------footer--------------------------

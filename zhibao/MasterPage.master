@@ -1,0 +1,637 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html lang="zh-cn">
+
+<head runat="server">
+    <meta charset="utf-8" />
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- basic styles -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="/assets/css/font-awesome.min.css" />
+
+
+    <!-- text fonts -->
+	<link rel="stylesheet" href="/assets/css/googleapis.css" />	
+
+    <!--[if IE 7]>
+		  <link rel="stylesheet" href="/assets/css/font-awesome-ie7.min.css" />
+    <![endif]-->
+
+    <link rel="stylesheet" href="/assets/css/ace.min.css" />
+
+    <!--[if lte IE 9]>
+			<link rel="stylesheet" href="/assets/css/ace-part2.min.css" />
+		<![endif]-->
+
+    <link rel="stylesheet" href="/assets/css/ace-rtl.min.css" />
+    <link rel="stylesheet" href="/assets/css/ace-skins.min.css" />
+    <link href="/assets/css/xiaobai.css" rel="stylesheet" />
+    <link rel="stylesheet" href="/assets/css/chosen.css" />
+    <!--[if lte IE 9]>
+		  <link rel="stylesheet" href="assets/css/ace-ie.min.css" />
+    <![endif]-->
+
+
+
+        <!--[if !IE]> -->
+		<script src="<%=Page.ResolveUrl("~/assets/js/jquery-2.0.3.min.js") %>"></script>
+		<!-- <![endif]-->
+
+		<!--[if IE]>
+            <script src="<%=Page.ResolveUrl("~/assets/js/jquery-1.10.2.min.js") %>"></script>
+        <![endif]-->
+
+		<!--[if !IE]> -->
+		<script type="text/javascript">
+		    window.jQuery || document.write("<script src='/assets/js/jquery.min.js'>" + "<" + "/script>");
+		</script>
+
+		<!-- <![endif]-->
+
+		<!--[if IE]>
+            <script type="text/javascript">
+                window.jQuery || document.write("<script src='/assets/js/jquery1x.min.js'>"+"<"+"/script>");
+            </script>
+        <![endif]-->
+
+
+    
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+
+    <!--[if lt IE 9]>
+    <script src="<%=Page.ResolveUrl("~/assets/js/html5shiv.js") %>"></script>
+	<script src="<%=Page.ResolveUrl("~/assets/js/respond.min.js") %>"></script>
+	<![endif]-->
+
+
+    <script src="<%=Page.ResolveUrl("~/assets/js/bootstrap.min.js") %>"></script>
+    <script src="<%=Page.ResolveUrl("~/assets/js/ace-extra.min.js") %>"></script>
+    <script src="<%=Page.ResolveUrl("~/assets/js/chosen.jquery.min.js") %>"></script>
+    <script src="<%=Page.ResolveUrl("~/assets/js/ace-elements.min.js") %>"></script>
+    <script src="<%=Page.ResolveUrl("~/assets/js/ace.min.js") %>"></script>
+
+    <script src="<%=Page.ResolveUrl("~/js/common.js") %>"></script>
+
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server" enctype="multipart/form-data">
+        <div id="navbar" class="navbar navbar-default">
+            <script type="text/javascript">
+                try { ace.settings.check('navbar', 'fixed') } catch (e) { }
+            </script>
+
+            <div id="navbar-container" class="navbar-container">
+                <div class="navbar-header pull-left">
+                    <a class="navbar-brand" href="#">
+                        <small>
+                            <!--<i class="icon-leaf"></i>-->
+                            <img src="/Images/logo.jpg"  width="24px" height="24px"/>
+                            <asp:Label ID="companyname_lb" runat="server" Text=""></asp:Label>质量认证系统
+                        </small>
+                    </a>
+                    <!-- /.brand -->
+                </div>
+                <!-- /.navbar-header -->
+
+                <div role="navigation" class="navbar-header pull-right">
+                    <ul class="nav ace-nav">
+                        
+
+                       
+                        <li class="green">
+                            <a href="inbox.aspx" class="" data-toggle="">
+                                <i class="icon-envelope icon-animated-vertical"></i>
+                                <asp:Label ID="messagenocount_lb" runat="server" Text="0" class="badge badge-success"></asp:Label>
+                            </a>
+                        </li>
+
+                        <li class="light-blue">
+                            <a class="dropdown-toggle" href="#" data-toggle="dropdown">
+                                <img alt="Jason's Photo" src="/assets/avatars/avatar2.png" class="nav-user-photo">
+                                <span class="user-info">
+                                    <small>欢迎回来,</small>
+                                    <asp:Label ID="adminname_lb" runat="server" Text=""></asp:Label>
+                                </span>
+
+                                <i class="icon-caret-down"></i>
+                            </a>
+
+                            <ul class="user-menu pull-right dropdown-menu dropdown-yellow dropdown-caret dropdown-close">
+                                <li>
+                                    <a href="passwordchange.aspx">
+                                        <i class="icon-key"></i>
+                                        修改密码
+                                    </a>
+                                </li>
+                                <li>
+                                    <%--<a href="profile.aspx">
+                                        <i class="icon-user"></i>
+                                        个人资料
+                                    </a>--%>
+                                    <asp:HyperLink ID="profile_lk" runat="server" NavigateUrl="~/member/profile.aspx"><i class="icon-user"></i>个人资料</asp:HyperLink>
+                                </li>
+
+                                <li class="divider"></li>
+
+                                <li>
+                                    <a href="logout.aspx">
+                                        <i class="icon-off"></i>
+                                        退出
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <!-- /.ace-nav -->
+                </div>
+                <!-- /.navbar-header -->
+            </div>
+            <!-- /.container -->
+        </div>
+
+
+        <div class="main-container" id="main-container">
+            <script type="text/javascript">
+                try { ace.settings.check('main-container', 'fixed') } catch (e) { }
+            </script>
+
+            <div class="main-container-inner">
+                <a class="menu-toggler" id="menu-toggler" href="#">
+                    <span class="menu-text"></span>
+                </a>
+
+                <div class="sidebar" id="sidebar">
+                    <script type="text/javascript">
+                        try { ace.settings.check('sidebar', 'fixed') } catch (e) { }
+                    </script>
+
+                    <div class="sidebar-shortcuts" id="sidebar-shortcuts">
+                        <div class="sidebar-shortcuts-large" id="sidebar-shortcuts-large" style="display:none">
+                            <button class="btn btn-success">
+                                <i class="icon-signal"></i>
+                            </button>
+
+                            <button class="btn btn-info">
+                                <i class="icon-pencil"></i>
+                            </button>
+
+                            <button class="btn btn-warning">
+                                <i class="icon-group"></i>
+                            </button>
+
+                            <button class="btn btn-danger">
+                                <i class="icon-cogs"></i>
+                            </button>
+                        </div>
+
+                        <div class="sidebar-shortcuts-mini" id="sidebar-shortcuts-mini">
+                            <span class="btn btn-success"></span>
+
+                            <span class="btn btn-info"></span>
+
+                            <span class="btn btn-warning"></span>
+
+                            <span class="btn btn-danger"></span>
+                        </div>
+                    </div>
+                    <!-- #sidebar-shortcuts -->
+
+                    <ul class="nav nav-list menucheck">
+                        <li id="menuhome" >
+                            <a href="home.aspx">
+                                <i class="icon-home"></i>
+                                <span class="menu-text">首页 </span>
+                            </a>
+                        </li>
+<%--                        <li id="menureport">
+                            <a href="report.aspx">
+                                <i class="icon-bar-chart "></i>
+                                <span class="menu-text">报表 </span>
+                            </a>
+                        </li>--%>
+                        <%=reportsb %>
+                        <li id="menuproducttype" style="display:none">
+                            <a href="#" class="dropdown-toggle">
+                                <i class="icon-hdd"></i>
+                                <span class="menu-text">品牌产品类型管理 </span>
+
+                                <b class="arrow icon-angle-down"></b>
+                            </a>
+
+                            <ul class="submenu">
+                                <%--<li id="menuproducttypeadd">
+                                    <a href="producttypeadd.aspx">
+                                        <i class="icon-double-angle-right"></i>
+                                        新增产品二级类别
+                                    </a>
+                                </li>--%>
+
+                                <%=producttypeaddsb %>
+
+  <%--                              <li id="menuproductypelisty">
+                                    <a href="producttypelist.aspx">
+                                        <i class="icon-double-angle-right"></i>
+                                        产品二级类别列表 
+                                    </a>
+                                </li>--%>
+                                <%=producttypelistsb %>
+                            </ul>
+                        </li>
+
+
+                        <li id="menufactorytype" style="display:none">
+                            <a href="#" class="dropdown-toggle">
+                                <i class="icon-hdd"></i>
+                                <span class="menu-text">工厂产品类别管理 </span>
+
+                                <b class="arrow icon-angle-down"></b>
+                            </a>
+
+                            <ul class="submenu">
+                                <%=factorytypeaddsb %>
+                                <%=factorytypelistsb %>
+                                <%=factorytypeaddsb_1 %>
+                                <%=factorytypelistsb_1 %>
+                            </ul>
+                        </li>
+
+
+                        <li id="menumessage" style="display:none">
+                            <a href="#" class="dropdown-toggle">
+                                <i class="icon-hdd"></i>
+                                <span class="menu-text">信息管理 </span>
+
+                                <b class="arrow icon-angle-down"></b>
+                            </a>
+
+                            <ul class="submenu">
+<%--                                <li id="menumessageadd">
+                                    <a href="messageadd.aspx">
+                                        <i class="icon-double-angle-right"></i>
+                                        写站内信
+                                    </a>
+                                </li>--%>
+                                <%= menumessageadd %>
+
+
+                                <%--<li id="menumessagelist">
+                                    <a href="inbox.aspx">
+                                        <i class="icon-double-angle-right"></i>
+                                        收件箱
+                                    </a>
+                                </li>--%>
+
+                                <%= menumessagelist %>
+                            </ul>
+                        </li>
+                        <%--<li id="menucar">
+                            <a href="carlist.aspx">
+                                <i class="icon-dashboard"></i>
+                                <span class="menu-text">车型管理 </span>
+                            </a>
+                        </li>--%>
+
+                        <%=menucar %>
+                        <li id="menuadmin" style="display:none">
+                            <a href="#" class="dropdown-toggle">
+                                <i class="icon-calendar"></i>
+                                <span class="menu-text">用户管理 </span>
+
+                                <b class="arrow icon-angle-down"></b>
+                            </a>
+
+                            <ul class="submenu">
+                                <%--<li id="menuadminadd">
+                                    <a href="adminadd.aspx">
+                                        <i class="icon-double-angle-right"></i>
+                                        新增用户
+                                    </a>
+                                </li>--%>
+                                <%=menuadminadd %>
+                                <%--<li id="menuadminlist">
+                                    <a href="adminlist.aspx">
+                                        <i class="icon-double-angle-right"></i>
+                                        用户列表
+                                    </a>
+                                </li>--%>
+                                <%=menuadminlist %>
+                                <%--<li id="menustorelist">
+                                    <a href="storelist.aspx">
+                                        <i class="icon-double-angle-right"></i>
+                                        门店列表
+                                    </a>
+                                </li>--%>
+
+                                <%=menustorelist %>
+
+                            </ul>
+                        </li>
+                        <li id="menurole" style="display:none">
+                            <a href="#" class="dropdown-toggle">
+                                <i class="icon-cogs"></i>
+                                <span class="menu-text">角色管理 </span>
+
+                                <b class="arrow icon-angle-down"></b>
+                            </a>
+
+                            <ul class="submenu">
+ <%--                               <li id="menuroleadd">
+                                    <a href="roleadd.aspx">
+                                        <i class="icon-double-angle-right"></i>
+                                        新增角色
+                                    </a>
+                                </li>--%>
+                                <%= menuroleadd %>
+                                <%--<li id="menurolelist">
+                                    <a href="rolelist.aspx">
+                                        <i class="icon-double-angle-right"></i>
+                                        角色列表
+                                    </a>
+                                </li>--%>
+                                <%= menurolelist %>
+                            </ul>
+                        </li>
+                        <li id="menufeedback" style="display:none">
+                            <a href="#" class="dropdown-toggle">
+                                <i class="icon-list"></i>
+                                <span class="menu-text">反馈管理 </span>
+
+                                <b class="arrow icon-angle-down"></b>
+                            </a>
+
+                            <ul class="submenu">
+                                <%--<li id="menufeedbackadd">
+                                    <a href="feedbackadd.aspx">
+                                        <i class="icon-double-angle-right"></i>
+                                        提交反馈
+                                    </a>
+                                </li>--%>
+                                <%=menufeedbackadd %>
+                                <%--<li id="menufeedbacklist">
+                                    <a href="feedbacklist.aspx">
+                                        <i class="icon-double-angle-right"></i>
+                                        反馈列表
+                                    </a>
+                                </li>--%>
+                                <%=menufeedbacklist %>
+                            </ul>
+                        </li>
+
+                        <li id="meunnews" style="display:none">
+                            <a href="#" class="dropdown-toggle">
+                                <i class="icon-edit"></i>
+                                <span class="menu-text">资讯管理 </span>
+
+                                <b class="arrow icon-angle-down"></b>
+                            </a>
+
+                            <ul class="submenu">
+                                <%--<li id="meunnewsadd">
+                                    <a href="newsadd.aspx">
+                                        <i class="icon-double-angle-right"></i>
+                                        添加资讯
+                                    </a>
+                                </li>--%>
+                                <%= meunnewsadd %>
+                                <%--<li id="meunnewslist">
+                                    <a href="newslist.aspx">
+                                        <i class="icon-double-angle-right"></i>
+                                        资讯列表
+                                    </a>
+                                </li>--%>
+                                <%=meunnewslist %>
+                            </ul>
+                        </li>
+
+                        <li id="menuproduct" style="display:none">
+                            <a href="#" class="dropdown-toggle">
+                                <i class="icon-barcode"></i>
+                                <span class="menu-text">产品(卷轴号)管理 </span>
+
+                                <b class="arrow icon-angle-down"></b>
+                            </a>
+
+                            <ul class="submenu">
+                                <%--<li id="menuproductadd">
+                                    <a href="productadd.aspx">
+                                        <i class="icon-double-angle-right"></i>
+                                        新增编码
+                                    </a>
+                                </li>--%>
+                                <%=menuproductadd %>
+                                 <%=menuproductimport %>
+                                <%--<li id="menuproductlist">
+                                    <a href="productlist.aspx">
+                                        <i class="icon-double-angle-right"></i>
+                                        编码列表
+                                    </a>
+                                </li>--%>
+                                <%=menuproductlist %>
+                                <%--<li id="menuproductverify">
+                                    <a href="productverify.aspx">
+                                        <i class="icon-double-angle-right"></i>
+                                        产品认证 
+                                    </a>
+                                </li>--%>
+                                <%=menuproductverify %>
+                            </ul>
+                        </li>
+
+                        <li id="menupromotion" style="display:none">
+                            <a href="#" class="dropdown-toggle">
+                                <i class="icon-beaker"></i>
+                                <span class="menu-text">促销管理 </span>
+
+                                <b class="arrow icon-angle-down"></b>
+                            </a>
+
+                            <ul class="submenu">
+                                <%--<li id="menupromotionadd">
+                                    <a href="promotionadd.aspx">
+                                        <i class="icon-double-angle-right"></i>
+                                        新增促销
+                                    </a>
+                                </li>--%>
+                                <%=menupromotionadd %>
+          <%--                      <li id="menupromotionlist">
+                                    <a href="promotionlist.aspx">
+                                        <i class="icon-double-angle-right"></i>
+                                        促销列表
+                                    </a>
+                                </li>--%>
+                                <%=menupromotionlist %>
+                            </ul>
+                        </li>
+
+                        <li id="menuuser" style="display:none">
+                            <a href="#" class="dropdown-toggle">
+                                <i class="icon-comments-alt"></i>
+                                <span class="menu-text">车主管理 </span>
+
+                                <b class="arrow icon-angle-down"></b>
+                            </a>
+
+                            <ul class="submenu">
+                                <%--<li id="menuuseradd">
+                                    <a href="useradd.aspx">
+                                        <i class="icon-double-angle-right"></i>
+                                        新增客户
+                                    </a>
+                                </li>--%>
+                                <%=menuuseradd %>
+                                <%--<li id="menuuserlist" style="display:none">
+                                    <a href="userlist.aspx">
+                                        <i class="icon-double-angle-right"></i>
+                                        客户列表
+                                    </a>
+                                </li>--%>
+                                <%= menuuserlist%>
+                                <%=mechanicadd %>
+                                <%=mechaniclist %>
+                            </ul>
+
+                              
+                        </li>
+                         <li id="menucompensate" style="display:none">
+                            <a href="#" class="dropdown-toggle">
+                                <i class="icon-exchange"></i>
+                                <span class="menu-text">理赔管理 </span>
+
+                                <b class="arrow icon-angle-down"></b>
+                            </a>
+                            <ul class="submenu">
+                                <%--<li id="compensateAdd">
+                                    <a href="CompensateAdd.aspx">
+                                        <i class="icon-exchange"></i>
+                                        理赔申请
+                                    </a>
+                                </li>--%>
+                                <%--<li id="compensateList" style="display:none">
+                                    <a href="CompensateList.aspx">
+                                        <i class="icon-exchange "></i>
+                                        理赔列表
+                                    </a>
+                                </li>--%>
+                                <%= menupcompensatelist%>
+                                <%=menupcompensateadd %>
+                            </ul>
+                        </li>
+                    </ul>
+                    <!-- /.nav-list -->
+
+                    <div class="sidebar-collapse" id="sidebar-collapse">
+                        <i class="icon-double-angle-left" data-icon1="icon-double-angle-left" data-icon2="icon-double-angle-right"></i>
+                    </div>
+
+                    <script type="text/javascript">
+                        try { ace.settings.check('sidebar', 'collapsed') } catch (e) { }
+                    </script>
+                </div>
+
+                <div class="main-content">
+
+
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+
+
+
+                    <!-- /.page-content -->
+                </div>
+                <!-- /.main-content -->
+
+                <div class="ace-settings-container" id="ace-settings-container">
+                    <div class="btn btn-app btn-xs btn-warning ace-settings-btn" id="ace-settings-btn">
+                        <i class="icon-cog bigger-150"></i>
+                    </div>
+
+                    <div class="ace-settings-box" id="ace-settings-box">
+                        <div>
+                            <div class="pull-left">
+                                <select id="skin-colorpicker" class="hide">
+                                    <option data-skin="default" value="#438EB9">#438EB9</option>
+                                    <option data-skin="skin-1" value="#222A2D">#222A2D</option>
+                                    <option data-skin="skin-2" value="#C6487E">#C6487E</option>
+                                    <option data-skin="skin-3" value="#D0D0D0">#D0D0D0</option>
+                                </select>
+                            </div>
+                            <span>&nbsp; 选择皮肤</span>
+                        </div>
+
+                        <div>
+                            <input type="checkbox" class="ace ace-checkbox-2" id="ace-settings-navbar" />
+                            <label class="lbl" for="ace-settings-navbar">固定导航条</label>
+                        </div>
+
+                        <div>
+                            <input type="checkbox" class="ace ace-checkbox-2" id="ace-settings-sidebar" />
+                            <label class="lbl" for="ace-settings-sidebar">固定滑动条</label>
+                        </div>
+
+                        <div>
+                            <input type="checkbox" class="ace ace-checkbox-2" id="ace-settings-breadcrumbs" />
+                            <label class="lbl" for="ace-settings-breadcrumbs">固定面包屑</label>
+                        </div>
+
+                        <div>
+                            <input type="checkbox" class="ace ace-checkbox-2" id="ace-settings-rtl" />
+                            <label class="lbl" for="ace-settings-rtl">切换到左边</label>
+                        </div>
+
+                        <div>
+                            <input type="checkbox" class="ace ace-checkbox-2" id="ace-settings-add-container" />
+                            <label class="lbl" for="ace-settings-add-container">
+                                切换窄屏
+								<b></b>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <!-- /#ace-settings-container -->
+            </div>
+            <!-- /.main-container-inner -->
+
+            <a href="#" id="btn-scroll-up" class="btn-scroll-up btn btn-sm btn-inverse">
+                <i class="icon-double-angle-up icon-only bigger-110"></i>
+            </a>
+        </div>
+        <!-- /.main-container -->
+
+
+        <script type="text/javascript">
+            if ("ontouchend" in document) document.write("<script src='<%=Page.ResolveUrl("~/assets/js/jquery.mobile.custom.min.js") %>'>" + "<" + "script>");
+        </script>
+
+        <script src="<%=Page.ResolveUrl("~/assets/js/jquery.hotkeys.min.js") %>"></script>
+        <script src="<%=Page.ResolveUrl("~/assets/js/typeahead-bs2.min.js") %>"></script>
+
+
+        <!-- page specific plugin scripts -->
+
+        <!--[if lte IE 8]>
+		  <script src="<%=Page.ResolveUrl("~/assets/js/excanvas.min.js") %>"></script>
+		<![endif]-->
+
+        <script src="<%=Page.ResolveUrl("~/assets/js/jquery-ui-1.10.3.custom.min.js") %>"></script>
+        <script src="<%=Page.ResolveUrl("~/assets/js/jquery.ui.touch-punch.min.js") %>"></script>
+        <script src="<%=Page.ResolveUrl("~/assets/js/jquery.slimscroll.min.js") %>"></script>
+        <script src="<%=Page.ResolveUrl("~/assets/js/jquery.easy-pie-chart.min.js") %>"></script>
+        <script src="<%=Page.ResolveUrl("~/assets/js/jquery.sparkline.min.js") %>"></script>
+        <script src="<%=Page.ResolveUrl("~/assets/js/flot/jquery.flot.min.js") %>"></script>
+        <script src="<%=Page.ResolveUrl("~/assets/js/flot/jquery.flot.pie.min.js") %>"></script>
+        <script src="<%=Page.ResolveUrl("~/assets/js/flot/jquery.flot.resize.min.js") %>"></script>
+        <script src="<%=Page.ResolveUrl("~/assets/js/date-time/bootstrap-datepicker.min.js") %>"></script>
+        <script src="<%=Page.ResolveUrl("~/assets/js/date-time/daterangepicker.min.js") %>"></script>
+        <script src="<%=Page.ResolveUrl("~/assets/js/date-time/moment.min.js") %>"></script>
+
+    </form>
+</body>
+</html>

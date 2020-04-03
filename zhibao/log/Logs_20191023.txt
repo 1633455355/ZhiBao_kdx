@@ -1,0 +1,110 @@
+
+----------------------header--------------------------
+
+----------------------footer--------------------------
+
+----------------------header--------------------------
+
+----------------------footer--------------------------
+
+----------------------header--------------------------
+
+----------------------footer--------------------------
+
+----------------------header--------------------------
+
+----------------------footer--------------------------
+
+----------------------header--------------------------
+
+----------------------footer--------------------------
+
+----------------------header--------------------------
+
+----------------------footer--------------------------
+
+----------------------header--------------------------
+2019-10-23 08:51:46,577 [46] INFO  Mobile=13423455682----{"result":"01","msgid":"20191650920","desc":"","send_proxy_id":"48"} - Mobile=13423455682----{"result":"01","msgid":"20191650920","desc":"","send_proxy_id":"48"}
+2019-10-23 08:51:46,696 [46] INFO  Mobile=13423455682----{"result":"01","msgid":"20191650921","desc":"","send_proxy_id":48} - Mobile=13423455682----{"result":"01","msgid":"20191650921","desc":"","send_proxy_id":48}
+2019-10-23 10:24:49,042 [62] INFO  Mobile=17331222222----{"result":"01","msgid":"20191651209","desc":"10231025271811","send_proxy_id":"47"} - Mobile=17331222222----{"result":"01","msgid":"20191651209","desc":"10231025271811","send_proxy_id":"47"}
+2019-10-23 10:24:49,153 [62] INFO  Mobile=17331222222----{"result":"01","msgid":"20191651210","desc":"","send_proxy_id":48} - Mobile=17331222222----{"result":"01","msgid":"20191651210","desc":"","send_proxy_id":48}
+2019-10-23 10:25:43,538 [55] INFO  Mobile=13930203727----{"result":"01","msgid":"20191651213","desc":"","send_proxy_id":"48"} - Mobile=13930203727----{"result":"01","msgid":"20191651213","desc":"","send_proxy_id":"48"}
+2019-10-23 10:58:52,492 [21] INFO  对象：Insert          异常：操作必须使用一个可更新的查询。 - 对象：Insert          异常：操作必须使用一个可更新的查询。
+2019-10-23 10:58:52,546 [21] INFO  对象：Insert          异常：   在 System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   在 System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   在 System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   在 System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   在 System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   在 System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   在 Factory.Insert(String Id, String Name, HttpContext context) 位置 d:\zb.china-zoce.com\interface\Factory.ashx:行号 236 - 对象：Insert          异常：   在 System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   在 System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   在 System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   在 System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   在 System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   在 System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   在 Factory.Insert(String Id, String Name, HttpContext context) 位置 d:\zb.china-zoce.com\interface\Factory.ashx:行号 236
+2019-10-23 11:07:06,723 [5] INFO  对象：FInsert          异常：操作必须使用一个可更新的查询。 - 对象：FInsert          异常：操作必须使用一个可更新的查询。
+2019-10-23 11:07:06,727 [5] INFO  对象：FInsert          异常：   在 System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   在 System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   在 System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   在 System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   在 System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   在 System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   在 Product.Insert(String Id, String Name, HttpContext context) 位置 d:\zb.china-zoce.com\interface\Product.ashx:行号 1890 - 对象：FInsert          异常：   在 System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   在 System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   在 System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   在 System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   在 System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   在 System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   在 Product.Insert(String Id, String Name, HttpContext context) 位置 d:\zb.china-zoce.com\interface\Product.ashx:行号 1890
+
+----------------------footer--------------------------
+
+----------------------header--------------------------
+2019-10-23 13:27:31,967 [29] INFO  Mobile=13859931138----{"result":"01","msgid":"20191651822","desc":"","send_proxy_id":"48"} - Mobile=13859931138----{"result":"01","msgid":"20191651822","desc":"","send_proxy_id":"48"}
+2019-10-23 13:45:05,207 [45] INFO  Mobile=13948476253----{"result":"01","msgid":"20191651867","desc":"","send_proxy_id":"48"} - Mobile=13948476253----{"result":"01","msgid":"20191651867","desc":"","send_proxy_id":"48"}
+2019-10-23 13:45:05,307 [45] INFO  Mobile=13948476253----{"result":"01","msgid":"20191651868","desc":"","send_proxy_id":48} - Mobile=13948476253----{"result":"01","msgid":"20191651868","desc":"","send_proxy_id":48}
+
+----------------------footer--------------------------
+
+----------------------header--------------------------
+
+----------------------footer--------------------------
+
+----------------------header--------------------------
+2019-10-23 16:27:32,250 [48] INFO  Mobile=18871709013----{"result":"01","msgid":"20191652670","desc":"","send_proxy_id":"48"} - Mobile=18871709013----{"result":"01","msgid":"20191652670","desc":"","send_proxy_id":"48"}
+2019-10-23 16:27:32,364 [48] INFO  Mobile=18871709013----{"result":"01","msgid":"20191652671","desc":"","send_proxy_id":48} - Mobile=18871709013----{"result":"01","msgid":"20191652671","desc":"","send_proxy_id":48}
+2019-10-23 16:41:47,297 [19] INFO  Mobile=17795053626----{"result":"01","msgid":"20191652724","desc":"10231642261811","send_proxy_id":"47"} - Mobile=17795053626----{"result":"01","msgid":"20191652724","desc":"10231642261811","send_proxy_id":"47"}
+2019-10-23 17:00:05,749 [8] INFO  Mobile=13968952909----{"result":"01","msgid":"20191652790","desc":"","send_proxy_id":"48"} - Mobile=13968952909----{"result":"01","msgid":"20191652790","desc":"","send_proxy_id":"48"}
+2019-10-23 17:00:05,859 [8] INFO  Mobile=13968952909----{"result":"01","msgid":"20191652791","desc":"","send_proxy_id":48} - Mobile=13968952909----{"result":"01","msgid":"20191652791","desc":"","send_proxy_id":48}
+2019-10-23 17:11:00,590 [21] INFO  Mobile=13387071961----{"result":"01","msgid":"20191652829","desc":"10231711391841","send_proxy_id":"47"} - Mobile=13387071961----{"result":"01","msgid":"20191652829","desc":"10231711391841","send_proxy_id":"47"}
+2019-10-23 17:54:41,265 [71] INFO  Mobile=15103268265----{"result":"01","msgid":"20191652999","desc":"","send_proxy_id":"48"} - Mobile=15103268265----{"result":"01","msgid":"20191652999","desc":"","send_proxy_id":"48"}
+2019-10-23 17:54:41,382 [71] INFO  Mobile=15103268265----{"result":"01","msgid":"20191653000","desc":"","send_proxy_id":48} - Mobile=15103268265----{"result":"01","msgid":"20191653000","desc":"","send_proxy_id":48}
+
+----------------------footer--------------------------
+
+----------------------header--------------------------
+
+----------------------footer--------------------------
+
+----------------------header--------------------------
+
+----------------------footer--------------------------
+
+----------------------header--------------------------
+2019-10-23 20:34:22,024 [36] INFO  Mobile=18623481556----{"result":"01","msgid":"20191653407","desc":"10232035001811","send_proxy_id":"47"} - Mobile=18623481556----{"result":"01","msgid":"20191653407","desc":"10232035001811","send_proxy_id":"47"}
+2019-10-23 20:34:22,136 [36] INFO  Mobile=18623481556----{"result":"01","msgid":"20191653408","desc":"","send_proxy_id":48} - Mobile=18623481556----{"result":"01","msgid":"20191653408","desc":"","send_proxy_id":48}
+2019-10-23 20:38:04,789 [33] INFO  Mobile=15320806921----{"result":"01","msgid":"20191653417","desc":"10232038431812","send_proxy_id":"47"} - Mobile=15320806921----{"result":"01","msgid":"20191653417","desc":"10232038431812","send_proxy_id":"47"}
+2019-10-23 20:38:04,890 [33] INFO  Mobile=15320806921----{"result":"01","msgid":"20191653418","desc":"","send_proxy_id":48} - Mobile=15320806921----{"result":"01","msgid":"20191653418","desc":"","send_proxy_id":48}
+
+----------------------footer--------------------------
+
+----------------------header--------------------------
+
+----------------------footer--------------------------
+
+----------------------header--------------------------
+2019-10-23 23:20:07,321 [60] INFO  Mobile=13902584997----{"result":"01","msgid":"20191653593","desc":"","send_proxy_id":"48"} - Mobile=13902584997----{"result":"01","msgid":"20191653593","desc":"","send_proxy_id":"48"}
+2019-10-23 23:20:07,426 [60] INFO  Mobile=13902584997----{"result":"01","msgid":"20191653594","desc":"","send_proxy_id":48} - Mobile=13902584997----{"result":"01","msgid":"20191653594","desc":"","send_proxy_id":48}
+
+----------------------footer--------------------------

@@ -1,0 +1,14 @@
+
+----------------------header--------------------------
+2014-12-02 17:35:53,737 [11] INFO  对象：ZB.BLL.Authorization.AdminBLL.AdminLogin()          异常：无法打开登录所请求的数据库 "KDX_DB"。登录失败。
+用户 'sa' 登录失败。 - 对象：ZB.BLL.Authorization.AdminBLL.AdminLogin()          异常：无法打开登录所请求的数据库 "KDX_DB"。登录失败。
+用户 'sa' 登录失败。
+2014-12-02 17:35:53,754 [11] INFO  对象：ZB.BLL.Authorization.AdminBLL.AdminLogin()          异常：   在 AdminDAL.AdminLogin(String AdminName, String AdminPassword) 位置 d:\Project Code\RDX\ZB_Web\App_Code\DAL\AdminDAL.cs:行号 262
+   在 AdminBLL.AdminLogin(String AdminName, String AdminPassword, AdminModel& oAModel) 位置 d:\Project Code\RDX\ZB_Web\App_Code\BLL\AdminBLL.cs:行号 431 - 对象：ZB.BLL.Authorization.AdminBLL.AdminLogin()          异常：   在 AdminDAL.AdminLogin(String AdminName, String AdminPassword) 位置 d:\Project Code\RDX\ZB_Web\App_Code\DAL\AdminDAL.cs:行号 262
+   在 AdminBLL.AdminLogin(String AdminName, String AdminPassword, AdminModel& oAModel) 位置 d:\Project Code\RDX\ZB_Web\App_Code\BLL\AdminBLL.cs:行号 431
+
+----------------------footer--------------------------
+
+----------------------header--------------------------
+
+----------------------footer--------------------------

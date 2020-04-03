@@ -1,0 +1,30 @@
+
+----------------------header--------------------------
+
+----------------------footer--------------------------
+
+----------------------header--------------------------
+
+----------------------footer--------------------------
+
+----------------------header--------------------------
+2015-01-05 14:28:13,340 [13] INFO  对象：ProductBLL.GetProductSecondLevelInfoByStoreId()          异常：列名 'Flag' 无效。 - 对象：ProductBLL.GetProductSecondLevelInfoByStoreId()          异常：列名 'Flag' 无效。
+2015-01-05 14:28:13,354 [13] INFO  对象：ProductBLL.GetProductSecondLevelInfoByStoreId()          异常：   在 ProductDAL.GetProductSecondLevelInfoByStoreId(Int32 ProductFirstLevelId, Int32 StoreId) 位置 d:\Project Code\RDX\KDX\App_Code\DAL\ProductDAL.cs:行号 838
+   在 ProductBLL.GetProductSecondLevelInfoByStoreId(Int32 ProductFirstLevelId, Int32 StoreId, List`1& olist) 位置 d:\Project Code\RDX\KDX\App_Code\BLL\ProductBLL.cs:行号 349 - 对象：ProductBLL.GetProductSecondLevelInfoByStoreId()          异常：   在 ProductDAL.GetProductSecondLevelInfoByStoreId(Int32 ProductFirstLevelId, Int32 StoreId) 位置 d:\Project Code\RDX\KDX\App_Code\DAL\ProductDAL.cs:行号 838
+   在 ProductBLL.GetProductSecondLevelInfoByStoreId(Int32 ProductFirstLevelId, Int32 StoreId, List`1& olist) 位置 d:\Project Code\RDX\KDX\App_Code\BLL\ProductBLL.cs:行号 349
+2015-01-05 14:28:13,358 [13] INFO  对象：ProductBLL.GetProductSecondLevelInfoByStoreId()          异常：列名 'Flag' 无效。 - 对象：ProductBLL.GetProductSecondLevelInfoByStoreId()          异常：列名 'Flag' 无效。
+2015-01-05 14:28:13,358 [13] INFO  对象：ProductBLL.GetProductSecondLevelInfoByStoreId()          异常：   在 ProductDAL.GetProductSecondLevelInfoByStoreId(Int32 ProductFirstLevelId, Int32 StoreId) 位置 d:\Project Code\RDX\KDX\App_Code\DAL\ProductDAL.cs:行号 838
+   在 ProductBLL.GetProductSecondLevelInfoByStoreId(Int32 ProductFirstLevelId, Int32 StoreId, List`1& olist) 位置 d:\Project Code\RDX\KDX\App_Code\BLL\ProductBLL.cs:行号 349 - 对象：ProductBLL.GetProductSecondLevelInfoByStoreId()          异常：   在 ProductDAL.GetProductSecondLevelInfoByStoreId(Int32 ProductFirstLevelId, Int32 StoreId) 位置 d:\Project Code\RDX\KDX\App_Code\DAL\ProductDAL.cs:行号 838
+   在 ProductBLL.GetProductSecondLevelInfoByStoreId(Int32 ProductFirstLevelId, Int32 StoreId, List`1& olist) 位置 d:\Project Code\RDX\KDX\App_Code\BLL\ProductBLL.cs:行号 349
+2015-01-05 14:34:20,554 [18] INFO  对象：BLL.CompensateBLL.GetProductSecondLevelInfoByStoreId()          异常：列名 'Flag' 无效。 - 对象：BLL.CompensateBLL.GetProductSecondLevelInfoByStoreId()          异常：列名 'Flag' 无效。
+2015-01-05 14:34:20,555 [18] INFO  对象：BLL.CompensateBLL.GetProductSecondLevelInfoByStoreId()          异常：   在 CompensateDAL.GetProductSecondLevelInfoByStoreId(Int32 StoreId) 位置 d:\Project Code\RDX\KDX\App_Code\DAL\CompensateDAL.cs:行号 935
+   在 CompensateBLL.GetProductSecondLevelInfoByStoreId(Int32 StoreId, List`1& olist) 位置 d:\Project Code\RDX\KDX\App_Code\BLL\CompensateBLL.cs:行号 388 - 对象：BLL.CompensateBLL.GetProductSecondLevelInfoByStoreId()          异常：   在 CompensateDAL.GetProductSecondLevelInfoByStoreId(Int32 StoreId) 位置 d:\Project Code\RDX\KDX\App_Code\DAL\CompensateDAL.cs:行号 935
+   在 CompensateBLL.GetProductSecondLevelInfoByStoreId(Int32 StoreId, List`1& olist) 位置 d:\Project Code\RDX\KDX\App_Code\BLL\CompensateBLL.cs:行号 388
+2015-01-05 15:16:08,104 [21] INFO  对象：GetTypeFromUs          异常：输入字符串的格式不正确。 - 对象：GetTypeFromUs          异常：输入字符串的格式不正确。
+2015-01-05 15:16:08,161 [21] INFO  对象：GetTypeFromUs          异常：   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   在 System.Convert.ToInt32(String value)
+   在 Car.GetTypeFromUs(HttpContext context) 位置 d:\Project Code\RDX\KDX\interface\Car.ashx:行号 63 - 对象：GetTypeFromUs          异常：   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   在 System.Convert.ToInt32(String value)
+   在 Car.GetTypeFromUs(HttpContext context) 位置 d:\Project Code\RDX\KDX\interface\Car.ashx:行号 63

@@ -1,0 +1,89 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <link href="http://www.china-zoce.com/css/index.css" rel="stylesheet" type="text/css" />
+    <script src="/assets/js/jquery-2.0.3.min.js"></script>
+    <script type="text/javascript">
+        function Seach()
+        {
+            var mob = $("#mobile").val();
+            var lince = $("#lince").val();
+            if(mob==""&&lince=="")
+            {
+                alert("请输入手机号码或者车牌号");
+                return false;
+            }
+            var params = { mobile: mob, Licence: lince};
+            $.ajax({
+                type: "POST",
+                url: "GetUserHandler.ashx",
+                cache: false,
+                dataType: "html",
+                data: jQuery.param(params, true),
+                success: function (msg) {
+                   $("#Content").html(msg);
+                }
+            });
+        }
+    </script>
+    <style>
+        .right_neirong {
+            font-size: 14px;
+            padding-top: 0;
+            margin-left:0;
+        }
+        #Content {
+            padding-top: 20px;
+        }
+        #Content table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+            #Content table td {
+                height: 30px;
+                border: 1px #ccc solid;
+                text-align:center
+            }
+            #Content table th {
+                border: 1px #ccc solid;
+                text-align: center;
+               
+            }
+            
+    </style>
+</head>
+<body>
+     <div class="right_neirong">
+
+                    <div class="U_outstr"><span id="User_login1_outstr">&#12288;</span></div>
+                   <div>
+                       <label>手机号码：</label><input type="text" class="txt1"  id="mobile"/>
+                       <label>车牌号码：</label><input type="text" class="txt2"  id="lince"/>
+                       <input type="button" class="btn" value="查询" onclick="Seach()" />
+                   </div>
+                    <div>
+                        <p>温馨提醒：输入您的手机号码或者车牌号才能进行查询哦！</p>
+                    </div>
+                    <div id="Content">
+                   <!--    <h3>目前还没有查询到你的质保信息哦！</h3>
+                        <table>
+                            <tr>
+                                <td>编号</td><td>车主姓名</td><td>贴膜门店</td><td>贴膜类型</td><td>贴膜时间</td><td>质保截止日期</td>
+                            </tr>
+                            <tr>
+                                <td>1</td>
+                                <td>12</td>
+                                <td>13</td>
+                                <td>14</td>
+                                <td>15</td>
+                                <td>16</td>
+                            </tr>
+                        </table>--> 
+                    </div>
+
+
+                </div>
+</body>
+</html>
