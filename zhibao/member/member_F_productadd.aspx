@@ -61,9 +61,13 @@
                             <asp:DropDownList ID="mi_ddl" runat="server"  CssClass="form-control">
                                 <asp:ListItem Value="0" ></asp:ListItem>
                                 <asp:ListItem Value="1.5">1.5(M)</asp:ListItem>
+                                 <asp:ListItem Value="2.5">2.5(M)</asp:ListItem>
                                  <asp:ListItem Value="3.5">3.5(M)</asp:ListItem>
                                 <asp:ListItem Value="15">15(M)</asp:ListItem>
+                                <asp:ListItem Value="18">18(M)</asp:ListItem>
                                 <asp:ListItem Value="30">30(M)</asp:ListItem>
+                                <asp:ListItem Value="60">60(M)</asp:ListItem>
+                                <asp:ListItem Value="600">600(M)</asp:ListItem>
                             </asp:DropDownList>
                         </div>
                         <span class="help-inline col-xs-12 col-sm-7"><span class="middle" id="mierr"></span></span>

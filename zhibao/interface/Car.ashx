@@ -18,9 +18,9 @@ public class Car : IHttpHandler, IRequiresSessionState
     private int errorCode = -1;
     private string returnMsg = string.Empty;
     private OperLogBLL olb = new OperLogBLL();
-    
+
     public void ProcessRequest (HttpContext context) {
-        
+
         if (context.Request["Action"] != null)
         {
             action = context.Request["Action"].ToString();
@@ -79,7 +79,7 @@ public class Car : IHttpHandler, IRequiresSessionState
         sb.Append("\",\"data\":");
         sb.Append(JsonConvert.SerializeObject(list));
         sb.Append("}");
-        
+
         HttpContext.Current.Response.ContentType = "text/plain";
         HttpContext.Current.Response.Write(sb.ToString());
         HttpContext.Current.Response.End();
@@ -104,7 +104,7 @@ public class Car : IHttpHandler, IRequiresSessionState
         }
         else
         {
-            errorCode = -10; 
+            errorCode = -10;
         }
 
         StringBuilder sb = new StringBuilder();
@@ -141,9 +141,9 @@ public class Car : IHttpHandler, IRequiresSessionState
         }
         else
         {
-            errorCode = -10; 
+            errorCode = -10;
         }
-       
+
         StringBuilder sb = new StringBuilder();
         sb.Append("{\"errorcode\":\"");
         sb.Append(errorCode);
@@ -156,9 +156,9 @@ public class Car : IHttpHandler, IRequiresSessionState
         sb.Append("}");
         HttpContext.Current.Response.ContentType = "text/plain";
         HttpContext.Current.Response.Write(sb.ToString());
-        HttpContext.Current.Response.End(); 
+        HttpContext.Current.Response.End();
     }
-    
+
     private void GetCarTypeFromAotohome(HttpContext context)
     {
         if (Common.CheckPermission(Common.Module_Car, Common.Permission_Add, context))
@@ -183,13 +183,22 @@ public class Car : IHttpHandler, IRequiresSessionState
                         JObject obj = (JObject)JsonConvert.DeserializeObject(resultstring);
                         JToken items = obj["result"];
                         JToken yearitems = items["yearitems"];
-                        JToken itemlist = yearitems[0]["specitems"];
                         sb.Append("delete from CarTypeInfo where CarSystemCode=" + mode.CarSystemCode + ";");
-                        foreach (JToken a in itemlist)
+                        for (int i = 0; i < 100; i++)
                         {
-                            string id = a["id"].ToString();
-                            string name = a["name"].ToString();
-                            sb.Append("insert into CarTypeInfo (CarTypeCode,CarTypeName,CarSystemCode) values (" + id + ",'" + name + "'," + mode.CarSystemCode + ");");
+                            try
+                            {
+                                JToken itemlist = yearitems[i]["specitems"];
+                                foreach (JToken a in itemlist)
+                                {
+                                    string id = a["id"].ToString();
+                                    string name = a["name"].ToString();
+                                    sb.Append("insert into CarTypeInfo (CarTypeCode,CarTypeName,CarSystemCode) values (" + id + ",'" + name + "'," + mode.CarSystemCode + ");");
+                                }
+                            }catch(Exception ek)
+                            {
+                                    
+                            }
                         }
                         SqlActuator.ExecuteNonQuery(sb.ToString(), Config.ConnectionString);
                     }
@@ -198,7 +207,7 @@ public class Car : IHttpHandler, IRequiresSessionState
 
                 AdminModel user = Common.GetLoginAdmin(context);
                 olb.AddOperLog(user.AdminId, "获取CarType", "");
-                
+
             }
             catch (Exception ex)
             {
@@ -207,7 +216,7 @@ public class Car : IHttpHandler, IRequiresSessionState
         }
         else
         {
-            errorCode=-10; 
+            errorCode=-10;
         }
     }
     private void GetCarSystemFromAotohome(HttpContext context)
@@ -234,14 +243,25 @@ public class Car : IHttpHandler, IRequiresSessionState
                         JObject obj = (JObject)JsonConvert.DeserializeObject(resultstring);
                         JToken items = obj["result"];
                         JToken factorylsit = items["factoryitems"];
-                        JToken itemlist = factorylsit[0]["seriesitems"];
                         sb.Append("delete from CarSystemInfo where CarBrandCode='" + mode.CarBrandCode + "';");
-                        foreach (JToken a in itemlist)
+                        for (int i = 0; i < 100; i++)
                         {
-                            string id = a["id"].ToString();
-                            string name = a["name"].ToString();
-                            string letter = a["firstletter"].ToString();
-                            sb.Append("insert into CarSystemInfo (CarSystemCode,CarSystemName,CarBrandCode,SY) values ('" + id + "','" + name + "','" + mode.CarBrandCode + "','" + letter + "');");
+                            try
+                            {
+
+                                JToken itemlist = factorylsit[i]["seriesitems"];
+                                foreach (JToken a in itemlist)
+                                {
+                                    string id = a["id"].ToString();
+                                    string name = a["name"].ToString();
+                                    string letter = a["firstletter"].ToString();
+                                    sb.Append("insert into CarSystemInfo (CarSystemCode,CarSystemName,CarBrandCode,SY) values ('" + id + "','" + name + "','" + mode.CarBrandCode + "','" + letter + "');");
+                                }
+                            }
+                            catch (Exception ek)
+                            {
+
+                            }
                         }
                         SqlActuator.ExecuteNonQuery(sb.ToString(), Config.ConnectionString);
                     }
@@ -287,10 +307,10 @@ public class Car : IHttpHandler, IRequiresSessionState
                 }
                 SqlActuator.ExecuteNonQuery(sb.ToString(), Config.ConnectionString);
                 errorCode = 0;
-                
+
                 AdminModel user = Common.GetLoginAdmin(context);
                 olb.AddOperLog(user.AdminId, "获取CarBrand", "");
-                
+
             }
             catch (Exception ex)
             {
@@ -299,8 +319,8 @@ public class Car : IHttpHandler, IRequiresSessionState
         }
         else
         {
-            errorCode = -10; 
-        }  
+            errorCode = -10;
+        }
     }
     public bool IsReusable {
         get {

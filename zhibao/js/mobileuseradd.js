@@ -216,7 +216,7 @@ function UserAdd() {
         $("#mobileerr").html('请输入手机号码');
     }
     else {
-        var regPartton = /1[3-8]+\d{9}/;
+        var regPartton = /1[3-9]+\d{9}/;
         if (!regPartton.test(mobile)) {
             $("#divmobile").addClass("has-error");
             $("#mobileerr").html("手机号码格式不正确");
@@ -346,7 +346,7 @@ function MobileUserAdd() {
         return false;
     }
     else {
-        var regPartton = /1[3-8]+\d{9}/;
+        var regPartton = /1[3-9]+\d{9}/;
         if (!regPartton.test(mobile)) {
             alert("手机号码格式不正确");
             return false;
