@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPage.master" AutoEventWireup="true" CodeFile="usertadd.aspx.cs" Inherits="member_usertadd" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPage.master" AutoEventWireup="true" CodeFile="userbuildskinadd.aspx.cs" Inherits="member_userbuildskinadd" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="Server">
 </asp:Content>
@@ -29,14 +29,14 @@
     </div>
     <div class="page-content">
         <div class="page-header">
-            <h1>新增漆面膜车主</h1>
+            <h1>新增建筑膜车主</h1>
         </div>
         <div class="row">
             <div class="col-xs-12">
                 <!-- PAGE CONTENT BEGINS -->
                 <div class="form-horizontal">
                     <div class="form-group" id="divtfrontcode">
-                        <label class="col-sm-3 control-label no-padding-right" for="frontcode_ddl">漆面膜型号* </label>
+                        <label class="col-sm-3 control-label no-padding-right" for="frontcode_ddl">建筑膜型号* </label>
                         <div class="col-sm-2">
                             <asp:DropDownList ID="frontcode_ddl" runat="server" CssClass="form-control"></asp:DropDownList>
                         </div>
@@ -44,7 +44,7 @@
                     </div>
                     <div class="space-4"></div>
                      <div class="form-group" id="divtfrontProductcode">
-                        <label class="col-sm-3 control-label no-padding-right" for="frontcode_ddl">漆面膜卷轴号* </label>
+                        <label class="col-sm-3 control-label no-padding-right" for="frontcode_ddl">建筑膜卷轴号* </label>
                         <div class="col-sm-2">
                             <asp:DropDownList ID="frontProductCode" runat="server" CssClass="form-control"></asp:DropDownList>
                         </div>
@@ -52,7 +52,7 @@
                     </div>
                     <div class="space-4"></div>
 
-                    <div class="form-group" id="divtbackcode">
+                    <div class="form-group" id="divtbackcode" style="display:none;">
                         <label class="col-sm-3 control-label no-padding-right" for="backcode_ddl">部位名称* </label>
                         <div class="col-sm-3">
                           <input type="checkbox" value="1" name="YHGL" />机头盖  &nbsp; &nbsp; &nbsp;    &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp;   &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp;  
@@ -65,7 +65,7 @@
                           <input type="checkbox" value="8" name="YHGL" />保险杠（前杠/后杠）<br />
                           <input type="checkbox" value="9" name="YHGL" />B柱  &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp;&nbsp;&nbsp;  &nbsp; &nbsp; &nbsp;  &nbsp;&nbsp;  &nbsp; &nbsp; &nbsp;  &nbsp;&nbsp;  &nbsp; &nbsp; &nbsp; 
                           <input type="checkbox" value="10" name="YHGL" />倒后镜<br />
-                          <input type="checkbox" value="11" name="YHGLG" /><strong>整车</strong><br />
+                          <input type="checkbox" value="12" name="YHGLG" checked="checked" /><strong>整车</strong><br />
                         
                         <span class="help-inline col-xs-12 col-sm-7"><span class="middle" id="backcodeerr"></span></span>
                         </div>
@@ -192,14 +192,15 @@
             <!-- /.col -->
         </div>
     </div>
-    <input id="firstlevel" value="4" type="hidden" />
+
+    <input id="firstlevel" value="6"  type="hidden" />
     <script type="text/javascript" src="../assets/js/uploadify/jquery.uploadify.min.js"></script>
-    <script src="../js/usertadd.js"></script>
+    <script src="../js/usertbuildskinadd.js"></script>
 
     <script type="text/javascript">
         $(document).ready(function () {
             $("#menuuser").addClass("active open");
-            $("#menuusertadd").addClass("active");
+            $("#menubuildskinadd").addClass("active");
             $('#ContentPlaceHolder1_brand_ddl').chosen({ allow_single_deselect: true });
         });
     </script>

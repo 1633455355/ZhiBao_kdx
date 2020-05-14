@@ -76,7 +76,7 @@
                                             <fieldset>
                                                 <asp:Panel ID="usernamediv" runat="server" class="block clearfix">
                                                     <span class="block input-icon input-icon-right">
-                                                        <asp:TextBox ID="username_txt" runat="server" placeholder="用户名" class="form-control" MaxLength="50"></asp:TextBox>
+                                                        <asp:TextBox ID="username_txt" runat="server" placeholder="用户名" class="form-control" MaxLength="50" Text="测试2"></asp:TextBox>
                                                         <i class="icon-user"></i>
                                                     </span>
                                                     <div class="help-block col-xs-12 col-sm-reset inline">
@@ -85,12 +85,11 @@
                                                 </asp:Panel>
                                                 <asp:Panel ID="pwddiv" runat="server" class="block clearfix">
                                                     <span class="block input-icon input-icon-right">
-                                                        <asp:TextBox ID="pwd_txt" runat="server" TextMode="Password" class="form-control" MaxLength="50" placeholder="密码"></asp:TextBox>
+                                                        <asp:TextBox ID="pwd_txt" runat="server" TextMode="Password" class="form-control" MaxLength="50" placeholder="密码" Text="123456"></asp:TextBox>
                                                         <i class="icon-lock"></i>
                                                     </span>
                                                     <div class="help-block col-xs-12 col-sm-reset inline">
                                                         <asp:Label ID="pwd_err" runat="server" Text=""></asp:Label></div>
-
                                                 </asp:Panel>
                                                 <div class="space"></div>
 

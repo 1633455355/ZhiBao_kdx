@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPage.master" AutoEventWireup="true" CodeFile="usertadd.aspx.cs" Inherits="member_usertadd" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPage.master" AutoEventWireup="true" CodeFile="usercolorskinadd.aspx.cs" Inherits="member_usercolorskinadd" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="Server">
 </asp:Content>
@@ -29,14 +29,14 @@
     </div>
     <div class="page-content">
         <div class="page-header">
-            <h1>新增漆面膜车主</h1>
+            <h1>新增色膜车主</h1>
         </div>
         <div class="row">
             <div class="col-xs-12">
                 <!-- PAGE CONTENT BEGINS -->
                 <div class="form-horizontal">
                     <div class="form-group" id="divtfrontcode">
-                        <label class="col-sm-3 control-label no-padding-right" for="frontcode_ddl">漆面膜型号* </label>
+                        <label class="col-sm-3 control-label no-padding-right" for="frontcode_ddl">色膜型号* </label>
                         <div class="col-sm-2">
                             <asp:DropDownList ID="frontcode_ddl" runat="server" CssClass="form-control"></asp:DropDownList>
                         </div>
@@ -44,7 +44,7 @@
                     </div>
                     <div class="space-4"></div>
                      <div class="form-group" id="divtfrontProductcode">
-                        <label class="col-sm-3 control-label no-padding-right" for="frontcode_ddl">漆面膜卷轴号* </label>
+                        <label class="col-sm-3 control-label no-padding-right" for="frontcode_ddl">色膜卷轴号* </label>
                         <div class="col-sm-2">
                             <asp:DropDownList ID="frontProductCode" runat="server" CssClass="form-control"></asp:DropDownList>
                         </div>
@@ -192,14 +192,15 @@
             <!-- /.col -->
         </div>
     </div>
-    <input id="firstlevel" value="4" type="hidden" />
+
+    <input id="firstlevel" value="7"  type="hidden" />
     <script type="text/javascript" src="../assets/js/uploadify/jquery.uploadify.min.js"></script>
     <script src="../js/usertadd.js"></script>
 
     <script type="text/javascript">
         $(document).ready(function () {
             $("#menuuser").addClass("active open");
-            $("#menuusertadd").addClass("active");
+            $("#menucolorskinadd").addClass("active");
             $('#ContentPlaceHolder1_brand_ddl').chosen({ allow_single_deselect: true });
         });
     </script>

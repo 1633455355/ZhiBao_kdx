@@ -43,7 +43,7 @@ $(document).ready(function () {
                     if (msg.errorcode == "0") {
                         if (msg.data != null) {
                             meterMsg = msg.data;
-                            $("#frontProductcodeerr").html('此卷膜还剩' + (15 - parseFloat(msg.data)) + "米");
+                            $("#frontProductcodeerr").html('此卷膜还剩' + (30 - parseFloat(msg.data)) + "米");
                         }
                     }
                 }
@@ -320,8 +320,11 @@ $.UserAdd=function()
             if (arry[i] == "11") {
                 total += 15;
             }
+            if (arry[i] == "12") {
+                total += 10;
+            }
         }
-        if (15 - parseFloat(meterMsg) < total)
+        if (30 - parseFloat(meterMsg) < total)
         {
             flag = false;
             $("#divtbackcode").addClass('has-error');
@@ -408,12 +411,7 @@ $.UserAdd=function()
                 if (msg.errorcode == "0") {
                     alert('添加成功');
                     //Reset();
-                    if (firstlevel == 4) {
-                        location.href = "usertadd.aspx";
-                    }
-                    if (firstlevel == 7) {
-                        location.href = "usercolorskinadd.aspx";
-                    }
+                    location.href = "userbuildskinadd.aspx";
                 }
                 else if (msg.errorcode == "5") {
                     $("#divtfrontcode").addClass('has-error');
