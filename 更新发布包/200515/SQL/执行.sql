@@ -1,0 +1,1 @@
+alter table UserInfo add Address varchar(200)

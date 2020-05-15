@@ -5,7 +5,7 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-public partial class member_userlist : System.Web.UI.Page
+public partial class member_userbuildskinlist : System.Web.UI.Page
 {
     public string tbheader = string.Empty;
     public string js = "";
@@ -56,15 +56,15 @@ public partial class member_userlist : System.Web.UI.Page
         AdminModel user = Common.GetLoginAdmin(HttpContext.Current);
         if (user.Type == AdminType.Managers)
         {
-            tbheader = "<th>操作</th><th>经销商</th><th>店面</th><th>前后挡</th><th>品牌型号</th><th>卷轴号</th><th>是否全车</th><th>姓名</th><th>手机</th><th>邮箱</th><th>品牌信息</th><th>车系信息</th><th>车型信息</th><th>车牌</th><th>省</th><th>市</th><th>价格</th><th>部位</th><th>备注</th><th>时间</th>";
+            tbheader = "<th>操作</th><th>经销商</th><th>店面</th><th>品牌型号</th><th>卷轴号</th><th>姓名</th><th>手机</th><th>邮箱</th><th>省</th><th>市</th><th>地址</th><th>时间</th>";
         }
         if (user.Type == AdminType.Dealer)
         {
-            tbheader = "<th>店面</th><th>前后挡</th><th>品牌型号</th><th>卷轴号</th><th>是否全车</th><th>姓名</th><th>手机</th><th>邮箱</th><th>品牌信息</th><th>车系信息</th><th>车型信息</th><th>车牌</th><th>省</th><th>市</th><th>价格</th><th>部位</th><th>备注</th><th>时间</th>";
+            tbheader = "<th>店面</th><th>品牌型号</th><th>卷轴号</th><th>姓名</th><th>手机</th><th>邮箱</th><th>省</th><th>市</th><th>地址</th><th>时间</th>";
         }
         else if (user.Type == AdminType.Stores)
         {
-            tbheader = "<th>前后挡</th><th>品牌型号</th><th>卷轴号</th><th>是否全车</th><th>姓名</th><th>手机</th><th>邮箱</th><th>品牌信息</th><th>车系信息</th><th>车型信息</th><th>车牌</th><th>省</th><th>市</th><th>价格</th><th>部位</th><th>备注</th><th>时间</th>";
+            tbheader = "<th>品牌型号</th><th>卷轴号</th><th>姓名</th><th>手机</th><th>邮箱</th><th>省</th><th>市</th><th>地址</th><th>时间</th>";
         }
     }
     private void LoadTypeOne()
@@ -77,13 +77,10 @@ public partial class member_userlist : System.Web.UI.Page
 
         foreach (ProductTypeModel model in list)
         {
-            if (model.F_ProductTypeId.ToString() != "6")
-            {
-                ListItem item = new ListItem();
-                item.Value = model.F_ProductTypeId.ToString();
-                item.Text = model.F_ProductTypeName;
-                typeone_ddl.Items.Add(item);
-            }
+            ListItem item = new ListItem();
+            item.Value = model.F_ProductTypeId.ToString();
+            item.Text = model.F_ProductTypeName;
+            typeone_ddl.Items.Add(item);
         }
     }
     private void LoadTypeTwo()
